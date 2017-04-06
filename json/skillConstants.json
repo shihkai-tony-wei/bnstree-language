@@ -1,0 +1,1205 @@
+{ 
+    "_id" : "ACHIEVEMENT", 
+    "en" : {
+        "hmSecretJiwan1" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretJiwan2" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretIksanun1" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretIksanun2" : "Fateful Tome - {$skillName}", 
+        "hmSecretMushin1" : "{$skillName} - Volume 1", 
+        "hmSecretMushin2" : "{$skillName} Mastery", 
+        "hmSecretHong1" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretHong2" : "{$skillName} - Part 2", 
+        "hmSecretMushin1su" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretMushin2su" : "{$skillName} - Part 2", 
+        "hmSecretHong1su" : "{$skillName} Mastery", 
+        "hmSecretHong2su" : "{$skillName} - Volume 1", 
+        "hmSecretTechnique" : "Hongmoon Secret Technique - {$skillName}"
+    }, 
+    "ko" : {
+        "hmSecretJiwan1" : "검선비급 1편", 
+        "hmSecretJiwan2" : "검선비급 2편", 
+        "hmSecretIksanun1" : "환귀비급 1편", 
+        "hmSecretIksanun2" : "환귀비급 2편", 
+        "hmSecretMushin1" : "무신비급 1편", 
+        "hmSecretMushin2" : "무신비급 2편", 
+        "hmSecretHong1" : "역왕비급 1편", 
+        "hmSecretHong2" : "역왕비급 2편", 
+        "hmSecretMushin1su" : "무신비급 1편", 
+        "hmSecretMushin2su" : "무신비급 2편", 
+        "hmSecretHong1su" : "역왕비급 1편", 
+        "hmSecretHong2su" : "역왕비급 2편", 
+        "hmSecretTechnique" : "{$skillName} 홍문비전"
+    }
+}
+{ 
+    "_id" : "TYPES", 
+    "en" : {
+        "BASIC" : {
+            "text" : "Basic", 
+            "icon" : null
+        }, 
+        "DAMAGE" : {
+            "text" : "Damage", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_UP" : {
+            "text" : "Damage Up", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_ADD" : {
+            "text" : "Additional Dmg", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_TIME" : {
+            "text" : "Dmg Over Time", 
+            "icon" : "t3"
+        }, 
+        "HEAL" : {
+            "text" : "Heal", 
+            "icon" : "t15"
+        }, 
+        "LIFESTEAL" : {
+            "text" : "Lifesteal", 
+            "icon" : "t15"
+        }, 
+        "FOCUS_REGEN" : {
+            "text" : "Focus Regen", 
+            "icon" : "t15"
+        }, 
+        "AREA" : {
+            "text" : "Area", 
+            "icon" : "t5"
+        }, 
+        "AREA_UP" : {
+            "text" : "Area Up", 
+            "icon" : "t5"
+        }, 
+        "CD_REDUCTION" : {
+            "text" : "CD Reduction", 
+            "icon" : "t20"
+        }, 
+        "CHARGE" : {
+            "text" : "Charge", 
+            "icon" : "t6"
+        }, 
+        "SPEED_UP" : {
+            "text" : "Speed Up", 
+            "icon" : "t7"
+        }, 
+        "CRITICAL" : {
+            "text" : "Critical", 
+            "icon" : "t2"
+        }, 
+        "CRITICAL_UP" : {
+            "text" : "Critical Up", 
+            "icon" : "t7"
+        }, 
+        "SELF_BUFF" : {
+            "text" : "Self Enhance", 
+            "icon" : "t4"
+        }, 
+        "PARTY_BUFF" : {
+            "text" : "Party Enhance", 
+            "icon" : "t18"
+        }, 
+        "DEFENSE" : {
+            "text" : "Defense", 
+            "icon" : "t14"
+        }, 
+        "DEFENSE_UP" : {
+            "text" : "Defense Up", 
+            "icon" : "t7"
+        }, 
+        "DAMAGE_REDUCTION" : {
+            "text" : "Dmg Reduction", 
+            "icon" : "t14"
+        }, 
+        "BLOCK" : {
+            "text" : "Block", 
+            "icon" : "t14"
+        }, 
+        "COUNTER" : {
+            "text" : "Counter", 
+            "icon" : "t14"
+        }, 
+        "DEFLECT" : {
+            "text" : "Deflect", 
+            "icon" : "t14"
+        }, 
+        "OFFENSIVE_DEFENSE" : {
+            "text" : "Offensive Defense", 
+            "icon" : "t14"
+        }, 
+        "RESIST" : {
+            "text" : "Resist", 
+            "icon" : "t13"
+        }, 
+        "STATUS_RESIST" : {
+            "text" : "Status Resist", 
+            "icon" : "t13"
+        }, 
+        "PROJECTILE_RESIST" : {
+            "text" : "Projectile Resist", 
+            "icon" : "t19"
+        }, 
+        "PARTY_PROTECTION" : {
+            "text" : "Party Protection", 
+            "icon" : "t19"
+        }, 
+        "STUN" : {
+            "text" : "Stun", 
+            "icon" : "t8"
+        }, 
+        "DAZE" : {
+            "text" : "Daze", 
+            "icon" : "t9"
+        }, 
+        "KNOCKDOWN" : {
+            "text" : "Knockdown", 
+            "icon" : "t10"
+        }, 
+        "KNOCKBACK" : {
+            "text" : "Knockback", 
+            "icon" : "t11"
+        }, 
+        "UNCONSCIOUS" : {
+            "text" : "Unconscious", 
+            "icon" : "t30"
+        }, 
+        "PULL" : {
+            "text" : "Pull", 
+            "icon" : "t28"
+        }, 
+        "SLOW" : {
+            "text" : "Slow", 
+            "icon" : "t22"
+        }, 
+        "SNARE" : {
+            "text" : "Root", 
+            "icon" : "t25"
+        }, 
+        "FREEZE" : {
+            "text" : "Freeze", 
+            "icon" : "t25"
+        }, 
+        "FROST_PRISON" : {
+            "text" : "Frost Prison", 
+            "icon" : "t25"
+        }, 
+        "DEFENSE_DOWN" : {
+            "text" : "Defense Down", 
+            "icon" : "t22"
+        }, 
+        "AERIAL" : {
+            "text" : "Launch", 
+            "icon" : "t27"
+        }, 
+        "GRAPPLE" : {
+            "text" : "Grapple", 
+            "icon" : "t26"
+        }, 
+        "DEFENSE_BREAK" : {
+            "text" : "Defense Break", 
+            "icon" : "t16"
+        }, 
+        "DEFENSE_PENETRATION" : {
+            "text" : "Def Penetration", 
+            "icon" : "t16"
+        }, 
+        "CHARGE_DISABLE" : {
+            "text" : "Charge Disable", 
+            "icon" : "t12"
+        }, 
+        "DEFENSE_DISABLE" : {
+            "text" : "Defense Disable", 
+            "icon" : "t12"
+        }, 
+        "TARGET_DISABLE" : {
+            "text" : "Target Disable", 
+            "icon" : "t12"
+        }, 
+        "ESCAPE" : {
+            "text" : "Escape", 
+            "icon" : "t24"
+        }, 
+        "AWAKENED" : {
+            "text" : "Awakened", 
+            "icon" : "t23"
+        }, 
+        "RESTRAIN" : {
+            "text" : "Restrain", 
+            "icon" : "t23"
+        }, 
+        "MOVEMENT" : {
+            "text" : "Evasive Movement", 
+            "icon" : "t6"
+        }, 
+        "ACCELERATED" : {
+            "text" : "Accelerated", 
+            "icon" : "t32"
+        }, 
+        "COMBO" : {
+            "text" : "Combo", 
+            "icon" : "t21"
+        }, 
+        "STANCE_CHANGE" : {
+            "text" : "Stance Change", 
+            "icon" : null
+        }, 
+        "TAUNT" : {
+            "text" : "Taunt", 
+            "icon" : "t17"
+        }, 
+        "THREAT" : {
+            "text" : "Threat Up", 
+            "icon" : "t17"
+        }, 
+        "WINDWALK" : {
+            "text" : "Windwalk", 
+            "icon" : "t29"
+        }, 
+        "REVIVE" : {
+            "text" : "Revive", 
+            "icon" : "t19"
+        }, 
+        "PROJECTILE" : {
+            "text" : "Projectile", 
+            "icon" : null
+        }, 
+        "FAMILIAR" : {
+            "text" : "Familiar", 
+            "icon" : null
+        }
+    }, 
+    "ko" : {
+        "BASIC" : {
+            "text" : "기본무공", 
+            "icon" : null
+        }, 
+        "DAMAGE" : {
+            "text" : "피해", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_UP" : {
+            "text" : "피해증가", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_ADD" : {
+            "text" : "추가피해", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_TIME" : {
+            "text" : "지속피해", 
+            "icon" : "t3"
+        }, 
+        "HEAL" : {
+            "text" : "생명력회복", 
+            "icon" : "t15"
+        }, 
+        "LIFESTEAL" : {
+            "text" : "생명력흡수", 
+            "icon" : "t15"
+        }, 
+        "FOCUS_REGEN" : {
+            "text" : "내력회복", 
+            "icon" : "t15"
+        }, 
+        "AREA" : {
+            "text" : "영역", 
+            "icon" : "t5"
+        }, 
+        "AREA_UP" : {
+            "text" : "영역증가", 
+            "icon" : "t5"
+        }, 
+        "CD_REDUCTION" : {
+            "text" : "재사용감소", 
+            "icon" : "t20"
+        }, 
+        "CHARGE" : {
+            "text" : "접근", 
+            "icon" : "t6"
+        }, 
+        "SPEED_UP" : {
+            "text" : "이속증가", 
+            "icon" : "t7"
+        }, 
+        "CRITICAL" : {
+            "text" : "치명타", 
+            "icon" : "t2"
+        }, 
+        "CRITICAL_UP" : {
+            "text" : "치명증가", 
+            "icon" : "t7"
+        }, 
+        "SELF_BUFF" : {
+            "text" : "개인강화", 
+            "icon" : "t4"
+        }, 
+        "PARTY_BUFF" : {
+            "text" : "파티강화", 
+            "icon" : "t18"
+        }, 
+        "DEFENSE" : {
+            "text" : "방어", 
+            "icon" : "t14"
+        }, 
+        "DEFENSE_UP" : {
+            "text" : "방어 증가", 
+            "icon" : "t7"
+        }, 
+        "DAMAGE_REDUCTION" : {
+            "text" : "피해감소", 
+            "icon" : "t14"
+        }, 
+        "BLOCK" : {
+            "text" : "막기", 
+            "icon" : "t14"
+        }, 
+        "COUNTER" : {
+            "text" : "반격", 
+            "icon" : "t14"
+        }, 
+        "DEFLECT" : {
+            "text" : "튕기기", 
+            "icon" : "t14"
+        }, 
+        "OFFENSIVE_DEFENSE" : {
+            "text" : "공방일체", 
+            "icon" : "t14"
+        }, 
+        "RESIST" : {
+            "text" : "저항", 
+            "icon" : "t13"
+        }, 
+        "STATUS_RESIST" : {
+            "text" : "상태저항", 
+            "icon" : "t13"
+        }, 
+        "PROJECTILE_RESIST" : {
+            "text" : "투사체저항", 
+            "icon" : "t19"
+        }, 
+        "PARTY_PROTECTION" : {
+            "text" : "파티보호", 
+            "icon" : "t19"
+        }, 
+        "STUN" : {
+            "text" : "기절", 
+            "icon" : "t8"
+        }, 
+        "DAZE" : {
+            "text" : "그로기", 
+            "icon" : "t9"
+        }, 
+        "KNOCKDOWN" : {
+            "text" : "다운", 
+            "icon" : "t10"
+        }, 
+        "KNOCKBACK" : {
+            "text" : "넉백", 
+            "icon" : "t11"
+        }, 
+        "UNCONSCIOUS" : {
+            "text" : "혼절", 
+            "icon" : "t30"
+        }, 
+        "PULL" : {
+            "text" : "끌어당김", 
+            "icon" : "t28"
+        }, 
+        "SLOW" : {
+            "text" : "이속감소", 
+            "icon" : "t22"
+        }, 
+        "SNARE" : {
+            "text" : "이동불가", 
+            "icon" : "t25"
+        }, 
+        "FREEZE" : {
+            "text" : "결빙", 
+            "icon" : "t25"
+        }, 
+        "FROST_PRISON" : {
+            "text" : "얼음감옥", 
+            "icon" : "t25"
+        }, 
+        "DEFENSE_DOWN" : {
+            "text" : "방어감소", 
+            "icon" : "t22"
+        }, 
+        "AERIAL" : {
+            "text" : "공중", 
+            "icon" : "t27"
+        }, 
+        "GRAPPLE" : {
+            "text" : "제압", 
+            "icon" : "t26"
+        }, 
+        "DEFENSE_BREAK" : {
+            "text" : "방어해제", 
+            "icon" : "t16"
+        }, 
+        "DEFENSE_PENETRATION" : {
+            "text" : "방어관통", 
+            "icon" : "t16"
+        }, 
+        "CHARGE_DISABLE" : {
+            "text" : "접근봉쇄", 
+            "icon" : "t12"
+        }, 
+        "DEFENSE_DISABLE" : {
+            "text" : "방어봉쇄", 
+            "icon" : "t12"
+        }, 
+        "TARGET_DISABLE" : {
+            "text" : "타깃팅봉쇄", 
+            "icon" : "t12"
+        }, 
+        "ESCAPE" : {
+            "text" : "탈출", 
+            "icon" : "t24"
+        }, 
+        "AWAKENED" : {
+            "text" : "각성", 
+            "icon" : "t23"
+        }, 
+        "RESTRAIN" : {
+            "text" : "금제", 
+            "icon" : "t23"
+        }, 
+        "MOVEMENT" : {
+            "text" : "회피이동", 
+            "icon" : "t6"
+        }, 
+        "ACCELERATED" : {
+            "text" : "가속", 
+            "icon" : "t32"
+        }, 
+        "COMBO" : {
+            "text" : "연계", 
+            "icon" : "t21"
+        }, 
+        "STANCE_CHANGE" : {
+            "text" : "자세전환", 
+            "icon" : null
+        }, 
+        "TAUNT" : {
+            "text" : "도발", 
+            "icon" : "t17"
+        }, 
+        "THREAT" : {
+            "text" : "위협", 
+            "icon" : "t17"
+        }, 
+        "WINDWALK" : {
+            "text" : "경공무공", 
+            "icon" : "t29"
+        }, 
+        "REVIVE" : {
+            "text" : "환생", 
+            "icon" : "t19"
+        }, 
+        "PROJECTILE" : {
+            "text" : "투사체", 
+            "icon" : null
+        }, 
+        "FAMILIAR" : {
+            "text" : "소환수", 
+            "icon" : null
+        }
+    }
+}
+{ 
+    "_id" : "STANCE", 
+    "en" : {
+        "basicStance" : "Basic Stance", 
+        "drawStance" : "Draw Stance", 
+        "soulbladeSummon" : "Summon Soulblades", 
+        "soulbladeConduct" : "Conducting Soulblades", 
+        "soulbladeDismiss" : "Dismiss Soulblades", 
+        "flameMode" : "Flame Mode", 
+        "frostMode" : "Frost Mode", 
+        "martialStance" : "Martial Stance", 
+        "forceStance" : "Force Stance", 
+        "decoyStance" : "Decoy Stance", 
+        "stealthStance" : "Stealth Stance"
+    }, 
+    "ko" : {
+        "basicStance" : "검술 자세", 
+        "drawStance" : "발도술 자세", 
+        "soulbladeSummon" : "어검 소환", 
+        "soulbladeConduct" : "어검 운용", 
+        "soulbladeDismiss" : "어검 회수", 
+        "flameMode" : "화기 운용 자세", 
+        "frostMode" : "한기 운용 자세", 
+        "martialStance" : "권격 자세", 
+        "forceStance" : "기격 자세", 
+        "decoyStance" : "교란 자세", 
+        "stealthStance" : "은신 자세"
+    }
+}
+{ 
+    "_id" : "ELEMENT", 
+    "en" : {
+        "flame" : "flame", 
+        "frost" : "frost", 
+        "shadow" : "shadow", 
+        "lightning" : "lightning", 
+        "wind" : "wind", 
+        "earth" : "earth"
+    }, 
+    "ko" : {
+        "flame" : "화염", 
+        "frost" : "냉기", 
+        "shadow" : "암흑", 
+        "lightning" : "번개", 
+        "wind" : "바람", 
+        "earth" : "대지"
+    }
+}
+{ 
+    "_id" : "RESOURCE", 
+    "en" : {
+        "windFocus" : "Wind Focus", 
+        "lightningFocus" : "Lightning Focus", 
+        "spectralOrb" : "Spectral Orb", 
+        "flameOrb" : "Flame Orbit", 
+        "frostOrb" : "Frost Orbit", 
+        "chiLevel" : "Chi Level"
+    }, 
+    "ko" : {
+        "windFocus" : "풍혼", 
+        "lightningFocus" : "뇌혼", 
+        "spectralOrb" : "마옥", 
+        "flameOrb" : "염옥", 
+        "frostOrb" : "빙옥", 
+        "chiLevel" : "내공"
+    }
+}
+{ 
+    "_id" : "FILTERS", 
+    "en" : {
+        "ALL" : {
+            "text" : "Show all", 
+            "icon" : null, 
+            "desc" : null
+        }, 
+        "STUN" : {
+            "text" : "Stun", 
+            "icon" : "t8", 
+            "desc" : "Show skills that inflict stun."
+        }, 
+        "DAZE" : {
+            "text" : "Daze", 
+            "icon" : "t9", 
+            "desc" : "Show skills that inflict daze."
+        }, 
+        "KNOCKDOWN" : {
+            "text" : "Knockdown", 
+            "icon" : "t10", 
+            "desc" : "Show skills that inflict knockdown."
+        }, 
+        "RESIST" : {
+            "text" : "Resist", 
+            "icon" : "t13", 
+            "desc" : "Show skills that prevent damage and status effects. Some skills used by bosses cannot be resisted."
+        }, 
+        "DEFENSE" : {
+            "text" : "Defense", 
+            "icon" : "t14", 
+            "desc" : "Shows skills with defensive effects. Negates or reduces damage from enemy attacks."
+        }, 
+        "ESCAPE" : {
+            "text" : "Escape", 
+            "icon" : "t24", 
+            "desc" : "Shows skills that remove status effects."
+        }, 
+        "PARTY" : {
+            "text" : "Party", 
+            "icon" : "t19", 
+            "desc" : "Shows skills that also apply to party members. Enhances a party member's offensive capabilities or protects them from harm."
+        }, 
+        "CORE" : {
+            "text" : "Core rotation", 
+            "icon" : "t21", 
+            "desc" : "Shows skills commonly used in DPS rotations"
+        }, 
+        "LIGHTNING_FOCUS" : {
+            "text" : "Lightning Focus", 
+            "icon" : "buff_debuff_icon_05_27", 
+            "desc" : "Shows skills that generate or consume Lightning Focus."
+        }, 
+        "LIGHTNING_SURGE" : {
+            "text" : "Lightning Surge", 
+            "icon" : "buff_debuff_icon_05_31", 
+            "desc" : "Shows skills that generate Lightning Surge. Lightning Surge increases stats and allows draw stance skills to generate Lightning Focus on critical hit."
+        }, 
+        "WIND_FOCUS" : {
+            "text" : "Wind Focus", 
+            "icon" : "buff_debuff_icon_05_24", 
+            "desc" : "Shows skills that generate or consume Wind Focus."
+        }, 
+        "WIND_SURGE" : {
+            "text" : "Wind Surge", 
+            "icon" : "buff_debuff_icon_05_30", 
+            "desc" : "Shows skills that generate Wind Surge. Wind Surge increases stats and allows draw stance skills to generate Wind Focus on critical hit. It also increases the speed of Rolling Typhoon."
+        }, 
+        "TARGET" : {
+            "text" : "Target", 
+            "icon" : "buff_debuff_Icon_05_10", 
+            "desc" : "Shows skills that inflict or benefit from target."
+        }, 
+        "BRAND" : {
+            "text" : "Brand", 
+            "icon" : "buff_debuff_icon_04_49", 
+            "desc" : "Shows skills that inflict or benefit from brand. Siphon can be used on enemies inflicted by brand."
+        }, 
+        "SIPHON" : {
+            "text" : "Siphon", 
+            "icon" : "skill_icon_warlock_0_5", 
+            "desc" : "Shows skills that generate or benefit from Siphon."
+        }, 
+        "SPECTRAL_ORB" : {
+            "text" : "Spectral Orb", 
+            "icon" : "buff_debuff_icon_05_40", 
+            "desc" : "Shows skills that generate or consume Spectral Orbs."
+        }, 
+        "CHI_LEVEL" : {
+            "text" : "Chi Level", 
+            "icon" : "buff_debuff_icon_06_25", 
+            "desc" : "Shows skills that generate or consume Chi Level."
+        }, 
+        "GOLD_DRAGON" : {
+            "text" : "Gold Dragon", 
+            "icon" : "buff_debuff_icon_06_29", 
+            "desc" : "Shows skills that generate or benefit from Gold Dragon. Gold Dragon amplifies the effects of Focus Chi, Chi Burst at 3 stacks."
+        }, 
+        "FULL_BLOOM" : {
+            "text" : "Full Bloom", 
+            "icon" : "buff_debuff_icon_06_28", 
+            "desc" : "Shows skills that generate Energy. Energy turns into Full Bloom at 10 stacks."
+        }, 
+        "ENHANCE_BEE" : {
+            "text" : "Rumblebee Enhancement", 
+            "icon" : "skill_icon_summon_0_10", 
+            "desc" : "Shows skills that increases damage and allows instant cast of Rumblebees (Type 1) and Awakened Rumblebees."
+        }, 
+        "PHOTOSYNTHESIS" : {
+            "text" : "Photosynthesis", 
+            "icon" : "skill_icon_summon_0_50", 
+            "desc" : "Shows skills that generate Photosynthesis. Photosynthesis turns into Overflow at 5 stacks."
+        }, 
+        "OVERFLOW" : {
+            "text" : "Overflow", 
+            "icon" : "skill_icon_summon_0_51", 
+            "desc" : "Shows skills that generate Overflow. Overflow increases the cast speed of Sunflower."
+        }, 
+        "POISON" : {
+            "text" : "Poison", 
+            "icon" : "buff_debuff_icon_00_22", 
+            "desc" : "Shows skills that inflict Poison."
+        }, 
+        "STEALTH" : {
+            "text" : "Stealth", 
+            "icon" : "skill_icon_assassin_0_2", 
+            "desc" : "Shows skills that render the user invisible to most enemies."
+        }, 
+        "FLAME_DRAGON" : {
+            "text" : "Conflagration", 
+            "icon" : "skill_icon_blademaster_1_25", 
+            "desc" : "Shows skills that generate Conflagration. Dragontongue has increased damage and can be used without cooldown while Conflagration is active."
+        }, 
+        "LIGHTNING_DRAGON" : {
+            "text" : "Fulmination", 
+            "icon" : "skill_icon_blademaster_0_0", 
+            "desc" : "Shows skills that generate Fulmination. Honed Slash has increased damage while Fulmination is active."
+        }, 
+        "WILLPOWER" : {
+            "text" : "Willpower", 
+            "icon" : "buff_debuff_icon_05_43", 
+            "desc" : "Shows skills that generate or extends Willpower. Max focus increases to 200 while Willpower is active."
+        }
+    }, 
+    "ko" : {
+        "ALL" : {
+            "text" : "전체 보기", 
+            "icon" : null, 
+            "desc" : null
+        }, 
+        "STUN" : {
+            "text" : "기절", 
+            "icon" : "t8", 
+            "desc" : "적을 기절 상태로 만드는 무공을 표시합니다."
+        }, 
+        "DAZE" : {
+            "text" : "그로기", 
+            "icon" : "t9", 
+            "desc" : "적을 그로기 상태로 만드는 무공을 표시합니다."
+        }, 
+        "KNOCKDOWN" : {
+            "text" : "다운", 
+            "icon" : "t10", 
+            "desc" : "적을 다운 상태로 만드는 무공을 표시합니다."
+        }, 
+        "RESIST" : {
+            "text" : "저항", 
+            "icon" : "t13", 
+            "desc" : "피해나 상태이상 효과에 저항 할 수 있는 무공을 표시합니다. 일부 보스의 전멸 공격은 저항을 무시 합니다."
+        }, 
+        "DEFENSE" : {
+            "text" : "방어", 
+            "icon" : "t14", 
+            "desc" : "방어 효과가 있는 무공을 표시합니다. 적의 공격에 대응하거나 피해를 감소 시킵니다."
+        }, 
+        "ESCAPE" : {
+            "text" : "탈출", 
+            "icon" : "t24", 
+            "desc" : "행동불가 상태를 해제할 수 있는 무공을 표시합니다."
+        }, 
+        "PARTY" : {
+            "text" : "파티", 
+            "icon" : "t19", 
+            "desc" : "파티원에게 적용되는 무공을 표시합니다. 파티원들의 공격능력을 향상 시키거나, 적의 공격으로 부터 보호 할 수 있습니다."
+        }, 
+        "CORE" : {
+            "text" : "주요연계무공", 
+            "icon" : "t21", 
+            "desc" : "던전에서 주로 사용하는 연계무공을 표시합니다"
+        }, 
+        "LIGHTNING_FOCUS" : {
+            "text" : "뇌혼", 
+            "icon" : "buff_debuff_icon_05_27", 
+            "desc" : "뇌혼을 생성, 소모하는 무공을 표시합니다."
+        }, 
+        "LIGHTNING_SURGE" : {
+            "text" : "뇌전", 
+            "icon" : "buff_debuff_icon_05_31", 
+            "desc" : "뇌전 효과가 있는 무공을 표시합니다. 풍연 중에는 능력치가 강화되며 발도 무공 치명타 시 풍혼을 생성 할 수 있습니다."
+        }, 
+        "WIND_FOCUS" : {
+            "text" : "풍혼", 
+            "icon" : "buff_debuff_icon_05_24", 
+            "desc" : "풍혼을 생성, 소모하는 무공을 표시합니다."
+        }, 
+        "WIND_SURGE" : {
+            "text" : "풍연", 
+            "icon" : "buff_debuff_icon_05_30", 
+            "desc" : "풍연 효과가 있는 무공을 표시합니다. 풍연 중에는 능력치가 강화되며 발도 무공 치명타 시 풍혼을 생성 할 수 있습니다. 풍연 중에는 태풍참을 빠르게 사용 할 수 있습니다."
+        }, 
+        "TARGET" : {
+            "text" : "표적", 
+            "icon" : "buff_debuff_Icon_05_10", 
+            "desc" : "표적 효과가 있는 무공을 표시합니다."
+        }, 
+        "BRAND" : {
+            "text" : "낙인", 
+            "icon" : "buff_debuff_icon_04_49", 
+            "desc" : "낙인 효과가 있는 무공을 표시합니다. 낙인 대상에게 강탈 무공을 사용 할 수 있습니다."
+        }, 
+        "SIPHON" : {
+            "text" : "압도", 
+            "icon" : "skill_icon_warlock_0_5", 
+            "desc" : "압도 효과가 있는 무공을 표시합니다."
+        }, 
+        "SPECTRAL_ORB" : {
+            "text" : "마옥", 
+            "icon" : "buff_debuff_icon_05_40", 
+            "desc" : "마옥을 생성, 소모하는 무공을 표시합니다."
+        }, 
+        "CHI_LEVEL" : {
+            "text" : "내공", 
+            "icon" : "buff_debuff_icon_06_25", 
+            "desc" : "내공을 생성, 소모하는 무공을 표시합니다."
+        }, 
+        "GOLD_DRAGON" : {
+            "text" : "황룡", 
+            "icon" : "buff_debuff_icon_06_29", 
+            "desc" : "황룡 효과가 있는 무공을 표시합니다. 황룡 3중첩 중에는 내공집중, 내공발산 무공의 효과가 증폭됩니다."
+        }, 
+        "FULL_BLOOM" : {
+            "text" : "만개", 
+            "icon" : "buff_debuff_icon_06_28", 
+            "desc" : "진기를 생성하는 무공을 표시합니다. 진기 10중첩 시 만개로 전환됩니다."
+        }, 
+        "ENHANCE_BEE" : {
+            "text" : "말벌 강화", 
+            "icon" : "skill_icon_summon_0_10", 
+            "desc" : "말벌 1초식과 각성 말벌 피해량을 증가시키고 즉시 시전할 수 있는 무공을 표시 합니다."
+        }, 
+        "PHOTOSYNTHESIS" : {
+            "text" : "광합성", 
+            "icon" : "skill_icon_summon_0_50", 
+            "desc" : "광합성을 생성하는 무공을 표시합니다. 광합성 5중첩 시 포화로 전환됩니다."
+        }, 
+        "OVERFLOW" : {
+            "text" : "포화", 
+            "icon" : "skill_icon_summon_0_51", 
+            "desc" : "포화 효과가 있는 무공을 표시합니다. 포화 효과 중 큰 해바라기를 더 빠르게 사용할 수 있습니다."
+        }, 
+        "POISON" : {
+            "text" : "맹독", 
+            "icon" : "buff_debuff_icon_00_22", 
+            "desc" : "맹독 효과가 있는 무공을 표시합니다."
+        }, 
+        "STEALTH" : {
+            "text" : "은신", 
+            "icon" : "skill_icon_assassin_0_2", 
+            "desc" : "은신 효과가 있는 무공을 표시합니다. 특정 보스 제외한 일반 대상은 시전자를 볼 수가 없습니다."
+        }, 
+        "FLAME_DRAGON" : {
+            "text" : "화룡", 
+            "icon" : "skill_icon_blademaster_1_25", 
+            "desc" : "화룡 효과가 있는 무공을 표시합니다. 화룡 중 화룡연참 사용 시 추가 피해를 입히고 재사용 시간 없이 사용 할 수 있습니다."
+        }, 
+        "LIGHTNING_DRAGON" : {
+            "text" : "뇌룡", 
+            "icon" : "skill_icon_blademaster_0_0", 
+            "desc" : "뇌룡 효과가 있는 무공을 표시합니다. 뇌룡 중 금소베기 사용 시 추가 피해를 입힙니다."
+        }, 
+        "WILLPOWER" : {
+            "text" : "근성", 
+            "icon" : "buff_debuff_icon_05_43", 
+            "desc" : "근성을 생성, 연장하는 무공을 표시합니다. 근성 중에는 최대내력이 200으로 증가합니다."
+        }
+    }
+}
+{ 
+    "_id" : "BUFF", 
+    "en" : {
+        "flameDragon" : "Conflagration", 
+        "lightningDragon" : "Fulmination", 
+        "unleashed" : "Unleashed Flow", 
+        "unleashed4" : "Unleashed Flow Stage 4", 
+        "awakenedUnleashed4" : "Awakened Unleashed Flow Stage 4", 
+        "iceFlower" : "Frost Sheath", 
+        "amplification" : "Amplification", 
+        "unrestrained" : "Unrestrained", 
+        "concentration" : "Concentration", 
+        "driven" : "Driven", 
+        "agility" : "Agility", 
+        "maxAgility" : "Max Agility", 
+        "windSurge" : "Wind Surge", 
+        "lightningSurge" : "Lightning Surge", 
+        "strongblade" : "Strongblade", 
+        "mantra" : "Mantra", 
+        "siphon" : "Siphon", 
+        "soulburn" : "Soulburn", 
+        "enhanceFlame" : "Enhanced Flame", 
+        "enhanceFrost" : "Enhanced Frost", 
+        "energy" : "Energy", 
+        "fullBloom" : "Full Bloom", 
+        "goldDragon" : "Gold Dragon", 
+        "inspiration" : "Inspiration", 
+        "photosynthesis" : "Photosynthesis", 
+        "overflow" : "Overflow", 
+        "willpower" : "Willpower", 
+        "fury" : "Fury", 
+        "persistence" : "Persistence", 
+        "maelstrom" : "Maelstrom", 
+        "enhancedMovement" : "Enhanced Movement", 
+        "chiLevel" : "Chi Level", 
+        "focusChi" : "Focus Chi", 
+        "stealthProtection" : "Stealth Protection", 
+        "chaoticResonance" : "Chaotic Resonance", 
+        "soulblade" : "Soulblade"
+    }, 
+    "ko" : {
+        "flameDragon" : "화룡", 
+        "lightningDragon" : "뇌룡", 
+        "unleashed" : "혈도개방", 
+        "unleashed4" : "혈도개방 4단계", 
+        "awakenedUnleashed4" : "각성 혈도개방 4단계", 
+        "iceFlower" : "얼음꽃", 
+        "ampllification" : "증폭", 
+        "unrestrained" : "발산", 
+        "concentration" : "집중", 
+        "driven" : "기백", 
+        "agility" : "민첩", 
+        "maxAgility" : "각성", 
+        "windSurge" : "풍연", 
+        "lightningSurge" : "뇌전", 
+        "strongblade" : "검강", 
+        "mantra" : "진언", 
+        "siphon" : "압도", 
+        "soulburn" : "강신", 
+        "enhanceFlame" : "화염증가", 
+        "enhanceFrost" : "냉기증가", 
+        "energy" : "진기", 
+        "fullBloom" : "만개", 
+        "goldDragon" : "황룡", 
+        "inspiration" : "고무", 
+        "photosynthesis" : "광합성", 
+        "overflow" : "포화", 
+        "willpower" : "근성", 
+        "fury" : "분노", 
+        "persistence" : "불굴", 
+        "maelstrom" : "어검회오리", 
+        "enhancedMovement" : "이동강화", 
+        "chiLevel" : "내공", 
+        "focusChi" : "내공집중", 
+        "stealthProtection" : "은신 보호", 
+        "chaoticResonance" : "파진공명", 
+        "soulblade" : "어검 운용"
+    }
+}
+{ 
+    "_id" : "SKILLTYPE", 
+    "en" : {
+        "defense" : "Defense", 
+        "offensiveDefense" : "Offensive-defense", 
+        "charge" : "Charge"
+    }, 
+    "ko" : {
+        "defense" : "방어", 
+        "offensiveDefense" : "공방일체", 
+        "charge" : "접근"
+    }
+}
+{ 
+    "_id" : "CONDITION", 
+    "en" : {
+        "attack" : "Attack", 
+        "hit" : "Hit", 
+        "hit1234" : "1/2/3/4 Hit", 
+        "lastHit" : "Hit with the last attack", 
+        "firstHit" : "Hit with the first attack", 
+        "rearHit" : "Hitting the enemy's back", 
+        "hit6" : "Hiting 6 enemies", 
+        "hit5" : "Hiting 5 times", 
+        "hit24" : "Hit with the 2nd, 4th attack", 
+        "hit135" : "Hit with the 1st, 3rd, 5th attack", 
+        "consecutiveHit" : "Consecutive hit", 
+        "consecutiveUse" : "Consecutive use", 
+        "consecutiveUse4" : "4 consecutive use", 
+        "ember5Hit" : "Hitting an enemy with 5 stacks of ember", 
+        "pull3" : "Pulling 3 enemies", 
+        "addCast" : "Additional cast", 
+        "criticalHit" : "Critical hit", 
+        "block" : "Block", 
+        "evade" : "Evade", 
+        "counter" : "Counter", 
+        "deflect" : "Deflect", 
+        "resist" : "Resist", 
+        "kill" : "Kill", 
+        "defenseBreak" : "Breaking defense", 
+        "takingDamage" : "Taking damage", 
+        "escape" : "Escape", 
+        "instantCast" : "Instant Cast", 
+        "freezeBreak" : "Breaking freeze", 
+        "detonation" : "Detonation", 
+        "detonation5ember" : "Detonating 5 stacks of ember", 
+        "triggerIceFlower" : "Triggering Frost Sheath", 
+        "defendHit" : "Hitting an enemy using a defense skill", 
+        "allHit" : "Hitting all attacks", 
+        "counterFail" : "Failing to counter an attack", 
+        "miss" : "Miss", 
+        "stealth" : "stealthed", 
+        "stealthEnter" : "Entering stealth", 
+        "stealthFail" : "Failing to enter stealth", 
+        "knockdown" : "Knockdown", 
+        "removeSnare" : "Removing snare", 
+        "maxSpeed" : "max speed", 
+        "use" : "Use", 
+        "use2" : "Using 2 times", 
+        "activation" : "activation", 
+        "forceStance" : "shifting to force stance", 
+        "castIncreased" : "cast speed is increased", 
+        "heal" : "heal", 
+        "lastHeal" : "applying the last tick of heal", 
+        "cancel" : "cancelling skill", 
+        "movement" : "movement", 
+        "familiarDead" : "familiar is dead"
+    }, 
+    "ko" : {
+        "attack" : "공격", 
+        "hit" : "명중", 
+        "hit1234" : "1/2/3/4 명중", 
+        "lastHit" : "마지막 공격 명중", 
+        "firstHit" : "첫 공격 명중", 
+        "rearHit" : "적 후방 명중", 
+        "hit6" : "6명의 적에게 명중", 
+        "hit5" : "5회 명중", 
+        "hit24" : "2타, 4타 명중", 
+        "hit135" : "1타, 3타, 5타 명중", 
+        "consecutiveHit" : "연속 명중", 
+        "consecutiveUse" : "연속 사용", 
+        "consecutiveUse4" : "4회 연속 사용", 
+        "ember5Hit" : "불씨 5중첩인 적 명중", 
+        "pull3" : "3명의 적 끌어오기", 
+        "addCast" : "추가 시전", 
+        "criticalHit" : "치명타", 
+        "block" : "막기", 
+        "evade" : "회피", 
+        "counter" : "반격", 
+        "deflect" : "튕기기", 
+        "resist" : "저항", 
+        "kill" : "적 사망", 
+        "defenseBreak" : "방어 해제", 
+        "takingDamage" : "피격", 
+        "escape" : "탈출", 
+        "instantCast" : "즉시 시전", 
+        "freezeBreak" : "결빙 파괴", 
+        "detonation" : "폭파", 
+        "detonation5ember" : "불씨 5 중첩 폭파", 
+        "triggerIceFlower" : "얼음꽃 발동", 
+        "defendHit" : "방어 중인 적 명중", 
+        "allHit" : "모든 공격 명중", 
+        "counterFail" : "반격 실패", 
+        "miss" : "명중 실패", 
+        "stealth" : "은신", 
+        "stealthEnter" : "은신 성공", 
+        "stealthFail" : "은신 실패", 
+        "knockdown" : "다운", 
+        "removeSnare" : "이동 불가 상태 해제", 
+        "maxSpeed" : "최대 가속", 
+        "use" : "사용", 
+        "use2" : "2회 사용", 
+        "activation" : "발동", 
+        "forceStance" : "기경 자세로 전환", 
+        "castIncreased" : "연사 속도 상승", 
+        "heal" : "생명력 회복", 
+        "lastHeal" : "마지막 생명력 회복 적용", 
+        "cancel" : "해제", 
+        "movement" : "이동", 
+        "familiarDead" : "소환수 사망"
+    }
+}
+{ 
+    "_id" : "STAT", 
+    "en" : {
+        "attackPower" : "Attack Power", 
+        "evolvedAttackPower" : "Ant-Charm Attack Power", 
+        "criticalStat" : "Critical", 
+        "criticalChance" : "Critical Chance", 
+        "criticalDamage" : "Critical Damage", 
+        "accuracyStat" : "Accuracy", 
+        "defenseStat" : "Defense", 
+        "evasionStat" : "Evasion", 
+        "evasionChance" : "Evasion Chance", 
+        "movementSpeed" : "Movement Speed", 
+        "threatStat" : "Threat", 
+        "windDamage" : "Wind Damage", 
+        "lightningDamage" : "Lightning Damage", 
+        "flameDamage" : "Flame Damage", 
+        "frostDamage" : "Frost Damage", 
+        "recoveryStat" : "Recovery", 
+        "maxHealth" : "Maximum Health", 
+        "maxFocus" : "Maximum Focus"
+    }, 
+    "ko" : {
+        "attackPower" : "공격력", 
+        "evolvedAttackPower" : "항마 공격력", 
+        "criticalStat" : "치명", 
+        "criticalChance" : "치명타 확률", 
+        "criticalDamage" : "치명타 피해량", 
+        "accuracyStat" : "명중", 
+        "defenseStat" : "방어력", 
+        "evasionStat" : "회피", 
+        "evasionChance" : "회피 확률", 
+        "movementSpeed" : "이동속도", 
+        "threatStat" : "위협 수치", 
+        "windDamage" : "바람 피해", 
+        "lightningDamage" : "번개 피해", 
+        "flameDamage" : "화염 피해", 
+        "frostDamage" : "냉기 피해", 
+        "recoveryStat" : "회복", 
+        "maxHealth" : "최대 생명력", 
+        "maxFocus" : "최대 내력"
+    }
+}
+{ 
+    "_id" : "STATUS", 
+    "en" : {
+        "disable" : "Disable", 
+        "stun" : "Stun", 
+        "knockdown" : "Knockdown", 
+        "daze" : "Daze", 
+        "knockback" : "Knockback", 
+        "unconscious" : "Unconscious", 
+        "grapple" : "Grapple", 
+        "grab" : "Grab", 
+        "phantomGrip" : "Phantom Grip", 
+        "aerialPhantomGrip" : "Aerial Phantom Grip", 
+        "launch" : "launch", 
+        "airborne" : "Airborne", 
+        "deepFreeze" : "Deep Freeze", 
+        "frostPrison" : "Frost Prison", 
+        "searingPalm" : "Searing Palm", 
+        "searingPalm4" : "Searing Palm Stage 4", 
+        "freeze" : "Freeze", 
+        "snare" : "Root", 
+        "chargeDisable" : "Charge Disable", 
+        "defenseDisable" : "Defense Disable", 
+        "defenseBreakDisable" : "Defense Break Disable", 
+        "offensiveDefenseDisable" : "Offensive-defense Disable", 
+        "deepWound" : "Deep Wound", 
+        "soulStab" : "Soul Stab", 
+        "restrain" : "Restrain", 
+        "target" : "Target", 
+        "brand" : "Brand", 
+        "ember" : "Ember", 
+        "burn" : "Burn", 
+        "chill" : "Chill", 
+        "dead" : "Dead", 
+        "nearDeath" : "Near Death", 
+        "meditating" : "Meditating", 
+        "ivyPoison" : "Ivy Poison", 
+        "beePoison" : "Rumblebee Poison", 
+        "pull" : "Pull", 
+        "slow" : "Slow", 
+        "poison" : "Poison", 
+        "poison5" : "5 stacks of poison", 
+        "highwire" : "Highwire", 
+        "blindDeaf" : "Blindness, Deafness", 
+        "bind" : "Bind", 
+        "bleed" : "Bleed", 
+        "repression" : "Repression"
+    }, 
+    "ko" : {
+        "disable" : "행동불가", 
+        "stun" : "기절", 
+        "knockdown" : "다운", 
+        "daze" : "그로기", 
+        "knockback" : "넉백", 
+        "unconscious" : "혼절", 
+        "grapple" : "제압", 
+        "grab" : "장악", 
+        "phantomGrip" : "흡공", 
+        "aerialPhantomGrip" : "공중흡공", 
+        "launch" : "공중", 
+        "airborne" : "공중", 
+        "deepFreeze" : "급랭", 
+        "frostPrison" : "얼음감옥", 
+        "searingPalm" : "점혈", 
+        "searingPalm4" : "점혈 4단계", 
+        "freeze" : "결빙", 
+        "snare" : "이동불가", 
+        "chargeDisable" : "접근 무공 봉쇄", 
+        "defenseDisable" : "방어 무공 봉쇄", 
+        "defenseBreakDisable" : "방어해제 무공 봉쇄", 
+        "offensiveDefenseDisable" : "공방일체 무공 봉쇄", 
+        "deepWound" : "내상", 
+        "soulStab" : "어검징표", 
+        "restrain" : "금제", 
+        "target" : "표적", 
+        "brand" : "낙인", 
+        "ember" : "불씨", 
+        "burn" : "화상", 
+        "chill" : "동상", 
+        "dead" : "사망", 
+        "nearDeath" : "탈진", 
+        "meditating" : "운기조식", 
+        "ivyPoison" : "덩굴독", 
+        "beePoison" : "말벌독", 
+        "pull" : "끌어오기", 
+        "slow" : "이동속도 감소", 
+        "poison" : "중독", 
+        "poison5" : "독 5중첩", 
+        "highwire" : "은사", 
+        "blindDeaf" : "시각, 청각 마비", 
+        "bind" : "속박", 
+        "bleed" : "출혈", 
+        "repression" : "억압"
+    }
+}

@@ -1,0 +1,200 @@
+{ 
+    "_id" : "MSP", 
+    "text" : {
+        "en" : "Midnight Skypetal Plains", 
+        "ko" : "밤의 바람평야"
+    }, 
+    "icon" : "field"
+}
+{ 
+    "_id" : "MSP_MERCHANT", 
+    "text" : {
+        "en" : "Midnight Skypetal Plains Exchange Merchant", 
+        "ko" : "밤의 바람평야 교환상인"
+    }, 
+    "icon" : "vendor"
+}
+{ 
+    "_id" : "BT_2", 
+    "text" : {
+        "en" : "Nightfall Imperator of Skybreak Spire", 
+        "ko" : "검은 마천루 사안장군"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "BT_MERCHANT", 
+    "text" : {
+        "en" : "Khanda Vihar Exchange Merchant", 
+        "ko" : "파천성도 교환상인"
+    }, 
+    "icon" : "vendor"
+}
+{ 
+    "_id" : "BT_1", 
+    "text" : {
+        "en" : "Venomsky Drake of Skybreak Spire", 
+        "ko" : "검은 마천루 천독룡"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "BT_4", 
+    "text" : {
+        "en" : "Raven King of Skybreak Spire", 
+        "ko" : "검은 마천루 촉마왕"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "BT_3", 
+    "text" : {
+        "en" : "General Moyun and General Shuna of Skybreak Spire", 
+        "ko" : "검은 마천루 모순장군"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "DT", 
+    "text" : {
+        "en" : "Desolate Tomb", 
+        "ko" : "잊혀진 무덤"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "NS", 
+    "text" : {
+        "en" : "Naryu Sanctuary", 
+        "ko" : "나류성지"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "AD", 
+    "text" : {
+        "en" : "Avalanche Den", 
+        "ko" : "설인의 동굴"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "AN", 
+    "text" : {
+        "en" : "Awakened Necropolis", 
+        "ko" : "귀문관의 악몽"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "SL", 
+    "text" : {
+        "en" : "Sogun's Lament", 
+        "ko" : "비탄의 설옥궁"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "MT2", 
+    "text" : {
+        "en" : "Mushin's Tower (F9~F15)", 
+        "ko" : "무신의 탑 (9층~15층)"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "SN", 
+    "text" : {
+        "en" : "Sundered Nexus", 
+        "ko" : "분열의 미궁"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "TGW", 
+    "text" : {
+        "en" : "Twisted Grimhorn Wilds", 
+        "ko" : "잠식된 흑창족 부락"
+    }, 
+    "icon" : "field"
+}
+{ 
+    "_id" : "ZR", 
+    "text" : {
+        "en" : "Zaiwei Ruins", 
+        "ko" : "파괴된 강류시"
+    }, 
+    "icon" : "field"
+}
+{ 
+    "_id" : "GI", 
+    "text" : {
+        "en" : "Gloomdross Incursion", 
+        "ko" : "격전의 흑음림"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "SM", 
+    "text" : {
+        "en" : "The Shattered Masts", 
+        "ko" : "침묵의 해적선"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "EC", 
+    "text" : {
+        "en" : "Ebondrake Citadel", 
+        "ko" : "흑룡교 지하감옥"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "NF", 
+    "text" : {
+        "en" : "Naryu Foundry", 
+        "ko" : "지옥의 용광로"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "MT3", 
+    "text" : {
+        "en" : "Mushin's Tower (F16~F20)", 
+        "ko" : "무신의 탑 (16층~20층)"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "BG_MERCHANT", 
+    "text" : {
+        "en" : "Battleground Trader", 
+        "ko" : "전장 교환원"
+    }, 
+    "icon" : "vendor"
+}
+{ 
+    "_id" : "TOI", 
+    "text" : {
+        "en" : "Tower of Infinity", 
+        "ko" : "무한의 탑"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "AF", 
+    "text" : {
+        "en" : "Automaton Foundry", 
+        "ko" : "법기 연구소"
+    }, 
+    "icon" : "dungeon"
+}
+{ 
+    "_id" : "ET", 
+    "text" : {
+        "en" : "Ebondrake Temple", 
+        "ko" : "흑룡교 비밀전당"
+    }, 
+    "icon" : "dungeon"
+}

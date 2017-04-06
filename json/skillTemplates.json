@@ -1,0 +1,1715 @@
+{ 
+    "_id" : "CLAUSE_AMOUNT", 
+    "template" : {
+        "en" : "{$value}", 
+        "ko" : "{$value}개"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_AT", 
+    "template" : {
+        "en" : "at {$condition}", 
+        "ko" : "{$condition} 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_WHILE", 
+    "template" : {
+        "en" : "while {$condition} {$status}", 
+        "ko" : "{$condition} {$status} 중"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_BIND", 
+    "template" : {
+        "en" : "Binds enemies {#status=CLAUSE_INFLICTED} in Highwire {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "{#status=CLAUSE_INFLICTED} 적 {#time=CLAUSE_TIME_DURATION} 은사"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_AUTO", 
+    "template" : {
+        "en" : "Automatically used by the familiar {#status=CLAUSE_TO_STATUS}", 
+        "ko" : "{#status=CLAUSE_TO_STATUS} 소환수가 자동으로 사용"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_BOSS_DEFENSE_UP", 
+    "template" : {
+        "en" : "Familiar gains {$percent}% additional defense against area attacks from boss type enemies {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 소환수 {#time=CLAUSE_TIME_DURATION} 보스 몬스터가 사용하는 광역 공격에 대해 추가 {$percent}% 방어 상승"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_DURATION", 
+    "template" : {
+        "en" : "Familiar lasts for {#time=CLAUSE_TIME}", 
+        "ko" : "{#time=CLAUSE_TIME} 소환수 유지"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_HEAL", 
+    "template" : {
+        "en" : "Heals the familiar {&withinArea=within the area} {$percent}% of its health {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {&withinArea=영역 내} 소환수 {#time=CLAUSE_TIME_OVER} 생명력 {$percent}% 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FREEZE_BREAK", 
+    "template" : {
+        "en" : "Breaks freeze", 
+        "ko" : "경빙 파괴"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_GUARANTEED_CRIT", 
+    "template" : {
+        "en" : "{&nextSkill=Next skill has} {$skill} {&skill=has} guaranteed critical hit {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {&duringUse=during use} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&duringUse=사용 중} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {&nextSkill=다음 무공} {$skill} 확정 치명타"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MOVE_ENEMY", 
+    "template" : {
+        "en" : "Move {#distance=CLAUSE_DISTANCE} {&behind=behind} {&left=left of} {&right=right of} the enemy {#status=CLAUSE_INFLICTED} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_INFLICTED} 적 {&behind=너머}{?distance; !value; 로} {&left=위치 왼쪽으로} {&right=위치 오른쪽으로} {#distance=CLAUSE_DISTANCE} 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_NO_JOINT_ATTACK", 
+    "template" : {
+        "en" : "Cannot be used as a joint attack", 
+        "ko" : "합격불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_STATUS", 
+    "template" : {
+        "en" : "User {&party=and party members} {&withinArea=within the area} resist{?party; !value; s} {$status} {&all=status effects} {#time=CLAUSE_TIME_DURATION} {&duringUse=during use} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {&duringUse=사용 중} {&withinArea=영역 내} 시전자 {&party=및 파티원} {#time=CLAUSE_TIME_DURATION} {$status} {?all; value; 상태이상; 상태} 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESOURCE_STAGE_CONSUME", 
+    "template" : {
+        "en" : "Consumes {$resource} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$resource} 소모"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SOULBURN", 
+    "template" : {
+        "en" : "Awakened skills become available while soulburn is active", 
+        "ko" : "강신 중 각성 무공 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STAT_DOWN_DEBUFF", 
+    "template" : {
+        "en" : "Enemies inflicted by {$status} has {#statDown=CLAUSE_STAT_DOWN}", 
+        "ko" : "{$status} 상태인 적 {#statDown=CLAUSE_STAT_DOWN}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_USER_AIRBORNE", 
+    "template" : {
+        "en" : "User becomes airborne and exposed to air skills", 
+        "ko" : "시전자 공중 상태가 되어 위험에 노출"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_EVEN", 
+    "template" : {
+        "en" : "even when {$condition}", 
+        "ko" : "{$condition} 시에도"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TIME_INTERVAL", 
+    "template" : {
+        "en" : "every {$time} sec", 
+        "ko" : "{$time}초마다"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_APPLY_PARTY", 
+    "template" : {
+        "en" : "Applies to user and party members within the area", 
+        "ko" : "영역 내 시전자 및 파티원에게 적용"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_BUFF_STACK_LIMIT", 
+    "template" : {
+        "en" : "{$buff} stacks up to {$value} times", 
+        "ko" : "{$buff} 최대 {$value} 중첩"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CAST_SPEED_INCREASED", 
+    "template" : {
+        "en" : "Cast speed increased {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} 연사 속도 상승"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_TRIGGER", 
+    "template" : {
+        "en" : "Cooldown starts on using {$skill}", 
+        "ko" : "{$skill} 사용 시 재사용 시간 발동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE", 
+    "template" : {
+        "en" : "{&area=Creates a damaging field that} {&additionalCast=Additional cast} {$skill} deals {$damage} {&additional=additional} {$elementType} damage {#hit=CLAUSE_HIT_OVER} {#time=CLAUSE_TIME_OVER} {#timeAfter=CLAUSE_TIME_AFTER} {#enemies=CLAUSE_ENEMIES_UP_TO} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&area=영역 내 대상} {&additionalCast=추가 시전 시} {$skill} {#enemies=CLAUSE_ENEMIES_UP_TO} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#hit=CLAUSE_HIT_OVER} {#timeAfter=CLAUSE_TIME_AFTER} {#time=CLAUSE_TIME_OVER} {$damage}의 {&additional=추가} {$elementType}피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_END_AIRBORNE", 
+    "template" : {
+        "en" : "Ends the enemy's airborne status", 
+        "ko" : "적 공중 상태 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_USER_STATUS", 
+    "template" : {
+        "en" : "Cannot be used while the user is inflicted by status effects", 
+        "ko" : "주술사 상태이상 중 사용 불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INFLICT_LOCKDOWN", 
+    "template" : {
+        "en" : "Locks enemies with {$status} {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "적 {#time=CLAUSE_TIME_DURATION} {$status}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INSPIRATION", 
+    "template" : {
+        "en" : "Inspiration decreases the cooldown of all non-refreshable skills by 1 sec on block, counter", 
+        "ko" : "고무 효과 중 반격, 막기 시 재사용시간 초기화 불가 무공을 제외한 모든 무공 재사용시간 1초 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INSTANT_CAST", 
+    "template" : {
+        "en" : "Instant {&free=free} cast {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {&free=내력 소모 없이} 즉시 시전"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_LEADING_FOCUS", 
+    "template" : {
+        "en" : "Generates 2/4/6/8 additional focus per Unleashed Flow stage", 
+        "ko" : "혈도 개방 단계별 내력 2/4/6/8 추가 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MOVE_SKILL", 
+    "template" : {
+        "en" : "Move to the {$skill} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$skill}(으)로 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_AVAILABLE_WHILE_INFLICTED", 
+    "template" : {
+        "en" : "{$skill} can be used while inflicted by {$status}", 
+        "ko" : "{$status} 상태 중 {$skill} 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SWITCH_CHARGE", 
+    "template" : {
+        "en" : "Charge if the enemy cannot be displaced", 
+        "ko" : "위치 바꾸기 불가한 적에게 사용 시 적에게 접근"
+    }
+}
+{ 
+    "_id" : "CLAUSE_BELOW_HEALTH", 
+    "template" : {
+        "en" : "when the user's health is below {$percent}%", 
+        "ko" : "시전자의 생명력이 {$percent}% 이하 일 때"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_AFTER", 
+    "template" : {
+        "en" : "after {$condition} {#status=CLAUSE_TO_STATUS} {#skill=CLAUSE_SKILL_WITH}", 
+        "ko" : "{#skill=CLAUSE_SKILL_WITH} {#status=CLAUSE_TO_STATUS} {$condition} 후"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ESCAPE", 
+    "template" : {
+        "en" : "on escape from {$status}", 
+        "ko" : "{$status} 상태 탈출 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_WHILE_STANCE", 
+    "template" : {
+        "en" : "while in {$stance}", 
+        "ko" : "{$stance} 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_WITH", 
+    "template" : {
+        "en" : "with {$condition}", 
+        "ko" : "{$condition}(으)로"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TIMES", 
+    "template" : {
+        "en" : "{&limit=up to} {$times} time{?times; value > 1; s}", 
+        "ko" : "{&limit=최대} {$times}회"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TO_DEFENSE_BREAK", 
+    "template" : {
+        "en" : "to enemies whose defense was broken by {$skill}", 
+        "ko" : "{$skill}로 방어 해제된 적에게"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_ATTACK_TIMING", 
+    "template" : {
+        "en" : "Effect activates when used at the enemy's attack timing", 
+        "ko" : "적 공격 시점에 맞춰 사용 시 효과 발동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CAST_ACCELERATES", 
+    "template" : {
+        "en" : "Cast speed accelerates {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} 시전 시간 가속"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_INCREASE", 
+    "template" : {
+        "en" : "Cooldown increases by {$time} sec {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 재사용시간 {$time}초 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_UP_PER_HIT", 
+    "template" : {
+        "en" : "Damage increases per hit", 
+        "ko" : "연쇄 명중 시 마다 피해 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DETONATE", 
+    "template" : {
+        "en" : "Effect activates when detonated using {$skill}", 
+        "ko" : "{$skill}(으)로 폭파 시 효과 발동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_INFLICTED", 
+    "template" : {
+        "en" : "Familiar inflicted by {$status}", 
+        "ko" : "소환수 {$status} 상태 중"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_STANDBY", 
+    "template" : {
+        "en" : "Recalled familiar will await for the user's next action", 
+        "ko" : "돌아온 소환수는 주술사의 다음 공격 행동을 기다림"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FOCUS_REGEN", 
+    "template" : {
+        "en" : "{#buff=CLAUSE_BUFF} generates {$focus}{&percent=%} {&additional=additional} focus {#time=CLAUSE_TIME_OVER} {&perEnemy=per enemy hit} {#condition=CLAUSE_CONDITION_ON} {&duringUse=during use}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&duringUse=사용 중} {#condition=CLAUSE_CONDITION_ON} {&perEnemy=피격된 적 만큼} {#time=CLAUSE_TIME_OVER} 내력 {$focus}{&percent=%} {&additional=추가} 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FOCUS_REGEN_PARTY", 
+    "template" : {
+        "en" : "User and party members {&withinArea=within the area} recover {$focus}% focus {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{&withinArea=영역 내} 시전자 및 파티원 {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_OVER} 내력 {$focus}% 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESCUE_PUT_DOWN", 
+    "template" : {
+        "en" : "Set down rescuing party member", 
+        "ko" : "구조 중인 아군 바닥에 내려놓기"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESOURCE_STAGE", 
+    "template" : {
+        "en" : "Increases {$resource} by {$value} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$resource} {$value}단계 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_PLACE", 
+    "template" : {
+        "en" : "Places {$skill}", 
+        "ko" : "{$skill} 설치"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_TYPE", 
+    "template" : {
+        "en" : "{$skillType} skill", 
+        "ko" : "{$skillType} 무공"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STANCE", 
+    "template" : {
+        "en" : "{$stance}", 
+        "ko" : "{$stance}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_TARGET_COUNTERED", 
+    "template" : {
+        "en" : "Target countered with {$skill}", 
+        "ko" : "{$skill} 반격당한 적"
+    }
+}
+{ 
+    "_id" : "CLAUSE_SKILL_WITH", 
+    "template" : {
+        "en" : "with {$skill}", 
+        "ko" : "{$skill}(으)로"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TYPES", 
+    "template" : {
+        "en" : "Type {$types}", 
+        "ko" : "{$types} 초식"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_EXCEPTION_DAMAGE", 
+    "template" : {
+        "en" : "Deals {$damage} {$elementType} damage while the cooldown is active", 
+        "ko" : "재사용 시간 동안 {$damage}의 {$elementType} 피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_EXCEPTION_SKILL", 
+    "template" : {
+        "en" : "Basic {$skill} can be used instead while the cooldown is active", 
+        "ko" : "재사용 시간 동안 {$skill} 기본 무공 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_INCREASE_PERCENT", 
+    "template" : {
+        "en" : "Damage {&skill=of} {$skill} increases by {$percent}% {#time=CLAUSE_TIME_DURATION} {&withinArea=while within the area} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{&withinArea=영역 내} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_DURATION} {$skill} 피해량 {$percent}% 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_CHARGE", 
+    "template" : {
+        "en" : "Familiar charges towards the enemy", 
+        "ko" : "소환수가 적에게 돌진"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_ELEMENT", 
+    "template" : {
+        "en" : "{$element} type familiar", 
+        "ko" : "소환수 {$element} 속성"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_MOVE_ENEMY", 
+    "template" : {
+        "en" : "Familiar moves behind the enemy", 
+        "ko" : "소환수 적 너머로 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_REMOVE_STATUS_EXCEPTION", 
+    "template" : {
+        "en" : "Removes all status effects except {$status} from the familiar", 
+        "ko" : "소환수 {$status}을 제외한 모든 상태이상 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MULTI_USE_ADDITIONAL_LIMIT", 
+    "template" : {
+        "en" : "Can be {&instant=instantly} used {$value} more time{?value; value > 1; s} {&free=for free} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {&free=내력 소모 없이} {$value}회 추가 {&instant=즉시} 시전 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_REVIVE_LOCATION", 
+    "template" : {
+        "en" : "Party members revive at the user's position", 
+        "ko" : "시전자 위치로 이동하여 부활"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_USER_INFLICTED", 
+    "template" : {
+        "en" : "User is inflicted by {#time=CLAUSE_TIME} {$status} {#condition=CLAUSE_CONDITION_ON} during use", 
+        "ko" : "사용 중 {#condition=CLAUSE_CONDITION_ON} 시전자 {#time=CLAUSE_TIME} {$status}"
+    }
+}
+{ 
+    "_id" : "CLAUSE_ATTACK_LOCKDOWN", 
+    "template" : {
+        "en" : "on attacking the enemy inflicted by {$status} {#times=CLAUSE_TIMES}", 
+        "ko" : "{$status}한 적 {#value=CLAUSE_TIMES} 공격 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_BUFF_ACTIVE", 
+    "template" : {
+        "en" : "while {$buff} {$skill} is active", 
+        "ko" : "{$buff} {$skill} 효과 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_BUFF_RECEIVE", 
+    "template" : {
+        "en" : "on receiving {$buff}", 
+        "ko" : "{$buff} 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ON_SKILL_USE", 
+    "template" : {
+        "en" : "on using {$skill} {#conditionOther=CLAUSE_CONDITION_WITH}", 
+        "ko" : "{#conditionOther=CLAUSE_CONDITION_WITH} {$skill} 사용 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TIME_OVER", 
+    "template" : {
+        "en" : "over {$time} sec", 
+        "ko" : "{$time}초간"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_REDUCTION", 
+    "template" : {
+        "en" : "Reduces the cooldown of {$skill} by {$time} sec {#times=CLAUSE_TIMES} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {#times=CLAUSE_TIMES} {$skill} 재사용 시간 {$time}초 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_MULTIPLICATION_STAGE", 
+    "template" : {
+        "en" : "Damage is multiplied by {$value} per {$buff} stage", 
+        "ko" : "{$buff} 단계별 피해량 {$value}배 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_RESIST_STATUS", 
+    "template" : {
+        "en" : "Familiar resists status effects {&duringUse=during use} {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "{&duringUse=사용 중} 소환수 {#time=CLAUSE_TIME_DURATION} 상태이상 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INCREASED_PROJECTILE_SPEED", 
+    "template" : {
+        "en" : "Projectile speed increased", 
+        "ko" : "발사체 속도 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INFLICT_DOUBLE_STATUS", 
+    "template" : {
+        "en" : "Applies joint attack ({$status}) 2 times", 
+        "ko" : "{$status} 합격 2회 적용"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MAX_HM_ENERGY", 
+    "template" : {
+        "en" : "Max Hongmoon Energy", 
+        "ko" : "홍문지기 최대 충전 시"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_PHANTOM_GRIP_CONDITION", 
+    "template" : {
+        "en" : "Enemies that resist phantom grip can be grabbed when they are inflicted by stun, knockdown, daze or using a defense skill", 
+        "ko" : "흡공에 저항하는 적 기절, 그로기, 다운, 방어 중 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_UNAVAILABLE", 
+    "template" : {
+        "en" : "Unavailable when {$skill} is learned", 
+        "ko" : "{$skill} 수련 시 사용 불가"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ON", 
+    "template" : {
+        "en" : "{?per; value; per; on} {$condition} {#status=CLAUSE_TO_STATUS} {#skill=CLAUSE_SKILL_WITH} {#buff=CLAUSE_BUFF_ACTIVE} {#conditionOther=CLAUSE_CONDITION_WITH}", 
+        "ko" : "{#conditionOther=CLAUSE_CONDITION_WITH} {#buff=CLAUSE_BUFF_ACTIVE} {#skill=CLAUSE_SKILL_WITH} {#status=CLAUSE_TO_STATUS} {$condition} 시 {&per=마다}"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ON_STANCE", 
+    "template" : {
+        "en" : "on {$condition} while in {$stance}", 
+        "ko" : "{$stance} 중 {$condition} 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_STACK", 
+    "template" : {
+        "en" : "at {$stack} stacks of {$buff} {$skill}", 
+        "ko" : "{$buff} {$skill} {$stack} 중첩 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_PARTY_STATUS", 
+    "template" : {
+        "en" : "while party member is {$status}", 
+        "ko" : "파티원 {$status} 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TIME_DURATION", 
+    "template" : {
+        "en" : "for {$time} sec", 
+        "ko" : "{$time}초간"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_AREA_MAINTAIN", 
+    "template" : {
+        "en" : "Area lasts {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "영역 {#time=CLAUSE_TIME_DURATION} 유지"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CANNOT_USE_HEALTH_LOW", 
+    "template" : {
+        "en" : "Cannot be used when the {?familiar; value; familiar; user}'s current health is below {$percent}%", 
+        "ko" : "{&familiar=소환수} 생명력 {$percent}% 이하 시 사용 불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_EXCEPTION", 
+    "template" : {
+        "en" : "Does not inflict {$status} while the cooldown is active", 
+        "ko" : "재사용 시간 동안 {$status} 효과 제외"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HEAL", 
+    "template" : {
+        "en" : "Heals the user {&party=and party members} {&withinArea=within the area} {&additional=an additional} {$percent}% of their health {#time=CLAUSE_TIME_OVER} {#times=CLAUSE_TIMES} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {&withinArea=영역 내} 시전자 {&party=및 파티원} {#times=CLAUSE_TIMES} {#time=CLAUSE_TIME_OVER} 생명력 {&additional=추가} {$percent}% 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HEALTH_BARRIER", 
+    "template" : {
+        "en" : "Creates a {$percent}% health barrier that lasts for {$time} sec", 
+        "ko" : "{$time}초간 생명력 {$percent}% 보호막 생성"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_IGNORE_STATUS", 
+    "template" : {
+        "en" : "Ignores {$status}", 
+        "ko" : "{$status} 효과 무시"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_PULL", 
+    "template" : {
+        "en" : "Pulls enemies {#distance=CLAUSE_WITHIN_DISTANCE} {&withinArea=within the area} {&center=to the center} {#times=CLAUSE_TIMES} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {#distance=CLAUSE_WITHIN_DISTANCE} {&withinArea=영역 내} 적 {&center=중심으로} {#times=CLAUSE_TIMES} 끌어 당김"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_PULL_DEAD_RESIST", 
+    "template" : {
+        "en" : "Pulled {$status} party members resist damage and status effects {$time=CLAUSE_TIME_DURATION}", 
+        "ko" : "{$status} 중인 파티원 {$time=CLAUSE_TIME_DURATION} 피해 및 상태이상 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_PARTY_ONLY", 
+    "template" : {
+        "en" : "Protects {$status} party members  {$time=CLAUSE_TIME_DURATION}", 
+        "ko" : "{$status} 중인 파티원 {$time=CLAUSE_TIME_DURATION} 보호"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_PHANTOM_GRIP", 
+    "template" : {
+        "en" : "Cannot be used on enemies that resist phantom grip", 
+        "ko" : "흡공에 저항하는 적에게 사용 불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STATUS_MAINTAIN", 
+    "template" : {
+        "en" : "Extends {$status} {&all=status effects} up to {#time=CLAUSE_TIME}", 
+        "ko" : "{$status} 상태{&all=이상 효과} {#time=CLAUSE_TIME} 유지"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STAT_UP_STAGE", 
+    "template" : {
+        "en" : "{#buff=CLAUSE_BUFF} increases {$stat} by {$percent}% per stage", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} 단계별 {$stat} {$percent}% 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STEALTH_AFTER_MOVE", 
+    "template" : {
+        "en" : "Transported party members enter stealth {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "이동한 파티원 {#time=CLAUSE_TIME_DURATION} 은신"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STEALTH_MAINTAIN", 
+    "template" : {
+        "en" : "Does not break stealth", 
+        "ko" : "은신 중 사용 시 은신 상태 유지"
+    }
+}
+{ 
+    "_id" : "CLAUSE_ADDITIONAL_STAT", 
+    "template" : {
+        "en" : "and then increases it by {$additionalStat}", 
+        "ko" : "후 {$additionalStat} 추가"
+    }
+}
+{ 
+    "_id" : "CLAUSE_BUFF", 
+    "template" : {
+        "en" : "{$buff} {$skill}", 
+        "ko" : "{$buff} {$skill}"
+    }
+}
+{ 
+    "_id" : "CLAUSE_BUFF_STACK_ACTIVE", 
+    "template" : {
+        "en" : "while at {$value} stacks of {$buff}", 
+        "ko" : "{$buff} {$value} 중첩 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_PER_CRIT_TO_STATUS", 
+    "template" : {
+        "en" : "each time the enemy inflicted by {$status} {$skill} is critically hit", 
+        "ko" : "{$status} {$skill} 상태인 적 치명 피격 시 마다"
+    }
+}
+{ 
+    "_id" : "CLAUSE_ENEMIES_UP_TO", 
+    "template" : {
+        "en" : "up to {$enemies} enemies", 
+        "ko" : "최대 {$enemies}명의 적에게"
+    }
+}
+{ 
+    "_id" : "CLAUSE_SKILL_USING", 
+    "template" : {
+        "en" : "while using {$skill}", 
+        "ko" : "{$skill} 사용 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_STAT_DOWN", 
+    "template" : {
+        "en" : "{$percent}% {$stat} reduction", 
+        "ko" : "{$stat} {$percent}% 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CANNOT_USE_ON_KNOCKDOWN", 
+    "template" : {
+        "en" : "Cannot be used on enemies inflicted by knockdown", 
+        "ko" : "다운 상태인 적에게 사용 불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_IGNORE", 
+    "template" : {
+        "en" : "Ignores cooldown {#buff=CLAUSE_BUFF_ACTIVE} {&stance=when used in} {$stance}", 
+        "ko" : "{$stance} {&stance=중} {#buff=CLAUSE_BUFF_ACTIVE} 재사용 시간 시간 없이 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_RESIST", 
+    "template" : {
+        "en" : "Familiar resist damage and status effects {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "소환수 {#time=CLAUSE_TIME_DURATION} 피해 및 상태이상 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HM_ENERGY", 
+    "template" : {
+        "en" : "Generates {$value}{&percent=%} Hongmoon Energy {&perEnemy=per enemy hit} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS}", 
+        "ko" : "{#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {&perEnemy=명중한 수 만큼} 홍문지기 {$value}{&percent=%} 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MEDITATION_TIME_REDUCTION", 
+    "template" : {
+        "en" : "Reduces meditation time by {#time=CLAUSE_TIME}", 
+        "ko" : "운기조식 시간 {#time=CLAUSE_TIME} 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_TRANSPORT", 
+    "template" : {
+        "en" : "Transported party members resist damage and status effects {#times=CLAUSE_TIMES} {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "이동한 파티원  {#time=CLAUSE_TIME_DURATION} {#times=CLAUSE_TIMES} 피해 및 상태이상 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_AREA", 
+    "template" : {
+        "en" : "Creates a {$skill} field that lasts for {#time=CLAUSE_TIME}", 
+        "ko" : "{#time=CLAUSE_TIME} {$skill} 영역 생성"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STATUS_REFRESH", 
+    "template" : {
+        "en" : "Refreshes the duration of {$status} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$status} 상태 갱신"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_THREAT", 
+    "template" : {
+        "en" : "Generates {$percent}% additional threat", 
+        "ko" : "피해량의 {$percent}% 위협"
+    }
+}
+{ 
+    "_id" : "CLAUSE_DISTANCE", 
+    "template" : {
+        "en" : "{$distance}m", 
+        "ko" : "{$distance}m"
+    }
+}
+{ 
+    "_id" : "CLAUSE_INFLICT_FOLLOW_UP", 
+    "template" : {
+        "en" : "followed by {#time=CLAUSE_TIME} {$status}", 
+        "ko" : "후 {#time=CLAUSE_TIME} {$status}"
+    }
+}
+{ 
+    "_id" : "CLAUSE_WHILE_INFLICTED", 
+    "template" : {
+        "en" : "while inflicted by {$status}", 
+        "ko" : "{$status} 상태 중"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CAST_SPEED_UP", 
+    "template" : {
+        "en" : "Increased cast speed", 
+        "ko" : "연사 속도 상승"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_PERCENT_ADDITIONAL", 
+    "template" : {
+        "en" : "{$skill} deals {$percent}% of attack power as additional damage {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_DURATION} {$skill} 공격력의 {$percent}% 추가 피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DEFENSE_PENETRATION", 
+    "template" : {
+        "en" : "Penetrates {&all=defense,} deflect {&windwalk=when used while windwalking}", 
+        "ko" : "{&windwalk=경공 중 사용 시} {&all=방어,} 튕기기 관통"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_LIFESTEAL", 
+    "template" : {
+        "en" : "{$skill} heals the user {$percent}% of the {&additional=additional} damage dealt {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$skill} {&additional=추가} 피해량의 {$percent}% 생명력 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_PUSH", 
+    "template" : {
+        "en" : "Pushes enemies beyond {$distance}m", 
+        "ko" : "전방 {$distance}m 밖으로 밀어냄"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_DEFLECT_STUN", 
+    "template" : {
+        "en" : "User within the area resist stun caused by deflect", 
+        "ko" : "영역 내 시전자 팅기기에 의한 기절 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SOULBLADE", 
+    "template" : {
+        "en" : "Soulblade skills available {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "{#time=CLAUSE_TIME_DURATION} 어검 무공 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SS", 
+    "template" : {
+        "en" : "Used by double tapping the [S] key", 
+        "ko" : "[S]키를 두번 눌러 사용"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STACK_RESET", 
+    "template" : {
+        "en" : "Stacks reset {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 중첩 조기화"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STAT_DOWN", 
+    "template" : {
+        "en" : "{#buff=CLAUSE_BUFF} decreases the user's {$stat} by {$percent}% {#time=CLAUSE_TIME_DURATION} {&duringUse=during use}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&duringUse=사용 중} {#time=CLAUSE_TIME_DURATION} 시전자 {$stat} {$percent}% 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_TARGET_INFLICTED", 
+    "template" : {
+        "en" : "Target inflicted by {$status} {$skill} {#skillOther=CLAUSE_SKILL_WITH}", 
+        "ko" : "{#skillOther=CLAUSE_SKILL_WITH} 적 {$status} {$skill} 상태"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ON_LIMIT", 
+    "template" : {
+        "en" : "on {$value} {$condition}{?value; value > 1; s} {#status=CLAUSE_TO_STATUS} {#skill=CLAUSE_SKILL_WITH}", 
+        "ko" : "{#skill=CLAUSE_SKILL_WITH} {#status=CLAUSE_TO_STATUS} {$value}회 {$condition} 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_LOCKDOWN_PER_HIT", 
+    "template" : {
+        "en" : "each time the enemy inflicted by {$status} is hit", 
+        "ko" : "{$status} 상태인 적 피격 시 마다"
+    }
+}
+{ 
+    "_id" : "CLAUSE_SKILL_AFTER", 
+    "template" : {
+        "en" : "after using {$skill}", 
+        "ko" : "{$skill} 사용 후"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TIME_AFTER", 
+    "template" : {
+        "en" : "after {$time} sec", 
+        "ko" : "{$time}초 후"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TO_STATUS_RESIST", 
+    "template" : {
+        "en" : "to enemies that resist {$status} {$skill}", 
+        "ko" : "{$status} {$skill} 상태 저항하는 적에게"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_BUFF_REFRESH", 
+    "template" : {
+        "en" : "Refreshes the duration of {$buff} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$buff} 효과 갱신"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_EXCEPTION_HM_EMERGY", 
+    "template" : {
+        "en" : "Does not generate Hongmoon Energy while the cooldown is active", 
+        "ko" : "재사용 시간 동안 홍문지기 충전 효과 제외"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_EMBER_DAMAGE_ADDITIONAL", 
+    "template" : {
+        "en" : "Deals 75% additional damage per stack of ember on detonation", 
+        "ko" : "폭파 시 불씨 중첩 당 75% 추가 피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_DISMISS", 
+    "template" : {
+        "en" : "Dismisses the familiar", 
+        "ko" : "지속 시간과 관계 없이 소환수 소모"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_STATUS", 
+    "template" : {
+        "en" : "Can be used while the familiar is inflicted by status effects", 
+        "ko" : "소환수 상태이상 중 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INFLICT_STATUS", 
+    "template" : {
+        "en" : "{$skill} inflicts {#stack=CLAUSE_STACK} {#time=CLAUSE_TIME} {$status} {#statDown=CLAUSE_STAT_DOWN} {#timeAfter=CLAUSE_TIME_AFTER} {&withinArea=to enemies within the area} {&players=to players and familiars} {&additional=to additional enemies hit} {#condition=CLAUSE_CONDITION_ON} {#statusOther=CLAUSE_TO_STATUS}", 
+        "ko" : "{$skill} {#statusOther=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {&withinArea=영역 내} {&additional=추가 명중된} 적 {&players=플래이어와 소환수} {#timeAfter=CLAUSE_TIME_AFTER} {#time=CLAUSE_TIME} {$status} {#statDown=CLAUSE_STAT_DOWN} {#stack=CLAUSE_STACK}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_LOCKDOWN_BLOCK", 
+    "template" : {
+        "en" : "Frontal block while using {$status} on non-large enemies", 
+        "ko" : "소형 적 {$status} 중 전방 막기"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MULTI_USE_ADDITIONAL", 
+    "template" : {
+        "en" : "Can be used again {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 연속 시전 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_AVAILABLE", 
+    "template" : {
+        "en" : "{&maxSpeed=Max speed} {&instant=Instant cast} {$skill} available {#time=CLAUSE_TIME} {&afterUse=after use} {&duringUse=during use} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#skillAfter=CLAUSE_SKILL_AFTER} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#skillAfter=CLAUSE_SKILL_AFTER} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME} {&duringUse=사용 중} {&afterUse=사용 후} {&maxSpeed=최대 가속} {&instant=즉시 시전} {$skill} 사용 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STAT_UP", 
+    "template" : {
+        "en" : "{#buff=CLAUSE_BUFF} increases {$stat} {&party=of the user and party members} {&withinArea=within the area} {&fromEquip=gained from equips} by {&additional=an additional} {$percent}{&percent=%} {$value} {&perStack=per stack} {#additionalStat=CLAUSE_ADDITIONAL_STAT} {#times=CLAUSE_TIMES} {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON} {&duringUse=during use} {&withinArea2=while within the area} {#skill=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#skill=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {&withinArea=영역 내} {&party=시전자 및 파티원} {&duringUse=사용 중} {#time=CLAUSE_TIME_DURATION} {#times=CLAUSE_TIMES} {&fromEquip=장비} {$stat} {&additional=추가} {$percent}{&percent=%} {$value} {&perStack=중첩 당} 증가 {#additionalStat=CLAUSE_ADDITIONAL_STAT}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_TARGET_DEFENDING", 
+    "template" : {
+        "en" : "Target defending", 
+        "ko" : "적 방어 행동 시"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_WINDWALKING_AIR", 
+    "template" : {
+        "en" : "While dash jumping, gliding", 
+        "ko" : "질주 점프, 활강 중"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_REFRESH", 
+    "template" : {
+        "en" : "Refreshes the cooldown of {$skill} {&all=all skills} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {$skill} {&all=모든 무공} 재사용 시간 초기화"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DEFLECT", 
+    "template" : {
+        "en" : "Deflects {$times} attack{?times; !value || value>1; s} within {#time=CLAUSE_TIME} after use", 
+        "ko" : "시전 후 {#time=CLAUSE_TIME} 내 공격 {#times=CLAUSE_TIMES} 튕기기"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DURATION_REFRESH", 
+    "template" : {
+        "en" : "Duration of {$skill} is refreshed {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$skill} 지속 시간 초기화"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_ESCAPE", 
+    "template" : {
+        "en" : "Escape from {$status}", 
+        "ko" : "{$status} 상태 탈출"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_BUFF_GENERATION", 
+    "template" : {
+        "en" : "Familiar gains {$buff} {$skill} {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "소환수 {#time=CLAUSE_TIME_DURATION} {$buff} {$skill}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_RECALL", 
+    "template" : {
+        "en" : "Calls the familiar to the user's position", 
+        "ko" : "소환수가 나에게 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_STAT_UP", 
+    "template" : {
+        "en" : "Increases the familiar's {$stat} by {$percent}% {&duringUse=during use}", 
+        "ko" : "{&duringUse=사용 중} 소환수 {$stat} {$percent}% 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_LAUNCH", 
+    "template" : {
+        "en" : "Launches enemies {#status=CLAUSE_INFLICTED} {&reLaunch=back} into the air", 
+        "ko" : "{#status=CLAUSE_INFLICTED} 적 공중으로 {&reLaunch=다시} 띄움"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_LIFESTEAL_INCREASE", 
+    "template" : {
+        "en" : "Lifesteal increases by {$percent}% {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 피해량의 {$percent}% 생명력 흡수량 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MOVE", 
+    "template" : {
+        "en" : "Move {&back=back} {&forward=forward} {$distance}m {&noTarget=if there is no target within 5m} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {&noTarget=적이 5m 이내에 없으면} {$distance}m {&back=뒤로} {&forward=앞으로} 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MULTI_USE", 
+    "template" : {
+        "en" : "Can be used up to {$value} times {&acceleration=with increasing speed} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 최대 {$value}회 {&acceleration=가속} 시전 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESOURCE", 
+    "template" : {
+        "en" : "{$skill} {&create=creates} {&consume=consumes} {&refund=refunds} {#value=CLAUSE_AMOUNT} {&additional=additional} {$resource} {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {$skill} {#time=CLAUSE_TIME_OVER} {$resource} {#value=CLAUSE_AMOUNT} {&additional=추가} {&create=생성} {&consume=소모} {&refund=회수}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SHROUD_PARTY_ONLY", 
+    "template" : {
+        "en" : "Prevents party members except the user from being targeted {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} 시전자 제외한 파티원 타기팅 당하지 않음"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_AUTO", 
+    "template" : {
+        "en" : "{$skill} automatically used {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$skill} 시전"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STEALTH", 
+    "template" : {
+        "en" : "{&party=User and party members} enter stealth {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{&party=시전자 및 파티원} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_DURATION} 은신"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_USER_LOCKDOWN", 
+    "template" : {
+        "en" : "User cannot move or act during use", 
+        "ko" : "사용 중 이동 및 행동 불가"
+    }
+}
+{ 
+    "_id" : "CLAUSE_PER_PROTECTED_PARTY", 
+    "template" : {
+        "en" : "per protected party member", 
+        "ko" : "보호한 파티원 수만큼"
+    }
+}
+{ 
+    "_id" : "CLAUSE_RESOURCE_STAGE", 
+    "template" : {
+        "en" : "while at {$resource} stage {$value}", 
+        "ko" : "{$ressource} {$value}단계 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_WITHIN_DISTANCE", 
+    "template" : {
+        "en" : "{&enemy=to enemies} within {$distance}m {&target=of the target}", 
+        "ko" : "{&target=타기팅 한 적} {$distance}m 영역 내 {&enemy=적}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_BLOCK", 
+    "template" : {
+        "en" : "{#time=CLAUSE_TIME} {&frontal=frontal} block", 
+        "ko" : "{#time=CLAUSE_TIME} {&frontal=전방} 막기"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_DEBUFF", 
+    "template" : {
+        "en" : "{$status} deals {$damage} {$elementType} damage {#hit=CLAUSE_HIT_OVER} {#time=CLAUSE_TIME_OVER}", 
+        "ko" : "{$status} {#hit=CLAUSE_HIT_OVER} {#time=CLAUSE_TIME_OVER} {$damage}의 {$elementType}피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DETONATE_STATUS", 
+    "template" : {
+        "en" : "{&auto=Automatically} detonates {$status} {&maxStacks=only when it is at 5 stacks} {&auto=at 5 stacks}", 
+        "ko" : "{&maxStacks=5중첩인 적 한정} {&auto=5중첩 시 자동} {$status} 폭파"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_HEALTH_TRANSFER", 
+    "template" : {
+        "en" : "Transfers {$percent}% of the familiar's health to the user", 
+        "ko" : "소환수 생명력 {$percent}% 소환사에게 전송"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FOCUS_REFUND", 
+    "template" : {
+        "en" : "Refunds {$focus}{&focus=% of} used focus {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 사용한 내력 {$focus} 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESCUE_LEAP", 
+    "template" : {
+        "en" : "Move forward {$value}m with the rescuing party member", 
+        "ko" : "구조 중인 아군과 함께 전방 {$value}m 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_PROJECTILE", 
+    "template" : {
+        "en" : "{&area=Creates a} {#time=CLAUSE_TIME} projectile resist {&area=area}", 
+        "ko" : "{#time=CLAUSE_TIME} 투사체 저항 {&area=영역 생성}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_TAUNT", 
+    "template" : {
+        "en" : "Taunts enemies {&withinArea=within the area}", 
+        "ko" : "{&withinArea=영역 내} 적 도발"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_WINDWALKING", 
+    "template" : {
+        "en" : "While windwalking", 
+        "ko" : "경공 중"
+    }
+}
+{ 
+    "_id" : "CLAUSE_STACK", 
+    "template" : {
+        "en" : "{$stack} {&additional=additional} stack{?stack; value > 1; s} of", 
+        "ko" : "{$stack} {&additional=추가} 중첩"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_INCREASE_AREA", 
+    "template" : {
+        "en" : "Damage dealt while within the area deals {$damage} {$elementType} additional damage ", 
+        "ko" : "영영 내 공격 시 {$damage}의 추가 {$elementType}피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_LIFESTEAL", 
+    "template" : {
+        "en" : "Attacks deal {$percent}% of attack power as additional lifesteal damage {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} 공격력의 {$percent}% 흡혈 추가 피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_STAT_DOWN", 
+    "template" : {
+        "en" : "Decreases the familiar's {$stat} by {$percent}% {&duringUse=during use}", 
+        "ko" : "{&duringUse=사용 중} 소환수 {$stat} {$percent}% 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_SWITCH", 
+    "template" : {
+        "en" : "Switch position with the familiar", 
+        "ko" : "소환수랑 위치를 변환"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FOCUS_REGEN_OTHER", 
+    "template" : {
+        "en" : "Other skills generate {$focus} focus {#condition=CLAUSE_CONDITION_ON} while {$buff} is active", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} 다른 무공 {#condition=CLAUSE_CONDITION_ON} 내력 {$focus} 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HEAL_NON_USER", 
+    "template" : {
+        "en" : "Heals party members {&withinArea=within the area} {?withinArea; !value; besides the user} {$percent}% of their health {#time=CLAUSE_TIME_OVER}", 
+        "ko" : "시전자 제외한 파티원 {#time=CLAUSE_TIME_OVER} 생명력 {$percent}% 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INFLICT_KNOCKBACK", 
+    "template" : {
+        "en" : "Inflicts {$distance}m knockback {#status=CLAUSE_INFLICT_FOLLOW_UP} {#condition=CLAUSE_CONDITION_ON} {#statusOther=CLAUSE_TO_STATUS}", 
+        "ko" : "{#statusOther=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {$distance}m 넉백 {#status=CLAUSE_INFLICT_FOLLOW_UP}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST", 
+    "template" : {
+        "en" : "{&revived=Revived} user {&party=and party members} resist{?party; !value; s} damage and status effects {#times=CLAUSE_TIMES} {#time=CLAUSE_TIME_DURATION} {&afterUse=after use} {&duringUse=during use} {&travel=during travel} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {&afterUse=사용 후} {&duringUse=사용 중} {&travel=이동 중} {&revived=부활한} 시전자 {&party=및 파티원} {#time=CLAUSE_TIME_DURATION} {#times=CLAUSE_TIMES} 피해 및 상태이상 저항"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_REVIVE", 
+    "template" : {
+        "en" : "Revives {&user=the user and} all party members to 100% health", 
+        "ko" : "{&user=시전자 및} 모든 파티원 생명력 100% 상태로 부활"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SF_STANCE", 
+    "template" : {
+        "en" : "Switch between martial/force stance", 
+        "ko" : "권격/기격 자세로 변환"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STAT_STACK_LIMIT", 
+    "template" : {
+        "en" : "{$stat} increase stacks up to {$value} times", 
+        "ko" : "{$stat}증가 최대 {$value} 중첩"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_USE_WHILE_MOVING", 
+    "template" : {
+        "en" : "Can be used while moving", 
+        "ko" : "이동 중 사용 가능"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_PARTY_ATTACK", 
+    "template" : {
+        "en" : "each time a party member attacks an enemy", 
+        "ko" : "파티원이 적 공격 시 마다"
+    }
+}
+{ 
+    "_id" : "CLAUSE_HIT_OVER", 
+    "template" : {
+        "en" : "over {$hit} hits", 
+        "ko" : "{$hit}회에 걸쳐"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_AREA_ATTACK", 
+    "template" : {
+        "en" : "{$skill} deals damage in {$value}m radius {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {$skill} 사용자 중심 {$value}m 피해 적용"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_REDUCTION", 
+    "template" : {
+        "en" : "Reduces {&first=the first} damage taken {&party=by the user and party members} {&withinArea=within the area} by {$percent}% {#time=CLAUSE_TIME_DURATION} {#times=CLAUSE_TIMES} {&duringUse=during use}", 
+        "ko" : "{&duringUse=사용 중} {&withinArea=영역 내} {&party=시전자 및 파티원} {#time=CLAUSE_TIME_DURATION} 받는 {&first=첫} {#times=CLAUSE_TIMES} 피해 {$percent}% 감소"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DETONATE_MANUAL", 
+    "template" : {
+        "en" : "Can be manually detonated using {$skill}", 
+        "ko" : "{$skill}(으)로 수동으로 폭파 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_BOSS_DEFENSE", 
+    "template" : {
+        "en" : "Familiar has {$percent}% additional defense against area attacks from boss type enemies", 
+        "ko" : "소환수 보스 몬스터가 사용하는 광역 공격에 대해 추가 {$percent}% 방어 상승"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FOCUS_COST_REDUCTION", 
+    "template" : {
+        "en" : "{$skill} costs {$focus} {&reduction=less} {&free=no} focus {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_DURATION} {$skill} 내력 소모 {$focus} {&reduction=감소} {&free=없이 사용 가능}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INFLICT_STATUS_STAGE", 
+    "template" : {
+        "en" : "Inflicts {#time=CLAUSE_TIME} {$status} for stages {$stages}", 
+        "ko" : "{$stages}단계 {#time=CLAUSE_TIME} {$status}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_LIFESTEAL_DOUBLE", 
+    "template" : {
+        "en" : "Doubles healing from damage dealt while within the area", 
+        "ko" : "영역 내 생명력 흡수 효율 2배"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESIST_END", 
+    "template" : {
+        "en" : "Resist ends on using another skill", 
+        "ko" : "다음 무공 사용 시 저항 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SEARING_PALM", 
+    "template" : {
+        "en" : "Intensifies Searing Palm, Unleashed Flow by 1 stage, up to stage 4, {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON}, 최대 4단계, 점혈, 혈도 개방 1단계 강화"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_TRANSPORT_CD", 
+    "template" : {
+        "en" : "Transported party members cannot be transported again {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "이동한 파티원 {#time=CLAUSE_TIME_DURATION} 환주의 진 이동 효과 적용 불가"
+    }
+}
+{ 
+    "_id" : "CLAUSE_INFLICTED", 
+    "template" : {
+        "en" : "inflicted by {$status} {$skill}", 
+        "ko" : "{$status} {$skill} 상태인"
+    }
+}
+{ 
+    "_id" : "CLAUSE_SKILL_AREA_TO", 
+    "template" : {
+        "en" : "to enemies within the area of {$skill}", 
+        "ko" : "{$skill} 영역 내 적에게"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TIME", 
+    "template" : {
+        "en" : "{$time} sec", 
+        "ko" : "{$time}초간"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TO_STATUS", 
+    "template" : {
+        "en" : "to enemies inflicted by {$status} {$skill}", 
+        "ko" : "{$status} {$skill} 상태인 적에게"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CANCEL", 
+    "template" : {
+        "en" : "Canceled on {$condition}", 
+        "ko" : "{$condition} 시 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CHI_LEVEL_NO_CONSUME_AIRBORNE", 
+    "template" : {
+        "en" : "Does not consume Chi Level when used on enemies inflicted by airborne", 
+        "ko" : "공중 상태인 적에게 사용 시 내공 소모 없이 사용"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_INCREASE", 
+    "template" : {
+        "en" : "Damage increases by {$damage} {$elementType} damage {#times=CLAUSE_TIMES} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {#times=CLAUSE_TIMES} {$damage}의 {$elementType}피해 증가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DEFENSE_BREAK", 
+    "template" : {
+        "en" : "Breaks defense skills", 
+        "ko" : "방어 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_INFLICT_STATUS_PULL", 
+    "template" : {
+        "en" : "Pulls enemies and inflicts {#time=CLAUSE_TIME} {$status}", 
+        "ko" : "적을 끌어당겨 {#time=CLAUSE_TIME} {$status}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_MOVE_PARTY", 
+    "template" : {
+        "en" : "Move party members within the area to the user {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} 영역 내 파티원 시전자 위치로 이동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_NO_PASSIVE_BLOCK_EVADE", 
+    "template" : {
+        "en" : "Enemies within the area cannot passively block, evade", 
+        "ko" : "영역 내 적 막기, 회피 불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_PULL_DEAD", 
+    "template" : {
+        "en" : "Pulls {$status} party members", 
+        "ko" : "{$status} 중인 파티원 끌어 당김"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESOURCE_STAGE_AT", 
+    "template" : {
+        "en" : "{$resource} at stage {$value}", 
+        "ko" : "{$resource} {$value}단계"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_ACTIVATE", 
+    "template" : {
+        "en" : "Activates {$skill} {#times=CLAUSE_TIMES} {#time=CLAUSE_TIME_OVER}", 
+        "ko" : "{#time=CLAUSE_TIME_OVER} {#times=CLAUSE_TIMES} {$skill} 발동"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SOULBLADE_ATTACK", 
+    "template" : {
+        "en" : "Uses soulblades to attack while conducting soulblades", 
+        "ko" : "어검 운용 중 어검을 사용하여 공격"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_BUFF_GENERATION", 
+    "template" : {
+        "en" : "User {&party=and party members} gain{?party; !value; s} {#stack=CLAUSE_STACK} {$buff} {$skill} {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON} {#buffOther=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buffOther=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} 시전자 {&party=및 파티원} {#time=CLAUSE_TIME_DURATION} {$buff} {$skill} {#stack=CLAUSE_STACK}"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_CD_NO_REFRESH", 
+    "template" : {
+        "en" : "Cooldown cannot be refreshed", 
+        "ko" : "재사용시간 초기화 불가"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_ADDITIONAL_ENEMIES", 
+    "template" : {
+        "en" : "Deals {$damage} {&additional=additional} {$elementType} damage to up to {$value} additional enemies", 
+        "ko" : "추가 {$value}명의 적에게 {$damage}의 {&additional=추가} {$elementType}피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_HIT_CONDITION", 
+    "template" : {
+        "en" : "{?firstHit; value; First hit; Subsequent hits} deals {$damage} {$elementType} damage {#time=CLAUSE_TIME_OVER}", 
+        "ko" : "{?firstHit; value; 첫 공격 명중 시; 이후} {#time=CLAUSE_TIME_OVER} {$damage}의 {$elementType}피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DAMAGE_STATUS_DETONATION", 
+    "template" : {
+        "en" : "Deals {$damage} {$elementType} damage per stack of {$status} on detonation", 
+        "ko" : "폭파 시 {$status} 중첩 당 {$damage}의 {$elementType}피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_DEFENSE_PIERCE", 
+    "template" : {
+        "en" : "Pierces {&all=defense,} deflect", 
+        "ko" : "{&all=방어,} 튕기기 관통"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_SELF_DESTRUCT", 
+    "template" : {
+        "en" : "Familiar self destructs", 
+        "ko" : "소환수 자폭"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_SUMMON", 
+    "template" : {
+        "en" : "Summons familiar", 
+        "ko" : "소환수 소환"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_NO_DAMAGE_REAR", 
+    "template" : {
+        "en" : "Does not deal damage when used at the enemy's back", 
+        "ko" : "적 후방에서 사용 시 피해주지 않고 접근"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_REMOVE_STATUS", 
+    "template" : {
+        "en" : "Removes {$status} {&all=all status effects} {&multi=multiple times} {&duringUse=during use} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_RECEIVE} {&party=from party members}", 
+        "ko" : "{#buff=CLAUSE_BUFF_RECEIVE} {#condition=CLAUSE_CONDITION_ON} {&duringUse=사용 중} {&party=파티원의} {$status} {&all=모든 상태이상} {&multi=연속} 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_RESCUE", 
+    "template" : {
+        "en" : "Pick up near dead party members {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "탈진한 파티원 {#time=CLAUSE_TIME_DURATION} 구조"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SHROUD", 
+    "template" : {
+        "en" : "Prevents the user {&party=and party members} {&withinArea=within the area} from being targeted {#time=CLAUSE_TIME_DURATION}", 
+        "ko" : "{&withinArea=영역 내} 시전자 {&party=및 파티원} {#time=CLAUSE_TIME_DURATION} 타기팅 당하지 않음"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SKILL_INSTANT", 
+    "template" : {
+        "en" : "{$skill} can be instant cast {#time=CLAUSE_TIME_DURATION} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_DURATION} {$skill} 즉시 사전 가능"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STANCE_CHANGE", 
+    "template" : {
+        "en" : "Switch to {$stance} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$stance}로 전환"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ON_STATUS_END", 
+    "template" : {
+        "en" : "when {$status} expires", 
+        "ko" : "{$status} 해제 시"
+    }
+}
+{ 
+    "_id" : "CLAUSE_CONDITION_ON_WITHIN_TIME", 
+    "template" : {
+        "en" : "on {$condition} within {#time=CLAUSE_TIME}", 
+        "ko" : "{#time=CLAUSE_TIME} 내 {$condition} 시"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_COUNTER", 
+    "template" : {
+        "en" : "{#time=CLAUSE_TIME} {&frontal=frontal} {&melee=melee} counter", 
+        "ko" : "{#time=CLAUSE_TIME} {&frontal=전방} {&melee=근거리} 반격"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_DAMAGE_AFTER_TIME", 
+    "template" : {
+        "en" : "Deals damage at the familiar's position after {$time} sec", 
+        "ko" : "시전 {$time}초 후 소환수 위치에 피해 발생"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FAMILIAR_HEALTH_COST", 
+    "template" : {
+        "en" : "Costs {$percent}% of the familiar's health", 
+        "ko" : "소환수 생명력 {$percent}% 소모"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FOCUS_DAMAGE", 
+    "template" : {
+        "en" : "{$skill} deals {$percent}% focus damage {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS}", 
+        "ko" : "{$skill} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_OVER} {$percent}% 내력 피해"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_FROST_PRISON_CANCELED", 
+    "template" : {
+        "en" : "Frost prison is canceled on canceling skill", 
+        "ko" : "사용 해제 시 얼음감옥 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HM_ENERGY_STATUS", 
+    "template" : {
+        "en" : "Hitting enemies inflicted by {$status} generates {$value} Hongmoon Energy {&perEnemy=per hit} {#condition=CLAUSE_CONDITION_ON}", 
+        "ko" : "{$status} 상태인 적 {#condition=CLAUSE_CONDITION_ON} {&perEnemy=명중한 수 만큼} 홍문지기 {$value} 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_ICE_FLOWER", 
+    "template" : {
+        "en" : "Gain a cancelable {$time} sec frost prison {&flower=on taking damage while frost sheath is active}", 
+        "ko" : "{&flower=얼음꽃 효과 중 피격 시} {$time}초간 해제 가능한 얼음감옥 효과"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_STAT_DOWN_STACK_LIMIT", 
+    "template" : {
+        "en" : "{$stat} reduction stacks up to {$value} times", 
+        "ko" : "{$stat}감소 최대 {$value} 중첩"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_SWITCH", 
+    "template" : {
+        "en" : "Switch places", 
+        "ko" : "위치 바꿈"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_UNLOCK", 
+    "template" : {
+        "en" : "{$achievement} required", 
+        "ko" : "{$achievement} 달성 시 수련 가능"
+    }
+}
+{ 
+    "_id" : "CLAUSE_TO_SKILL_HIT", 
+    "template" : {
+        "en" : "to enemies hit by {$skill}", 
+        "ko" : "{$skill} 명중된 적에게"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HEAL_STAGE", 
+    "template" : {
+        "en" : "Heals 10/20/30/40/50% per 1 sec", 
+        "ko" : "1초 간격으로 10/20/30/40/50% 회복"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_NO_RESIST_STATUS", 
+    "template" : {
+        "en" : "User cannot resist damage and status effects when used while infliced by {$status}", 
+        "ko" : "시전자 {$status} 효과 중 사용 시 저항 효과 적용되지 않음"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_ESCAPE_FROST_PRISON_FAMILIAR", 
+    "template" : {
+        "en" : "Escaping from frost prison also removes frost prison from familiar", 
+        "ko" : "얼음감옥 상태 탈출 시 소환수 얼음감옥 상태 해제"
+    }
+}
+{ 
+    "_id" : "TEMPLATE_HEAL_CRITICAL_BUFF", 
+    "template" : {
+        "en" : "Critical hits heal the user {$percent}% of their health {#buff=CLAUSE_BUFF_ACTIVE}", 
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} 치명타 시 시전자 생명력 {$percent}% 회복"
+    }
+}
