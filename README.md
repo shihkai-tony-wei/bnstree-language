@@ -68,4 +68,4 @@ As a translator, most of the effort would be trying to reorganize the brackets s
 
 If you would like to add your language to bnstree, feel free to fork this repository to your own GitHub accound and make your changes.
 
-Remember to use the correct two letter [language code](https://www.w3schools.com/tags/ref_language_codes.asp).
+Remember to use the correct two letter [language code](https://www.w3schools.com/tags/ref_language_codes.asp) when creating new fields.
