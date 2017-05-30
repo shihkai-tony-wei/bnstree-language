@@ -1,35 +1,44 @@
-{ 
-    "_id" : "TEMPLATE_CD_REDUCTION", 
-    "template" : {
-        "en" : "Reduces the cooldown of {$skill} by {$percent}%", 
-        "ko" : "{$skill} 재사용 시간 {$percent}% 감소"
-    }
-}
-{ 
-    "_id" : "TEMPLATE_DAMAGE_UP", 
-    "template" : {
-        "en" : "Increases the damage of {$skill} by {$percent}%", 
-        "ko" : "{$skill} 피해량 {$percent}% 증가"
-    }
-}
-{ 
-    "_id" : "CLAUSE_TYPES", 
-    "template" : {
-        "en" : "Type {$types}", 
-        "ko" : "{$types} 초식"
-    }
-}
+[
 { 
     "_id" : "TEMPLATE_RNG_CRIT", 
     "template" : {
         "en" : "Attacks have a chance to increase critical by {$value} for {$time} sec", 
         "ko" : "일정 확률로 {$time}초 동안 치명 {$value} 증가"
     }
-}
+},
 { 
     "_id" : "TEMPLATE_CD_REDUCTION_FLAT", 
     "template" : {
         "en" : "Reduces the cooldown of {$skill} by {$time} sec", 
         "ko" : "{$skill} 재사용 시간 {$time}초 감소"
     }
+},
+{ 
+    "_id" : "TEMPLATE_DAMAGE_UP", 
+    "template" : {
+        "en" : "Increases the damage of {$skill} by {$percent}%", 
+        "ko" : "{$skill} 피해량 {$percent}% 증가"
+    }
+},
+{ 
+    "_id" : "TEMPLATE_CD_REDUCTION", 
+    "template" : {
+        "en" : "Reduces the cooldown of {$skill} by {$percent}%", 
+        "ko" : "{$skill} 재사용 시간 {$percent}% 감소"
+    }
+},
+{ 
+    "_id" : "CLAUSE_TYPES", 
+    "template" : {
+        "en" : "Type {$types}", 
+        "ko" : "{$types} 초식"
+    }
+},
+{ 
+    "_id" : "TEMPLATE_FOCUS_COST_REDUCTION", 
+    "template" : {
+        "en" : "{$skill} costs {$value} less focus", 
+        "ko" : "{$skill} 내력 소모 {$value} 감소"
+    }
 }
+]

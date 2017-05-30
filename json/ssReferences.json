@@ -1,0 +1,646 @@
+[
+{ 
+    "_id" : "0174", 
+    "en" : {
+        "name" : "Twisted Soul Shield", 
+        "effectName" : "Twisted Four's Oath"
+    }, 
+    "ko" : {
+        "name" : "잠식보패", 
+        "effectName" : "잠식된 4대 서약"
+    }
+},
+{ 
+    "_id" : "0184", 
+    "en" : {
+        "name" : "Southern Tiger Soul Shield", 
+        "effectName" : "Namdo School's Palm Skill", 
+        "flavor" : "Resilient strength will never surrender to darkness."
+    }, 
+    "ko" : {
+        "name" : "항마보패", 
+        "effectName" : "남도파의 장법", 
+        "flavor" : "강인한 힘만 있다면 어둠에 굴복하지 않는다."
+    }
+},
+{ 
+    "_id" : "0203", 
+    "en" : {
+        "name" : "Diametric Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "Hotter than fire, colder than ice."
+    }, 
+    "ko" : {
+        "name" : "모순보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "불보다 뜨겁게, 얼음보다 차갑게."
+    }
+},
+{ 
+    "_id" : "0222", 
+    "en" : {
+        "name" : "Yunsang Soul Shield", 
+        "effectName" : "Yunsang's Oath"
+    }, 
+    "ko" : {
+        "name" : "소양상보패", 
+        "effectName" : "소양상의 서약"
+    }
+},
+{ 
+    "_id" : "0225", 
+    "en" : {
+        "name" : "Sparring Soul Shield", 
+        "effectName" : "Contender's Oath"
+    }, 
+    "ko" : {
+        "name" : "대련보패", 
+        "effectName" : "대련의 서약"
+    }
+},
+{ 
+    "_id" : "0217", 
+    "en" : {
+        "name" : "Mythic Strike Soul Shield", 
+        "effectName" : "Divine Strength", 
+        "flavor" : "An unyielding union of spirit and strength."
+    }, 
+    "ko" : {
+        "name" : "환권보패", 
+        "effectName" : "무천의 장권", 
+        "flavor" : "주술이 서린 주먹 앞, 모두가 추풍낙엽."
+    }
+},
+{ 
+    "_id" : "0204", 
+    "en" : {
+        "name" : "Horn Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "Stars gather to form a light, to create darkness, the stars must scatter"
+    }, 
+    "ko" : {
+        "name" : "각리보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "별이 모이니 빛이라, 빛을 끄기 위해선 그들부터 흩어져야 할지니."
+    }
+},
+{ 
+    "_id" : "0195", 
+    "en" : {
+        "name" : "Elder Force Master Soul Shield", 
+        "effectName" : "Dohyun Clan's Energy", 
+        "flavor" : "The invincible shadow: sheer unbridled perfection."
+    }, 
+    "ko" : {
+        "name" : "불영보패", 
+        "effectName" : "도현문의 진기", 
+        "flavor" : "그림자조차 공격할 수 없으니 흠 하나 없는 완벽함이로구나."
+    }
+},
+{ 
+    "_id" : "0194", 
+    "en" : {
+        "name" : "Elder Summoner Soul Shield", 
+        "effectName" : "Thorntail School's Inner Skill", 
+        "flavor" : "Healing will come in time."
+    }, 
+    "ko" : {
+        "name" : "요상보패", 
+        "effectName" : "명환파의 내술", 
+        "flavor" : "새살이 솔솔~"
+    }
+},
+{ 
+    "_id" : "0183", 
+    "en" : {
+        "name" : "Starblade Soul Shield", 
+        "effectName" : "Dohyun Clan's Sword Skill", 
+        "flavor" : "When two masters duel, two shadows dance."
+    }, 
+    "ko" : {
+        "name" : "검영보패", 
+        "effectName" : "백청파의 검결", 
+        "flavor" : "아름다운 검의 비무는 그림자만을 남기고."
+    }
+},
+{ 
+    "_id" : "0171", 
+    "en" : {
+        "name" : "Be Ido Soul Shield", 
+        "effectName" : "Be Ido's Oath"
+    }, 
+    "ko" : {
+        "name" : "배이도보패", 
+        "effectName" : "배이도의 서약"
+    }
+},
+{ 
+    "_id" : "0198", 
+    "en" : {
+        "name" : "Elder Blade Dancer Soul Shield", 
+        "effectName" : "Rabbit's Duel", 
+        "flavor" : "It couldn't harm a fly."
+    }, 
+    "ko" : {
+        "name" : "할수보패", 
+        "effectName" : "신묘의 비무", 
+        "flavor" : "칼로 물 베듯 아무런 상처도 입힐 수 없으리."
+    }
+},
+{ 
+    "_id" : "0189", 
+    "en" : {
+        "name" : "Northern Starblade Soul Shield", 
+        "effectName" : "Rabbit's Dagger", 
+        "flavor" : "One cannot rely on sight alone when the opponent moves faster than light itself."
+    }, 
+    "ko" : {
+        "name" : "일섬보패", 
+        "effectName" : "신묘의 비도", 
+        "flavor" : "휘두르는 칼날은 빛보다 빠르리니 빛을 본 자 죽음밖에 없으리."
+    }
+},
+{ 
+    "_id" : "0185", 
+    "en" : {
+        "name" : "Mistwalker Soul Shield", 
+        "effectName" : "Thorntail School's Illusion Skill", 
+        "flavor" : "To disobey a direct order is to disrespect the one who gives it."
+    }, 
+    "ko" : {
+        "name" : "복호보패", 
+        "effectName" : "명환파의 환술", 
+        "flavor" : "그 누가 명령을 거역할 수 있는가."
+    }
+},
+{ 
+    "_id" : "0186", 
+    "en" : {
+        "name" : "Celestial Force Master Soul Shield", 
+        "effectName" : "Dohyun Clan's Chi", 
+        "flavor" : "Some secrets are better left uncovered."
+    }, 
+    "ko" : {
+        "name" : "환상보패", 
+        "effectName" : "도현문의 기공", 
+        "flavor" : "눈 앞에서 펼쳐지는 무공이 환상인지 실제인지 알 수가 없구나."
+    }
+},
+{ 
+    "_id" : "0221", 
+    "en" : {
+        "name" : "Xanos Soul Shield", 
+        "effectName" : "Xanos's Oath"
+    }, 
+    "ko" : {
+        "name" : "아만보패", 
+        "effectName" : "아만의 서약"
+    }
+},
+{ 
+    "_id" : "0202", 
+    "en" : {
+        "name" : "Rejuvenation Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "The pain of an enemy brings joy to my eyes."
+    }, 
+    "ko" : {
+        "name" : "회생보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "적의 고통은 나의 행복이니라."
+    }
+},
+{ 
+    "_id" : "0193", 
+    "en" : {
+        "name" : "Elder Kung Fu Master Soul Shield", 
+        "effectName" : "Namdo School's Fist Skill", 
+        "flavor" : "Sometimes the best defense is a good offense."
+    }, 
+    "ko" : {
+        "name" : "극강보패", 
+        "effectName" : "남도파의 권공", 
+        "flavor" : "공격은 최고의 방어다."
+    }
+},
+{ 
+    "_id" : "0206", 
+    "en" : {
+        "name" : "Havoc Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "The stars have come together to form an immense light."
+    }, 
+    "ko" : {
+        "name" : "섬전보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "한 줄기 의지만으로 그 어떤 적도 꿰뚫으리."
+    }
+},
+{ 
+    "_id" : "0167", 
+    "en" : {
+        "name" : "Yeti Soul Shield", 
+        "effectName" : "Yeti's Oath"
+    }, 
+    "ko" : {
+        "name" : "설인보패", 
+        "effectName" : "설인의 서약"
+    }
+},
+{ 
+    "_id" : "0224", 
+    "en" : {
+        "name" : "Challenger's Soul Shield", 
+        "effectName" : "Challenger's Oath"
+    }, 
+    "ko" : {
+        "name" : "도전보패", 
+        "effectName" : "도전의 서약"
+    }
+},
+{ 
+    "_id" : "0199", 
+    "en" : {
+        "name" : "Elder Warlock Soul Shield", 
+        "effectName" : "Aransu Psyche", 
+        "flavor" : "Nothing makes it through! There is no getting near it."
+    }, 
+    "ko" : {
+        "name" : "보호보패", 
+        "effectName" : "곤륜파의 심법", 
+        "flavor" : "손끝 하나 댈 수 없으니 범접할 수 없구나."
+    }
+},
+{ 
+    "_id" : "0218", 
+    "en" : {
+        "name" : "Elder Soul Fighter Soul Shield", 
+        "effectName" : "Divine Resonance", 
+        "flavor" : "Physical strength cannot exist with strength of will."
+    }, 
+    "ko" : {
+        "name" : "불괴보패", 
+        "effectName" : "무천의 공진", 
+        "flavor" : "육체와 정신이 강인하니 그 누가 쓰러뜨릴 수 있으랴."
+    }
+},
+{ 
+    "_id" : "0201", 
+    "en" : {
+        "name" : "Dauntless Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "A flick from a dragon can shake the earth to its core."
+    }, 
+    "ko" : {
+        "name" : "지감보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "용의 움직임이 대지를 흔드니 그 무엇도 서 있지 못하는구나."
+    }
+},
+{ 
+    "_id" : "0227", 
+    "en" : {
+        "name" : "Yungchol Soul Shield", 
+        "effectName" : "Yungchol's Oath"
+    }, 
+    "ko" : {
+        "name" : "융철보패", 
+        "effectName" : "융철의 서약"
+    }
+},
+{ 
+    "_id" : "0190", 
+    "en" : {
+        "name" : "Dark Reaver Soul Shield", 
+        "effectName" : "Aransu Secret Technique", 
+        "flavor" : "Are those scattered flowers plum blossoms or cherry blossoms?"
+    }, 
+    "ko" : {
+        "name" : "비화보패", 
+        "effectName" : "곤륜파의 사술", 
+        "flavor" : "저 흩날리는 꽃잎이 매화이더냐, 벚꽃이더냐."
+    }
+},
+{ 
+    "_id" : "0187", 
+    "en" : {
+        "name" : "Tempest Soul Shield", 
+        "effectName" : "Uzu School's Treatment Skill", 
+        "flavor" : "True strength is boundless."
+    }, 
+    "ko" : {
+        "name" : "무상보패", 
+        "effectName" : "한곤파의 부법", 
+        "flavor" : "이보다 더 강할 순 없다."
+    }
+},
+{ 
+    "_id" : "0168", 
+    "en" : {
+        "name" : "Asura Soul Shield", 
+        "effectName" : "Sogun's Oath"
+    }, 
+    "ko" : {
+        "name" : "수라보패", 
+        "effectName" : "설옥궁의 서약"
+    }
+},
+{ 
+    "_id" : "0188", 
+    "en" : {
+        "name" : "Scarlet Shadow Soul Shield", 
+        "effectName" : "Nightshade Clan's Deception Skill", 
+        "flavor" : "A death without pain is an act of mercy."
+    }, 
+    "ko" : {
+        "name" : "살수보패", 
+        "effectName" : "흑사문의 암술", 
+        "flavor" : "고통을 느낄 새도 없이 이르는 죽음은 오히려 자비일지니."
+    }
+},
+{ 
+    "_id" : "0200", 
+    "en" : {
+        "name" : "Lightning Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "Who would stand against the lightning-quick blade?"
+    }, 
+    "ko" : {
+        "name" : "검뢰보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "번개같이 몰아치는 칼날 앞에 누가 당할 수 있으리."
+    }
+},
+{ 
+    "_id" : "0219", 
+    "en" : {
+        "name" : "Lifebane Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "Strong warriors don't land a lot of hits. They often only need one."
+    }, 
+    "ko" : {
+        "name" : "격살보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "일격필살, 이 공격을 맞는 자 살아남을 수 없으리"
+    }
+},
+{ 
+    "_id" : "0166", 
+    "en" : {
+        "name" : "Scorpio Soul Shield", 
+        "effectName" : "Necropolis Oath"
+    }, 
+    "ko" : {
+        "name" : "갈마보패", 
+        "effectName" : "귀문의 서약"
+    }
+},
+{ 
+    "_id" : "0255", 
+    "en" : {
+        "name" : "Tranquil Soul Shield", 
+        "effectName" : "Tranquil Oath"
+    }, 
+    "ko" : {
+        "name" : "태평보패", 
+        "effectName" : "태평의 서약"
+    }
+},
+{ 
+    "_id" : "0191", 
+    "en" : {
+        "name" : "Oblivion Soul Shield", 
+        "effectName" : "Bunsil's Oath"
+    }, 
+    "ko" : {
+        "name" : "망각보패", 
+        "effectName" : "망각의 서약"
+    }
+},
+{ 
+    "_id" : "0180", 
+    "en" : {
+        "name" : "Ebondrake Soul Shield", 
+        "effectName" : "Ebondrake's Oath"
+    }, 
+    "ko" : {
+        "name" : "흑룡보패", 
+        "effectName" : "흑룡의 서약"
+    }
+},
+{ 
+    "_id" : "0207", 
+    "en" : {
+        "name" : "Nefarious Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "Power has been gained by offering sacrifice."
+    }, 
+    "ko" : {
+        "name" : "번제보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "제물을 바쳐 힘을 얻다."
+    }
+},
+{ 
+    "_id" : "0169", 
+    "en" : {
+        "name" : "Naksun Soul Shield", 
+        "effectName" : "Naksun's Oath"
+    }, 
+    "ko" : {
+        "name" : "육손보패", 
+        "effectName" : "육손의 서약"
+    }
+},
+{ 
+    "_id" : "0196", 
+    "en" : {
+        "name" : "Elder Destroyer Soul Shield", 
+        "effectName" : "Uzu School's Movement Skill", 
+        "flavor" : "Nothing can be harder than this."
+    }, 
+    "ko" : {
+        "name" : "철벽보패", 
+        "effectName" : "한곤파의 보법", 
+        "flavor" : "이보다 더 단단할 순 없다."
+    }
+},
+{ 
+    "_id" : "0205", 
+    "en" : {
+        "name" : "Virulent Soul Shield", 
+        "effectName" : "Khanda Vihar's Oath", 
+        "flavor" : "Adding poison to poison."
+    }, 
+    "ko" : {
+        "name" : "이독보패", 
+        "effectName" : "파천성도의 서약", 
+        "flavor" : "독에 독을 더하다."
+    }
+},
+{ 
+    "_id" : "0208", 
+    "en" : {
+        "name" : "Acrimor Soul Shield", 
+        "effectName" : "Acrimor's Oath"
+    }, 
+    "ko" : {
+        "name" : "무간보패", 
+        "effectName" : "무간의 서약"
+    }
+},
+{ 
+    "_id" : "0177", 
+    "en" : {
+        "name" : "Hell Soul Shield", 
+        "effectName" : "Hell's Oath"
+    }, 
+    "ko" : {
+        "name" : "지옥보패", 
+        "effectName" : "지옥의 서약"
+    }
+},
+{ 
+    "_id" : "0197", 
+    "en" : {
+        "name" : "Elder Assassin Soul Shield", 
+        "effectName" : "Nightshade Clan's Disguise Skill", 
+        "flavor" : "Breathing separates the living from the dead."
+    }, 
+    "ko" : {
+        "name" : "귀식보패", 
+        "effectName" : "흑사문의 변술", 
+        "flavor" : "숨소리조차 들리지 않으니 사물인지 사람인지 알 수가 없네."
+    }
+},
+{ 
+    "_id" : "0192", 
+    "en" : {
+        "name" : "Elder Blade Master Soul Shield", 
+        "effectName" : "Dohyun Clan's Sword Force", 
+        "flavor" : "In the hands of a master, even a dull blade cuts deep..."
+    }, 
+    "ko" : {
+        "name" : "검강보패", 
+        "effectName" : "백청파의 검기", 
+        "flavor" : "가장 날카로운 검은 날이 부러져도 존재하리니."
+    }
+},
+{ 
+    "_id" : "0230", 
+    "en" : {
+        "name" : "Wanderer Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "The elegant swordplay emits such a brilliant light."
+    }, 
+    "ko" : {
+        "name" : "섬광보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "화려한 검선은 찬란한 빛을 내뿜고."
+    }
+},
+{ 
+    "_id" : "0231", 
+    "en" : {
+        "name" : "Puglist Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "A fist with such destructive might can even sunder air."
+    }, 
+    "ko" : {
+        "name" : "파공보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "파괴력을 담은 주먹은 공기마저 가르니."
+    }
+},
+{ 
+    "_id" : "0232", 
+    "en" : {
+        "name" : "Spiritcaller Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "Even demons kneel in fear should they cross paths."
+    }, 
+    "ko" : {
+        "name" : "복마보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "이와 마주한 자, 두려움에 앞서 마귀마저 엎드리는구나."
+    }
+},
+{ 
+    "_id" : "0233", 
+    "en" : {
+        "name" : "Elemental Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "The exalted does not show weakness to those vulgar."
+    }, 
+    "ko" : {
+        "name" : "비상보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "숭고한 자, 속된 이들에게 모습조차 허하지 않는다."
+    }
+},
+{ 
+    "_id" : "0234", 
+    "en" : {
+        "name" : "Ruthless Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "Even the demons flee from the permeating echos."
+    }, 
+    "ko" : {
+        "name" : "마후보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "천하를 호령하는 소리에 마귀도 놀라 도망치니."
+    }
+},
+{ 
+    "_id" : "0235", 
+    "en" : {
+        "name" : "Slayer Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "Cold blood calls for a cold death."
+    }, 
+    "ko" : {
+        "name" : "냉정보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "냉정한 죽음으로의 인도는 차가운 피를 부르고."
+    }
+},
+{ 
+    "_id" : "0236", 
+    "en" : {
+        "name" : "Dextrous Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "The swordplay that's faster than light evades even the reaper himself."
+    }, 
+    "ko" : {
+        "name" : "섬검보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "빛보다 빠른 검무에 사신조차 피해가지 못하는구나."
+    }
+},
+{ 
+    "_id" : "0237", 
+    "en" : {
+        "name" : "Demoncaller Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "Death is certain when poison added to such vileness."
+    }, 
+    "ko" : {
+        "name" : "극독보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "극악에 독약을 더하니, 죽음을 피할 수 없으리."
+    }
+},
+{ 
+    "_id" : "0238", 
+    "en" : {
+        "name" : "Champion Soul Shield", 
+        "effectName" : "Aransu's Oath", 
+        "flavor" : "The azure fist that penetrates everything pierces even the heavens itself."
+    }, 
+    "ko" : {
+        "name" : "극독보패", 
+        "effectName" : "곤륜의 서약", 
+        "flavor" : "모든 걸 꿰뚫은 푸른 주먹은 하늘마저도 관통하니."
+    }
+}
+]

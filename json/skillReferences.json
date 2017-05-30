@@ -1,27 +1,28 @@
+[
 { 
-    "_id" : "20110", 
+    "_id" : "25016", 
     "name" : {
-        "en" : "Take Flight", 
-        "ko" : "올려베기"
+        "en" : "Shuriken", 
+        "ko" : "수리검"
     }, 
-    "icon" : "skill_icon_blademaster_0_10"
-}
+    "icon" : "skill_icon_assassin_0_7"
+},
 { 
-    "_id" : "20142", 
+    "_id" : "24120", 
     "name" : {
-        "en" : "Shoulder Charge", 
-        "ko" : "어깨치기"
+        "en" : "Knee", 
+        "ko" : "무릎차기"
     }, 
-    "icon" : "skill_icon_blademaster_0_42"
-}
+    "icon" : "skill_icon_destroyer_0_59"
+},
 { 
-    "_id" : "20203", 
+    "_id" : "22206-2", 
     "name" : {
-        "en" : "Blade Echo", 
-        "ko" : "쾌검"
+        "en" : "Mystic Ice", 
+        "ko" : "신화경"
     }, 
-    "icon" : "skill_icon_blademaster_0_20"
-}
+    "icon" : "skill_icon_forcemaster_1_15"
+},
 { 
     "_id" : "20233-2", 
     "name" : {
@@ -29,63 +30,47 @@
         "ko" : "화룡연참"
     }, 
     "icon" : "skill_icon_blademaster_1_25"
-}
-{ 
-    "_id" : "20312", 
-    "name" : {
-        "en" : "Perseverance", 
-        "ko" : "누워막기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_59"
-}
+},
 { 
     "_id" : "20990", 
     "name" : {
-        "en" : "Soulblade Rush", 
+        "en" : "Storm Surge", 
         "ko" : "이기어검"
     }, 
     "icon" : "skill_icon_blademaster_1_33"
-}
+},
 { 
-    "_id" : "21112-2", 
+    "_id" : "25006-5", 
     "name" : {
-        "en" : "Firestorm Kick", 
-        "ko" : "화염각"
+        "en" : "Ice Bomb", 
+        "ko" : "빙결지뢰"
     }, 
-    "icon" : "skill_icon_kungfufighter_1_46"
-}
+    "icon" : "skill_icon_assassin_1_13"
+},
 { 
-    "_id" : "21406-2", 
+    "_id" : "26202-3", 
     "name" : {
-        "en" : "Blaze Kick", 
-        "ko" : "열화각"
+        "en" : "Detonate", 
+        "ko" : "폭파"
     }, 
-    "icon" : "skill_icon_kungfufighter_1_45"
-}
+    "icon" : "skill_icon_summon_0_27"
+},
 { 
-    "_id" : "22003", 
+    "_id" : "27202", 
     "name" : {
-        "en" : "Dragonchar", 
-        "ko" : "폭열신장"
+        "en" : "Drain", 
+        "ko" : "흡수"
     }, 
-    "icon" : "skill_icon_forcemaster_0_31"
-}
+    "icon" : "skill_icon_swordmaster_0_6"
+},
 { 
-    "_id" : "22202", 
+    "_id" : "21143", 
     "name" : {
-        "en" : "Frost Sheath", 
-        "ko" : "얼음꽃"
+        "en" : "Pummel", 
+        "ko" : "묵사발"
     }, 
-    "icon" : "skill_icon_forcemaster_0_29"
-}
-{ 
-    "_id" : "22264", 
-    "name" : {
-        "en" : "Flame Reap", 
-        "ko" : "연화발산"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_53"
-}
+    "icon" : "skill_icon_kungfufighter_0_56"
+},
 { 
     "_id" : "22345", 
     "legacy" : true, 
@@ -94,235 +79,15 @@
         "ko" : "허공"
     }, 
     "icon" : "skill_icon_forcemaster_0_48"
-}
+},
 { 
-    "_id" : "22371", 
-    "legacy" : true, 
+    "_id" : "20312", 
     "name" : {
-        "en" : "Aerial Phantom Grip", 
-        "ko" : "공중흡공"
+        "en" : "Perseverance", 
+        "ko" : "누워막기"
     }, 
-    "icon" : "skill_icon_forcemaster_0_49"
-}
-{ 
-    "_id" : "22390", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Dragonblaze", 
-        "ko" : "염룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_2"
-}
-{ 
-    "_id" : "24011", 
-    "name" : {
-        "en" : "Hurricane Bash", 
-        "ko" : "장악광풍"
-    }, 
-    "icon" : "skill_icon_destroyer_1_21"
-}
-{ 
-    "_id" : "24030", 
-    "name" : {
-        "en" : "Cleave", 
-        "ko" : "파괴"
-    }, 
-    "icon" : "skill_icon_destroyer_0_46"
-}
-{ 
-    "_id" : "24100", 
-    "name" : {
-        "en" : "Smash", 
-        "ko" : "분쇄"
-    }, 
-    "icon" : "skill_icon_destroyer_0_60"
-}
-{ 
-    "_id" : "24120", 
-    "name" : {
-        "en" : "Knee", 
-        "ko" : "무릎차기"
-    }, 
-    "icon" : "skill_icon_destroyer_0_59"
-}
-{ 
-    "_id" : "24140", 
-    "name" : {
-        "en" : "Power Slam", 
-        "ko" : "내다꽂기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_3"
-}
-{ 
-    "_id" : "24170", 
-    "name" : {
-        "en" : "Leap Back", 
-        "ko" : "후퇴"
-    }, 
-    "icon" : "skill_icon_destroyer_1_46"
-}
-{ 
-    "_id" : "24220", 
-    "name" : {
-        "en" : "Retaliation", 
-        "ko" : "보복"
-    }, 
-    "icon" : "skill_icon_destroyer_0_52"
-}
-{ 
-    "_id" : "24330", 
-    "name" : {
-        "en" : "Long Division", 
-        "ko" : "극락"
-    }, 
-    "icon" : "skill_icon_destroyer_1_53"
-}
-{ 
-    "_id" : "25000", 
-    "name" : {
-        "en" : "Mist Slash", 
-        "ko" : "안개베기"
-    }, 
-    "icon" : "skill_icon_assassin_0_4"
-}
-{ 
-    "_id" : "25006-5", 
-    "name" : {
-        "en" : "Ice Bomb", 
-        "ko" : "빙결지뢰"
-    }, 
-    "icon" : "skill_icon_assassin_1_13"
-}
-{ 
-    "_id" : "25010", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Flash Kick", 
-        "ko" : "번개차기"
-    }, 
-    "icon" : "skill_icon_assassin_0_31"
-}
-{ 
-    "_id" : "25016", 
-    "name" : {
-        "en" : "Shuriken", 
-        "ko" : "수리검"
-    }, 
-    "icon" : "skill_icon_assassin_0_7"
-}
-{ 
-    "_id" : "25024-2", 
-    "name" : {
-        "en" : "Sidestep Left", 
-        "ko" : "좌횡보"
-    }, 
-    "icon" : "skill_icon_assassin_0_20"
-}
-{ 
-    "_id" : "25111", 
-    "name" : {
-        "en" : "Cyclone Sweep", 
-        "ko" : "나뭇잎선풍"
-    }, 
-    "icon" : "skill_icon_assassin_0_22"
-}
-{ 
-    "_id" : "26108", 
-    "name" : {
-        "en" : "Doom 'n' Bloom", 
-        "ko" : "나팔꽃 흡수"
-    }, 
-    "icon" : "skill_icon_summon_0_11"
-}
-{ 
-    "_id" : "26200", 
-    "name" : {
-        "en" : "Lunge", 
-        "ko" : "달려들기"
-    }, 
-    "icon" : "skill_icon_summon_0_6"
-}
-{ 
-    "_id" : "26202-3", 
-    "name" : {
-        "en" : "Detonate", 
-        "ko" : "폭파"
-    }, 
-    "icon" : "skill_icon_summon_0_27"
-}
-{ 
-    "_id" : "26219", 
-    "name" : {
-        "en" : "Footloose", 
-        "ko" : "뿌잉뿌잉"
-    }, 
-    "icon" : "skill_icon_summon_0_5"
-}
-{ 
-    "_id" : "27126", 
-    "name" : {
-        "en" : "Lightning Draw", 
-        "ko" : "번개베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_21"
-}
-{ 
-    "_id" : "27136", 
-    "name" : {
-        "en" : "Reversal", 
-        "ko" : "벗어나기"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_9"
-}
-{ 
-    "_id" : "27202", 
-    "name" : {
-        "en" : "Drain", 
-        "ko" : "흡수"
-    }, 
-    "icon" : "skill_icon_swordmaster_0_6"
-}
-{ 
-    "_id" : "28170", 
-    "name" : {
-        "en" : "Soul Shackle", 
-        "ko" : "결계"
-    }, 
-    "icon" : "skill_icon_warlock_0_8"
-}
-{ 
-    "_id" : "28225", 
-    "legacy" : "true", 
-    "name" : {
-        "en" : "Awakened Rupture", 
-        "ko" : "각성 파열"
-    }, 
-    "icon" : "skill_icon_warlock_0_42"
-}
-{ 
-    "_id" : "28310", 
-    "name" : {
-        "en" : "Second Wind", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_warlock_0_16"
-}
-{ 
-    "_id" : "30140", 
-    "name" : {
-        "en" : "Chi Burst", 
-        "ko" : "내공발산"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_22"
-}
-{ 
-    "_id" : "30170-2", 
-    "name" : {
-        "en" : "Ripple Punch", 
-        "ko" : "파동격"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_26"
-}
+    "icon" : "skill_icon_blademaster_0_59"
+},
 { 
     "_id" : "30260", 
     "name" : {
@@ -330,79 +95,7 @@
         "ko" : "뒤구르기"
     }, 
     "icon" : "skill_icon_soulfighter_0_38"
-}
-{ 
-    "_id" : "20003-3", 
-    "name" : {
-        "en" : "Phoenix Wing", 
-        "ko" : "봉익"
-    }, 
-    "icon" : "skill_icon_blademaster_1_27"
-}
-{ 
-    "_id" : "20107", 
-    "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_7"
-}
-{ 
-    "_id" : "20118", 
-    "name" : {
-        "en" : "Ascend", 
-        "ko" : "승천"
-    }, 
-    "icon" : "skill_icon_blademaster_0_18"
-}
-{ 
-    "_id" : "20168", 
-    "name" : {
-        "en" : "Conflagration Flash", 
-        "ko" : "화룡섬"
-    }, 
-    "icon" : "skill_icon_blademaster_0_43"
-}
-{ 
-    "_id" : "21000", 
-    "name" : {
-        "en" : "Straight Jab", 
-        "ko" : "정권"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_14"
-}
-{ 
-    "_id" : "21090", 
-    "name" : {
-        "en" : "Meteor Slam", 
-        "ko" : "공중제압"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_47"
-}
-{ 
-    "_id" : "21133", 
-    "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_10"
-}
-{ 
-    "_id" : "21143", 
-    "name" : {
-        "en" : "Pummel", 
-        "ko" : "묵사발"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_56"
-}
-{ 
-    "_id" : "21200", 
-    "name" : {
-        "en" : "Footwork", 
-        "ko" : "파고들기"
-    }, 
-    "icon" : "buff_debuff_icon_00_29"
-}
+},
 { 
     "_id" : "21201", 
     "name" : {
@@ -410,94 +103,7 @@
         "ko" : "횡이동"
     }, 
     "icon" : "skill_icon_kungfufighter_0_24"
-}
-{ 
-    "_id" : "21980", 
-    "name" : {
-        "en" : "Chaotic Flurry", 
-        "ko" : "파진무"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_52"
-}
-{ 
-    "_id" : "22106", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Impact", 
-        "ko" : "충격파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_6"
-}
-{ 
-    "_id" : "22106-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Force Blast", 
-        "ko" : "기공포"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_11"
-}
-{ 
-    "_id" : "22109", 
-    "name" : {
-        "en" : "Short Fuse", 
-        "ko" : "연화지"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_22"
-}
-{ 
-    "_id" : "22120-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Ring of Fire", 
-        "ko" : "염화진"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_37"
-}
-{ 
-    "_id" : "22206-2", 
-    "name" : {
-        "en" : "Mystic Ice", 
-        "ko" : "신화경"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_15"
-}
-{ 
-    "_id" : "22235-3", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Glacial Beam", 
-        "ko" : "빙백한포"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_57"
-}
-{ 
-    "_id" : "22243", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Backstep", 
-        "ko" : "이탈"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_19"
-}
-{ 
-    "_id" : "22260", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Defrost", 
-        "ko" : "해빙공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_42"
-}
-{ 
-    "_id" : "22263", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Short Fuse", 
-        "ko" : "연화지"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_22"
-}
+},
 { 
     "_id" : "22311", 
     "legacy" : true, 
@@ -506,16 +112,138 @@
         "ko" : "밀기"
     }, 
     "icon" : "skill_icon_forcemaster_0_2"
-}
+},
 { 
-    "_id" : "22312", 
+    "_id" : "25000", 
+    "name" : {
+        "en" : "Mist Slash", 
+        "ko" : "안개베기"
+    }, 
+    "icon" : "skill_icon_assassin_0_4"
+},
+{ 
+    "_id" : "24030", 
+    "name" : {
+        "en" : "Cleave", 
+        "ko" : "파괴"
+    }, 
+    "icon" : "skill_icon_destroyer_0_46"
+},
+{ 
+    "_id" : "20110", 
+    "name" : {
+        "en" : "Take Flight", 
+        "ko" : "올려베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_10"
+},
+{ 
+    "_id" : "24011", 
+    "name" : {
+        "en" : "Hurricane Bash", 
+        "ko" : "장악광풍"
+    }, 
+    "icon" : "skill_icon_destroyer_1_21"
+},
+{ 
+    "_id" : "21112-2", 
+    "name" : {
+        "en" : "Firestorm Kick", 
+        "ko" : "화염각"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_46"
+},
+{ 
+    "_id" : "24330", 
+    "name" : {
+        "en" : "Long Division", 
+        "ko" : "극락"
+    }, 
+    "icon" : "skill_icon_destroyer_1_53"
+},
+{ 
+    "_id" : "27126", 
+    "name" : {
+        "en" : "Lightning Draw", 
+        "ko" : "번개베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_21"
+},
+{ 
+    "_id" : "21133", 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_10"
+},
+{ 
+    "_id" : "21200", 
+    "name" : {
+        "en" : "Footwork", 
+        "ko" : "파고들기"
+    }, 
+    "icon" : "buff_debuff_icon_00_29"
+},
+{ 
+    "_id" : "22120-2", 
     "legacy" : true, 
     "name" : {
-        "en" : "Bolt Bash", 
-        "ko" : "탄지공"
+        "en" : "Ring of Fire", 
+        "ko" : "염화진"
     }, 
-    "icon" : "skill_icon_forcemaster_0_12"
-}
+    "icon" : "skill_icon_forcemaster_0_37"
+},
+{ 
+    "_id" : "25111", 
+    "name" : {
+        "en" : "Cyclone Sweep", 
+        "ko" : "나뭇잎선풍"
+    }, 
+    "icon" : "skill_icon_assassin_0_22"
+},
+{ 
+    "_id" : "24100", 
+    "name" : {
+        "en" : "Smash", 
+        "ko" : "분쇄"
+    }, 
+    "icon" : "skill_icon_destroyer_0_60"
+},
+{ 
+    "_id" : "22371", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Aerial Phantom Grip", 
+        "ko" : "공중흡공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_49"
+},
+{ 
+    "_id" : "20142", 
+    "name" : {
+        "en" : "Shoulder Charge", 
+        "ko" : "어깨치기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_42"
+},
+{ 
+    "_id" : "24220", 
+    "name" : {
+        "en" : "Retaliation", 
+        "ko" : "보복"
+    }, 
+    "icon" : "skill_icon_destroyer_0_52"
+},
+{ 
+    "_id" : "25010", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Flash Kick", 
+        "ko" : "번개차기"
+    }, 
+    "icon" : "skill_icon_assassin_0_31"
+},
 { 
     "_id" : "22550-2", 
     "legacy" : true, 
@@ -524,127 +252,262 @@
         "ko" : "신화경"
     }, 
     "icon" : "skill_icon_forcemaster_1_15"
-}
+},
 { 
-    "_id" : "24060", 
+    "_id" : "26108", 
     "name" : {
-        "en" : "Stone Shield", 
-        "ko" : "철벽"
+        "en" : "Doom 'n' Bloom", 
+        "ko" : "나팔꽃 흡수"
     }, 
-    "icon" : "skill_icon_destroyer_0_24"
-}
+    "icon" : "skill_icon_summon_0_11"
+},
 { 
-    "_id" : "24110", 
+    "_id" : "21090", 
     "name" : {
-        "en" : "Grab", 
-        "ko" : "장악"
+        "en" : "Meteor Slam", 
+        "ko" : "공중제압"
     }, 
-    "icon" : "skill_icon_destroyer_1_4"
-}
+    "icon" : "skill_icon_kungfufighter_0_47"
+},
 { 
-    "_id" : "24130", 
+    "_id" : "22312", 
+    "legacy" : true, 
     "name" : {
-        "en" : "Headbutt", 
-        "ko" : "박치기"
+        "en" : "Bolt Bash", 
+        "ko" : "탄지공"
     }, 
-    "icon" : "skill_icon_destroyer_0_62"
-}
+    "icon" : "skill_icon_forcemaster_0_12"
+},
 { 
-    "_id" : "24250", 
+    "_id" : "22003", 
     "name" : {
-        "en" : "Rescue", 
-        "ko" : "구조"
+        "en" : "Dragonchar", 
+        "ko" : "폭열신장"
     }, 
-    "icon" : "skill_icon_destroyer_1_6"
-}
+    "icon" : "skill_icon_forcemaster_0_31"
+},
 { 
-    "_id" : "25008-2", 
+    "_id" : "20003-3", 
     "name" : {
-        "en" : "Sidewinder", 
-        "ko" : "급습"
+        "en" : "Phoenix Wing", 
+        "ko" : "봉익"
     }, 
-    "icon" : "skill_icon_assassin_0_1"
-}
+    "icon" : "skill_icon_blademaster_1_27"
+},
 { 
-    "_id" : "25012-2", 
+    "_id" : "22260", 
+    "legacy" : true, 
     "name" : {
-        "en" : "Venom Swarm", 
-        "ko" : "독나방"
+        "en" : "Defrost", 
+        "ko" : "해빙공"
     }, 
-    "icon" : "skill_icon_assassin_0_59"
-}
+    "icon" : "skill_icon_forcemaster_0_42"
+},
 { 
-    "_id" : "25017", 
+    "_id" : "22109", 
     "name" : {
-        "en" : "Throwing Dagger", 
-        "ko" : "그림자비수"
+        "en" : "Short Fuse", 
+        "ko" : "연화지"
     }, 
-    "icon" : "skill_icon_assassin_1_11"
-}
+    "icon" : "skill_icon_forcemaster_0_22"
+},
 { 
-    "_id" : "25214-5", 
+    "_id" : "20203", 
     "name" : {
-        "en" : "Escape Call", 
-        "ko" : "둔주의술"
+        "en" : "Blade Echo", 
+        "ko" : "쾌검"
     }, 
-    "icon" : "skill_icon_assassin_0_43"
-}
+    "icon" : "skill_icon_blademaster_0_20"
+},
 { 
-    "_id" : "25214-7", 
+    "_id" : "28310", 
     "name" : {
-        "en" : "Rescue Call", 
-        "ko" : "환주의술"
-    }, 
-    "icon" : "skill_icon_assassin_1_10"
-}
-{ 
-    "_id" : "26106-2", 
-    "name" : {
-        "en" : "Vine Whip", 
-        "ko" : "덩굴채찍"
-    }, 
-    "icon" : "skill_icon_summon_0_58"
-}
-{ 
-    "_id" : "26119", 
-    "name" : {
-        "en" : "Escape", 
+        "en" : "Second Wind", 
         "ko" : "탈출"
     }, 
-    "icon" : "skill_icon_summon_0_36"
-}
+    "icon" : "skill_icon_warlock_0_16"
+},
 { 
-    "_id" : "26211", 
+    "_id" : "20118", 
     "name" : {
-        "en" : "Strike", 
-        "ko" : "충격"
+        "en" : "Ascend", 
+        "ko" : "승천"
     }, 
-    "icon" : "skill_icon_summon_0_25"
-}
+    "icon" : "skill_icon_blademaster_0_18"
+},
 { 
-    "_id" : "26220", 
+    "_id" : "21000", 
     "name" : {
-        "en" : "Helping Paw", 
-        "ko" : "심페소생술"
+        "en" : "Straight Jab", 
+        "ko" : "정권"
     }, 
-    "icon" : "skill_icon_summon_0_12"
-}
+    "icon" : "skill_icon_kungfufighter_0_14"
+},
 { 
-    "_id" : "26566", 
+    "_id" : "27136", 
     "name" : {
-        "en" : "Takeoff", 
-        "ko" : "도약"
+        "en" : "Reversal", 
+        "ko" : "벗어나기"
     }, 
-    "icon" : "skill_icon_summon_0_63"
-}
+    "icon" : "skill_icon_swordmaster_2_9"
+},
 { 
-    "_id" : "27110-2", 
+    "_id" : "20168", 
     "name" : {
-        "en" : "Divebomb", 
-        "ko" : "벼락"
+        "en" : "Conflagration Flash", 
+        "ko" : "화룡섬"
     }, 
-    "icon" : "skill_icon_swordmaster_1_16"
-}
+    "icon" : "skill_icon_blademaster_0_43"
+},
+{ 
+    "_id" : "21406-2", 
+    "name" : {
+        "en" : "Blaze Kick", 
+        "ko" : "열화각"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_45"
+},
+{ 
+    "_id" : "24170", 
+    "name" : {
+        "en" : "Leap Back", 
+        "ko" : "후퇴"
+    }, 
+    "icon" : "skill_icon_destroyer_1_46"
+},
+{ 
+    "_id" : "28170", 
+    "name" : {
+        "en" : "Soul Shackle", 
+        "ko" : "결계"
+    }, 
+    "icon" : "skill_icon_warlock_0_8"
+},
+{ 
+    "_id" : "30140", 
+    "name" : {
+        "en" : "Chi Burst", 
+        "ko" : "내공발산"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_22"
+},
+{ 
+    "_id" : "22263", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Short Fuse", 
+        "ko" : "연화지"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_22"
+},
+{ 
+    "_id" : "26219", 
+    "name" : {
+        "en" : "Footloose", 
+        "ko" : "뿌잉뿌잉"
+    }, 
+    "icon" : "skill_icon_summon_0_5"
+},
+{ 
+    "_id" : "20107", 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_7"
+},
+{ 
+    "_id" : "24140", 
+    "name" : {
+        "en" : "Power Slam", 
+        "ko" : "내다꽂기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_3"
+},
+{ 
+    "_id" : "26200", 
+    "name" : {
+        "en" : "Lunge", 
+        "ko" : "달려들기"
+    }, 
+    "icon" : "skill_icon_summon_0_6"
+},
+{ 
+    "_id" : "22235-3", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Glacial Beam", 
+        "ko" : "빙백한포"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_57"
+},
+{ 
+    "_id" : "22243", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Backstep", 
+        "ko" : "이탈"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_19"
+},
+{ 
+    "_id" : "22202", 
+    "name" : {
+        "en" : "Frost Sheath", 
+        "ko" : "얼음꽃"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_29"
+},
+{ 
+    "_id" : "22264", 
+    "name" : {
+        "en" : "Flame Reap", 
+        "ko" : "연화발산"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_53"
+},
+{ 
+    "_id" : "22390", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Dragonblaze", 
+        "ko" : "염룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_2"
+},
+{ 
+    "_id" : "25024-2", 
+    "name" : {
+        "en" : "Sidestep Left", 
+        "ko" : "좌횡보"
+    }, 
+    "icon" : "skill_icon_assassin_0_20"
+},
+{ 
+    "_id" : "28225", 
+    "legacy" : "true", 
+    "name" : {
+        "en" : "Awakened Rupture", 
+        "ko" : "각성 파열"
+    }, 
+    "icon" : "skill_icon_warlock_0_42"
+},
+{ 
+    "_id" : "30170-2", 
+    "name" : {
+        "en" : "Ripple Punch", 
+        "ko" : "파동격"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_26"
+},
+{ 
+    "_id" : "21980", 
+    "name" : {
+        "en" : "Eight Talons", 
+        "ko" : "파진무"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_52"
+},
 { 
     "_id" : "27117", 
     "name" : {
@@ -652,195 +515,39 @@
         "ko" : "다리베기"
     }, 
     "icon" : "skill_icon_swordmaster_1_39"
-}
+},
 { 
-    "_id" : "27129", 
+    "_id" : "26119", 
     "name" : {
-        "en" : "Second Wind", 
+        "en" : "Escape", 
         "ko" : "탈출"
     }, 
-    "icon" : "skill_icon_swordmaster_1_11"
-}
+    "icon" : "skill_icon_summon_0_36"
+},
 { 
-    "_id" : "27130", 
+    "_id" : "24060", 
     "name" : {
-        "en" : "Flying Sparrow", 
-        "ko" : "신검합일"
+        "en" : "Stone Shield", 
+        "ko" : "철벽"
     }, 
-    "icon" : "skill_icon_swordmaster_1_61"
-}
+    "icon" : "skill_icon_destroyer_0_24"
+},
 { 
-    "_id" : "27302", 
+    "_id" : "25214-5", 
     "name" : {
-        "en" : "Blade Flight", 
-        "ko" : "어검베기"
+        "en" : "Escape Call", 
+        "ko" : "둔주의술"
     }, 
-    "icon" : "skill_icon_swordmaster_1_54"
-}
+    "icon" : "skill_icon_assassin_0_43"
+},
 { 
-    "_id" : "28400", 
+    "_id" : "26105-3", 
     "name" : {
-        "en" : "Wraith Strike", 
-        "ko" : "마령살"
+        "en" : "Wheed Whack", 
+        "ko" : "담쟁이덩굴"
     }, 
-    "icon" : "skill_icon_warlock_0_56"
-}
-{ 
-    "_id" : "28450-2", 
-    "name" : {
-        "en" : "Dimensional Volley", 
-        "ko" : "야차"
-    }, 
-    "icon" : "skill_icon_warlock_0_45"
-}
-{ 
-    "_id" : "28511", 
-    "name" : {
-        "en" : "Guard Thrall", 
-        "ko" : "방어 마령"
-    }, 
-    "icon" : "skill_icon_warlock_0_24"
-}
-{ 
-    "_id" : "28650", 
-    "name" : {
-        "en" : "Void Slash", 
-        "ko" : "진공참"
-    }, 
-    "icon" : "skill_icon_warlock_0_32"
-}
-{ 
-    "_id" : "28710", 
-    "name" : {
-        "en" : "Onrush", 
-        "ko" : "명령"
-    }, 
-    "icon" : "skill_icon_warlock_0_21"
-}
-{ 
-    "_id" : "30110", 
-    "name" : {
-        "en" : "Kingfist", 
-        "ko" : "패왕권"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_18"
-}
-{ 
-    "_id" : "30130", 
-    "name" : {
-        "en" : "Self Defense Chi", 
-        "ko" : "호신강기"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_21"
-}
-{ 
-    "_id" : "30290", 
-    "name" : {
-        "en" : "Somersault Kick", 
-        "ko" : "반달차기"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_41"
-}
-{ 
-    "_id" : "30360", 
-    "name" : {
-        "en" : "Body Kick", 
-        "ko" : "발차기"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_48"
-}
-{ 
-    "_id" : "30400", 
-    "name" : {
-        "en" : "Barrage", 
-        "ko" : "연환장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_51"
-}
-{ 
-    "_id" : "20100", 
-    "name" : {
-        "en" : "Breeze", 
-        "ko" : "질풍"
-    }, 
-    "icon" : "skill_icon_blademaster_0_1"
-}
-{ 
-    "_id" : "20516", 
-    "name" : {
-        "en" : "Dual Strike", 
-        "ko" : "풍월도"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_64"
-}
-{ 
-    "_id" : "20604-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Blitzblade Scourge", 
-        "ko" : "폭검령"
-    }, 
-    "icon" : "skill_icon_blademaster_1_18"
-}
-{ 
-    "_id" : "21005-2", 
-    "name" : {
-        "en" : "Elbow Smash", 
-        "ko" : "이문정주"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_5"
-}
-{ 
-    "_id" : "21112", 
-    "name" : {
-        "en" : "Triple Kick", 
-        "ko" : "삼연각"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_16"
-}
-{ 
-    "_id" : "22102", 
-    "name" : {
-        "en" : "Devastate", 
-        "ko" : "허공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_48"
-}
-{ 
-    "_id" : "22105", 
-    "name" : {
-        "en" : "Heatwave", 
-        "ko" : "폭염"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_46"
-}
-{ 
-    "_id" : "22221", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Blackout", 
-        "ko" : "봉인"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_4"
-}
-{ 
-    "_id" : "22238-3", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Scorching Heat", 
-        "ko" : "폭염발산"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_62"
-}
-{ 
-    "_id" : "22260-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Ice Sprawl", 
-        "ko" : "쇄빙공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_51"
-}
+    "icon" : "skill_icon_summon_0_39"
+},
 { 
     "_id" : "22260-3", 
     "legacy" : true, 
@@ -849,23 +556,40 @@
         "ko" : "설빙공"
     }, 
     "icon" : "skill_icon_forcemaster_0_52"
-}
+},
 { 
-    "_id" : "24040", 
+    "_id" : "30110", 
+    "name" : {
+        "en" : "Kingfist", 
+        "ko" : "패왕권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_18"
+},
+{ 
+    "_id" : "27130", 
+    "name" : {
+        "en" : "Flying Sparrow", 
+        "ko" : "신검합일"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_61"
+},
+{ 
+    "_id" : "30360", 
     "name" : {
         "en" : "Body Kick", 
         "ko" : "발차기"
     }, 
-    "icon" : "skill_icon_destroyer_0_47"
-}
+    "icon" : "skill_icon_soulfighter_0_48"
+},
 { 
-    "_id" : "24122", 
+    "_id" : "22238-3", 
+    "legacy" : true, 
     "name" : {
-        "en" : "Scorching Strike", 
-        "ko" : "격화륜"
+        "en" : "Scorching Heat", 
+        "ko" : "폭염발산"
     }, 
-    "icon" : "skill_icon_destroyer_1_32"
-}
+    "icon" : "skill_icon_forcemaster_0_62"
+},
 { 
     "_id" : "24240", 
     "name" : {
@@ -873,23 +597,7 @@
         "ko" : "뒤구르기"
     }, 
     "icon" : "skill_icon_destroyer_1_27"
-}
-{ 
-    "_id" : "25006-2", 
-    "name" : {
-        "en" : "Mine Toss", 
-        "ko" : "투척지뢰"
-    }, 
-    "icon" : "skill_icon_assassin_0_64"
-}
-{ 
-    "_id" : "25021-2", 
-    "name" : {
-        "en" : "Flash Kick", 
-        "ko" : "번개차기"
-    }, 
-    "icon" : "skill_icon_assassin_0_31"
-}
+},
 { 
     "_id" : "25026", 
     "name" : {
@@ -897,63 +605,7 @@
         "ko" : "나뭇잎날리기"
     }, 
     "icon" : "skill_icon_assassin_0_39"
-}
-{ 
-    "_id" : "25033", 
-    "name" : {
-        "en" : "Thunderstruck", 
-        "ko" : "천둥"
-    }, 
-    "icon" : "skill_icon_assassin_0_32"
-}
-{ 
-    "_id" : "25199", 
-    "name" : {
-        "en" : "Bolt Strike", 
-        "ko" : "무영보"
-    }, 
-    "icon" : "skill_icon_assassin_1_8"
-}
-{ 
-    "_id" : "25214-3", 
-    "name" : {
-        "en" : "Lotus of Rescue", 
-        "ko" : "환주의 진"
-    }, 
-    "icon" : "skill_icon_assassin_1_9"
-}
-{ 
-    "_id" : "25214-6", 
-    "name" : {
-        "en" : "Poison Call", 
-        "ko" : "역주의술"
-    }, 
-    "icon" : "skill_icon_assassin_0_56"
-}
-{ 
-    "_id" : "25330", 
-    "name" : {
-        "en" : "Shuriken Flurry", 
-        "ko" : "수리검난무"
-    }, 
-    "icon" : "skill_icon_assassin_0_15"
-}
-{ 
-    "_id" : "25481", 
-    "name" : {
-        "en" : "Shadowstep", 
-        "ko" : "금영보"
-    }, 
-    "icon" : "skill_icon_assassin_1_30"
-}
-{ 
-    "_id" : "26105-2", 
-    "name" : {
-        "en" : "Strangling Roots", 
-        "ko" : "덩굴지옥"
-    }, 
-    "icon" : "skill_icon_summon_0_8"
-}
+},
 { 
     "_id" : "26113", 
     "name" : {
@@ -961,250 +613,7 @@
         "ko" : "뒤구르기"
     }, 
     "icon" : "skill_icon_summon_0_23"
-}
-{ 
-    "_id" : "26200-2", 
-    "name" : {
-        "en" : "Lunge", 
-        "ko" : "달려들기"
-    }, 
-    "icon" : "skill_icon_summon_0_42"
-}
-{ 
-    "_id" : "26201-2", 
-    "name" : {
-        "en" : "Heavy Swipe", 
-        "ko" : "야옹~"
-    }, 
-    "icon" : "skill_icon_summon_0_28"
-}
-{ 
-    "_id" : "26310", 
-    "name" : {
-        "en" : "Flying Nettles", 
-        "ko" : "투척밤송이"
-    }, 
-    "icon" : "skill_icon_summon_0_15"
-}
-{ 
-    "_id" : "27144-2", 
-    "name" : {
-        "en" : "Storm Cleave", 
-        "ko" : "참월"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_22"
-}
-{ 
-    "_id" : "27195", 
-    "name" : {
-        "en" : "Absorb Chi", 
-        "ko" : "흡기"
-    }, 
-    "icon" : "buff_debuff_icon_00_41"
-}
-{ 
-    "_id" : "28320", 
-    "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
-    }, 
-    "icon" : "skill_icon_warlock_0_17"
-}
-{ 
-    "_id" : "28800-3", 
-    "name" : {
-        "en" : "Time Distortion", 
-        "ko" : "시간왜곡"
-    }, 
-    "icon" : "skill_icon_warlock_0_26"
-}
-{ 
-    "_id" : "30170", 
-    "name" : {
-        "en" : "Snowball", 
-        "ko" : "빙하장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_25"
-}
-{ 
-    "_id" : "30210", 
-    "name" : {
-        "en" : "Burning Tundra", 
-        "ko" : "설화장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_30"
-}
-{ 
-    "_id" : "30241", 
-    "name" : {
-        "en" : "Right Advance", 
-        "ko" : "우신보"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_35"
-}
-{ 
-    "_id" : "35210", 
-    "name" : {
-        "en" : "Overflowing Chi", 
-        "ko" : "내공만리"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_61"
-}
-{ 
-    "_id" : "20106-2", 
-    "name" : {
-        "en" : "Winged Protector", 
-        "ko" : "어검보호"
-    }, 
-    "icon" : "buff_debuff_icon_02_57"
-}
-{ 
-    "_id" : "20135", 
-    "name" : {
-        "en" : "Counterstrike", 
-        "ko" : "받아치기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_51"
-}
-{ 
-    "_id" : "20990-2", 
-    "name" : {
-        "en" : "Flame Edge", 
-        "ko" : "화령기검"
-    }, 
-    "icon" : "skill_icon_blademaster_1_33"
-}
-{ 
-    "_id" : "21111", 
-    "name" : {
-        "en" : "Swift Strike", 
-        "ko" : "폭권"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_41"
-}
-{ 
-    "_id" : "21114", 
-    "name" : {
-        "en" : "Armbar", 
-        "ko" : "팔꺾기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_9"
-}
-{ 
-    "_id" : "22003-3", 
-    "name" : {
-        "en" : "Glacial Beam", 
-        "ko" : "빙백한포"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_6"
-}
-{ 
-    "_id" : "22136", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_56"
-}
-{ 
-    "_id" : "22206", 
-    "name" : {
-        "en" : "Mystic Fire", 
-        "ko" : "신화경"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_14"
-}
-{ 
-    "_id" : "22239", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Blazing Wall", 
-        "ko" : "화염지옥"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_21"
-}
-{ 
-    "_id" : "22249", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Divine Veil", 
-        "ko" : "호신장막"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_41"
-}
-{ 
-    "_id" : "22265", 
-    "name" : {
-        "en" : "Frost Fury", 
-        "ko" : "한파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_38"
-}
-{ 
-    "_id" : "22303", 
-    "name" : {
-        "en" : "Blaze Step", 
-        "ko" : "화신보"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_54"
-}
-{ 
-    "_id" : "25005", 
-    "name" : {
-        "en" : "Decoy", 
-        "ko" : "나무토막"
-    }, 
-    "icon" : "skill_icon_assassin_0_17"
-}
-{ 
-    "_id" : "25007", 
-    "name" : {
-        "en" : "Shadow Slash", 
-        "ko" : "그림자베기"
-    }, 
-    "icon" : "skill_icon_assassin_0_12"
-}
-{ 
-    "_id" : "25012-3", 
-    "name" : {
-        "en" : "Choke Bomb", 
-        "ko" : "독무투척"
-    }, 
-    "icon" : "skill_icon_assassin_0_59"
-}
-{ 
-    "_id" : "25018", 
-    "name" : {
-        "en" : "Sneak Attack", 
-        "ko" : "그림자 밟기"
-    }, 
-    "icon" : "skill_icon_assassin_1_12"
-}
-{ 
-    "_id" : "25029", 
-    "name" : {
-        "en" : "Straw Doll", 
-        "ko" : "볏짚인형"
-    }, 
-    "icon" : "skill_icon_assassin_0_36"
-}
-{ 
-    "_id" : "25032", 
-    "name" : {
-        "en" : "Volley", 
-        "ko" : "암연비각"
-    }, 
-    "icon" : "skill_icon_assassin_0_51"
-}
-{ 
-    "_id" : "25034", 
-    "name" : {
-        "en" : "Dark Strike", 
-        "ko" : "암흑살"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_15"
-}
+},
 { 
     "_id" : "26001", 
     "name" : {
@@ -1212,175 +621,7 @@
         "ko" : "재주넘는 고양이"
     }, 
     "icon" : "skill_icon_summon_0_37"
-}
-{ 
-    "_id" : "26105-3", 
-    "name" : {
-        "en" : "Wheed Whack", 
-        "ko" : "담쟁이덩굴"
-    }, 
-    "icon" : "skill_icon_summon_0_39"
-}
-{ 
-    "_id" : "26202", 
-    "name" : {
-        "en" : "Anklebiter", 
-        "ko" : "하단베기"
-    }, 
-    "icon" : "skill_icon_summon_0_34"
-}
-{ 
-    "_id" : "26211-2", 
-    "name" : {
-        "en" : "Clawnado", 
-        "ko" : "용호냥무"
-    }, 
-    "icon" : "skill_icon_summon_0_52"
-}
-{ 
-    "_id" : "27132", 
-    "name" : {
-        "en" : "Divine Retribution", 
-        "ko" : "번개찍기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_62"
-}
-{ 
-    "_id" : "27305", 
-    "name" : {
-        "en" : "Soul Stab", 
-        "ko" : "어검징표"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_1"
-}
-{ 
-    "_id" : "27400", 
-    "name" : {
-        "en" : "Flicker", 
-        "ko" : "발도"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_19"
-}
-{ 
-    "_id" : "28001-2", 
-    "name" : {
-        "en" : "Burst", 
-        "ko" : "폭"
-    }, 
-    "icon" : "skill_icon_warlock_0_2"
-}
-{ 
-    "_id" : "28457", 
-    "name" : {
-        "en" : "Awakened Bombardment", 
-        "ko" : "각성 차원탄"
-    }, 
-    "icon" : "skill_icon_warlock_0_54"
-}
-{ 
-    "_id" : "30200", 
-    "name" : {
-        "en" : "Glacial Beam", 
-        "ko" : "빙백한포"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_29"
-}
-{ 
-    "_id" : "30370", 
-    "name" : {
-        "en" : "Slip Kick", 
-        "ko" : "비상격"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_49"
-}
-{ 
-    "_id" : "35140-2", 
-    "name" : {
-        "en" : "Awakened Right Punch", 
-        "ko" : "각성 우벽장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_57"
-}
-{ 
-    "_id" : "20003", 
-    "name" : {
-        "en" : "Flock of Blades", 
-        "ko" : "어검발산"
-    }, 
-    "icon" : "skill_icon_blademaster_0_53"
-}
-{ 
-    "_id" : "20105-2", 
-    "icon" : "skill_icon_blademaster_1_19", 
-    "name" : {
-        "ko" : "칼날치기", 
-        "en" : "Blade Strike"
-    }
-}
-{ 
-    "_id" : "20117", 
-    "name" : {
-        "en" : "Rising Eagle", 
-        "ko" : "비상"
-    }, 
-    "icon" : "skill_icon_blademaster_0_17"
-}
-{ 
-    "_id" : "20130", 
-    "name" : {
-        "en" : "Whirl", 
-        "ko" : "다리베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_39"
-}
-{ 
-    "_id" : "20153", 
-    "name" : {
-        "en" : "Reversal", 
-        "ko" : "벗어나기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_9"
-}
-{ 
-    "_id" : "21116", 
-    "name" : {
-        "en" : "Headbutt", 
-        "ko" : "박치기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_12"
-}
-{ 
-    "_id" : "21134", 
-    "name" : {
-        "en" : "Somersault Kick", 
-        "ko" : "반달차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_57"
-}
-{ 
-    "_id" : "21175", 
-    "name" : {
-        "en" : "Body Kick", 
-        "ko" : "발차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_14"
-}
-{ 
-    "_id" : "22000", 
-    "name" : {
-        "en" : "Flame Palm", 
-        "ko" : "열화장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_32"
-}
-{ 
-    "_id" : "22004", 
-    "name" : {
-        "en" : "Force Blast", 
-        "ko" : "기공포"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_11"
-}
+},
 { 
     "_id" : "22005", 
     "name" : {
@@ -1388,129 +629,7 @@
         "ko" : "흡공"
     }, 
     "icon" : "skill_icon_forcemaster_0_1"
-}
-{ 
-    "_id" : "22201", 
-    "name" : {
-        "en" : "Meteor Shower", 
-        "ko" : "유성지"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_5"
-}
-{ 
-    "_id" : "22410", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Flame Soul", 
-        "ko" : "염혼"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_26"
-}
-{ 
-    "_id" : "22420", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Awakened Dragonchar", 
-        "ko" : "각성 폭열신장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_16"
-}
-{ 
-    "_id" : "24001", 
-    "name" : {
-        "en" : "Judgment", 
-        "ko" : "심판"
-    }, 
-    "icon" : "skill_icon_destroyer_0_31"
-}
-{ 
-    "_id" : "24070-2", 
-    "name" : {
-        "en" : "Emberstomp", 
-        "ko" : "발구르기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_44"
-}
-{ 
-    "_id" : "24090", 
-    "name" : {
-        "en" : "Fury", 
-        "ko" : "분노"
-    }, 
-    "icon" : "skill_icon_destroyer_1_45"
-}
-{ 
-    "_id" : "24100-2", 
-    "name" : {
-        "en" : "Execute", 
-        "ko" : "집행"
-    }, 
-    "icon" : "skill_icon_destroyer_1_52"
-}
-{ 
-    "_id" : "24110-2", 
-    "name" : {
-        "en" : "Assault", 
-        "ko" : "전격"
-    }, 
-    "icon" : "skill_icon_destroyer_1_54"
-}
-{ 
-    "_id" : "25016-2", 
-    "name" : {
-        "en" : "Smoke Screen", 
-        "ko" : "연막"
-    }, 
-    "icon" : "skill_icon_assassin_0_13"
-}
-{ 
-    "_id" : "25111-2", 
-    "name" : {
-        "en" : "Shadow Rush", 
-        "ko" : "그림자 잠입"
-    }, 
-    "icon" : "skill_icon_assassin_1_27"
-}
-{ 
-    "_id" : "25405", 
-    "name" : {
-        "en" : "Protection Decoy", 
-        "ko" : "보호 나무토막"
-    }, 
-    "icon" : "skill_icon_assassin_1_28"
-}
-{ 
-    "_id" : "26109", 
-    "name" : {
-        "en" : "Beckon", 
-        "ko" : "강아지풀"
-    }, 
-    "icon" : "skill_icon_summon_0_14"
-}
-{ 
-    "_id" : "26110", 
-    "name" : {
-        "en" : "Briar Patch", 
-        "ko" : "밤송이"
-    }, 
-    "icon" : "skill_icon_summon_0_15"
-}
-{ 
-    "_id" : "26112", 
-    "name" : {
-        "en" : "Seed Shroud", 
-        "ko" : "민들레씨"
-    }, 
-    "icon" : "skill_icon_summon_0_17"
-}
-{ 
-    "_id" : "26202-2", 
-    "name" : {
-        "en" : "Surprise Gift", 
-        "ko" : "폭탄설치"
-    }, 
-    "icon" : "skill_icon_summon_0_26"
-}
+},
 { 
     "_id" : "26209", 
     "name" : {
@@ -1518,63 +637,7 @@
         "ko" : "웅크리기"
     }, 
     "icon" : "skill_icon_summon_0_21"
-}
-{ 
-    "_id" : "26401", 
-    "name" : {
-        "en" : "Moonfall", 
-        "ko" : "달빛낙하"
-    }, 
-    "icon" : "skill_icon_summon_0_55"
-}
-{ 
-    "_id" : "26412", 
-    "name" : {
-        "en" : "Swoosh", 
-        "ko" : "샤샥"
-    }, 
-    "icon" : "skill_icon_summon_0_46"
-}
-{ 
-    "_id" : "26450", 
-    "name" : {
-        "en" : "Super Sunflower", 
-        "ko" : "큰 해바라기"
-    }, 
-    "icon" : "skill_icon_summon_0_50"
-}
-{ 
-    "_id" : "27111-3", 
-    "name" : {
-        "en" : "Raid", 
-        "ko" : "습격"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_23"
-}
-{ 
-    "_id" : "27122", 
-    "name" : {
-        "en" : "Crash", 
-        "ko" : "추락"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_37"
-}
-{ 
-    "_id" : "27201", 
-    "name" : {
-        "en" : "Power Slam", 
-        "ko" : "내다꽂기"
-    }, 
-    "icon" : "skill_icon_swordmaster_0_5"
-}
-{ 
-    "_id" : "27632", 
-    "name" : {
-        "en" : "Awakened Blade Echo", 
-        "ko" : "각성 쾌검"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_23"
-}
+},
 { 
     "_id" : "27633", 
     "name" : {
@@ -1582,177 +645,7 @@
         "ko" : "각성 가르기"
     }, 
     "icon" : "skill_icon_swordmaster_2_30"
-}
-{ 
-    "_id" : "28011", 
-    "name" : {
-        "en" : "Leech", 
-        "ko" : "강탈"
-    }, 
-    "icon" : "skill_icon_warlock_0_5"
-}
-{ 
-    "_id" : "28090", 
-    "name" : {
-        "en" : "Dragoncall", 
-        "ko" : "폭마령"
-    }, 
-    "icon" : "skill_icon_warlock_0_10"
-}
-{ 
-    "_id" : "28660", 
-    "name" : {
-        "en" : "Gravity Well", 
-        "ko" : "중력진"
-    }, 
-    "icon" : "skill_icon_warlock_0_33"
-}
-{ 
-    "_id" : "30050", 
-    "name" : {
-        "en" : "Howling Blast", 
-        "ko" : "호포"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_9"
-}
-{ 
-    "_id" : "30080", 
-    "name" : {
-        "en" : "Lightning Fist", 
-        "ko" : "섬격권"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_15"
-}
-{ 
-    "_id" : "30330", 
-    "name" : {
-        "en" : "Meteor Strike", 
-        "ko" : "유성격"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_45"
-}
-{ 
-    "_id" : "20106", 
-    "name" : {
-        "en" : "Sword Shroud", 
-        "ko" : "검막"
-    }, 
-    "icon" : "buff_debuff_icon_02_57"
-}
-{ 
-    "_id" : "20113", 
-    "name" : {
-        "en" : "Blindside", 
-        "ko" : "역습"
-    }, 
-    "icon" : "skill_icon_blademaster_0_13"
-}
-{ 
-    "_id" : "20114", 
-    "name" : {
-        "en" : "Guardian Tempest", 
-        "ko" : "호위령"
-    }, 
-    "icon" : "buff_debuff_icon_02_57"
-}
-{ 
-    "_id" : "20126", 
-    "name" : {
-        "en" : "Rush", 
-        "ko" : "돌진"
-    }, 
-    "icon" : "skill_icon_blademaster_0_23"
-}
-{ 
-    "_id" : "20201", 
-    "name" : {
-        "en" : "Flicker", 
-        "ko" : "발도"
-    }, 
-    "icon" : "skill_icon_blademaster_0_19"
-}
-{ 
-    "_id" : "20991", 
-    "name" : {
-        "en" : "Meteor Slash", 
-        "ko" : "유성섬"
-    }, 
-    "icon" : "skill_icon_blademaster_1_34"
-}
-{ 
-    "_id" : "21009-3", 
-    "name" : {
-        "en" : "Fighting Spirit", 
-        "ko" : "투지발산"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_32"
-}
-{ 
-    "_id" : "22116", 
-    "name" : {
-        "en" : "Chi Bomb", 
-        "ko" : "원기옥"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_7"
-}
-{ 
-    "_id" : "22200", 
-    "name" : {
-        "en" : "Divine Veil", 
-        "ko" : "호신장막"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_41"
-}
-{ 
-    "_id" : "22211", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Drain", 
-        "ko" : "흡수"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_5"
-}
-{ 
-    "_id" : "22251-3", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Ice Rain", 
-        "ko" : "빙하신장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_6"
-}
-{ 
-    "_id" : "22301", 
-    "name" : {
-        "en" : "Antigravity", 
-        "ko" : "반탄공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_50"
-}
-{ 
-    "_id" : "22307-2", 
-    "name" : {
-        "en" : "Awakened Glacial Beam", 
-        "ko" : "각성 빙백한포"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_18"
-}
-{ 
-    "_id" : "24026", 
-    "name" : {
-        "en" : "Upward Block", 
-        "ko" : "쳐올리기"
-    }, 
-    "icon" : "skill_icon_destroyer_0_23"
-}
-{ 
-    "_id" : "24040-2", 
-    "name" : {
-        "en" : "Drag", 
-        "ko" : "끌어오기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_42"
-}
+},
 { 
     "_id" : "24200", 
     "name" : {
@@ -1760,63 +653,7 @@
         "ko" : "걷어차기"
     }, 
     "icon" : "skill_icon_destroyer_1_35"
-}
-{ 
-    "_id" : "24201", 
-    "name" : {
-        "en" : "Chop", 
-        "ko" : "둥치가르기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_38"
-}
-{ 
-    "_id" : "24204", 
-    "name" : {
-        "en" : "Reaching Kick", 
-        "ko" : "뻗어차기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_36"
-}
-{ 
-    "_id" : "24252", 
-    "name" : {
-        "en" : "Escape", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_destroyer_1_13"
-}
-{ 
-    "_id" : "25006", 
-    "name" : {
-        "en" : "Landmine", 
-        "ko" : "지뢰"
-    }, 
-    "icon" : "skill_icon_assassin_0_28"
-}
-{ 
-    "_id" : "25019", 
-    "name" : {
-        "en" : "Stealth", 
-        "ko" : "은신"
-    }, 
-    "icon" : "skill_icon_assassin_0_2"
-}
-{ 
-    "_id" : "25021", 
-    "name" : {
-        "en" : "Stomp", 
-        "ko" : "낙엽밟기"
-    }, 
-    "icon" : "skill_icon_assassin_1_3"
-}
-{ 
-    "_id" : "25034-2", 
-    "name" : {
-        "en" : "Close Shave", 
-        "ko" : "목베기"
-    }, 
-    "icon" : "skill_icon_assassin_0_30"
-}
+},
 { 
     "_id" : "25267", 
     "name" : {
@@ -1824,487 +661,15 @@
         "ko" : "각성 뇌격살"
     }, 
     "icon" : "skill_icon_assassin_1_22"
-}
-{ 
-    "_id" : "26100", 
-    "name" : {
-        "en" : "Wish", 
-        "ko" : "흐규흐규"
-    }, 
-    "icon" : "skill_icon_summon_0_1"
-}
-{ 
-    "_id" : "26105", 
-    "name" : {
-        "en" : "Grasping Roots", 
-        "ko" : "덩굴손"
-    }, 
-    "icon" : "skill_icon_summon_0_8"
-}
-{ 
-    "_id" : "26201-3", 
-    "name" : {
-        "en" : "Roundabout", 
-        "ko" : "빙글빙글"
-    }, 
-    "icon" : "skill_icon_summon_0_44"
-}
-{ 
-    "_id" : "26215", 
-    "name" : {
-        "en" : "Uppercut", 
-        "ko" : "올려치기"
-    }, 
-    "icon" : "skill_icon_summon_0_29"
-}
-{ 
-    "_id" : "26311", 
-    "name" : {
-        "en" : "Enhanced Seed Shroud", 
-        "ko" : "보호 민들레씨"
-    }, 
-    "icon" : "skill_icon_summon_0_53"
-}
-{ 
-    "_id" : "26453-2", 
-    "name" : {
-        "en" : "Awakened Sunflower", 
-        "ko" : "각성 해바라기"
-    }, 
-    "icon" : "skill_icon_summon_0_60"
-}
-{ 
-    "_id" : "26567", 
-    "name" : {
-        "en" : "Encouragement", 
-        "ko" : "격려"
-    }, 
-    "icon" : "skill_icon_summon_0_64"
-}
-{ 
-    "_id" : "27103", 
-    "name" : {
-        "en" : "Vortex", 
-        "ko" : "바람개비"
-    }, 
-    "icon" : "skill_icon_swordmaster_0_3"
-}
-{ 
-    "_id" : "27150", 
-    "name" : {
-        "en" : "Maelstrom", 
-        "ko" : "회오리"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_13"
-}
-{ 
-    "_id" : "27330", 
-    "name" : {
-        "en" : "Flock of Blades", 
-        "ko" : "어검발산"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_53"
-}
-{ 
-    "_id" : "28020", 
-    "name" : {
-        "en" : "Quell", 
-        "ko" : "방탄부"
-    }, 
-    "icon" : "skill_icon_warlock_0_6"
-}
-{ 
-    "_id" : "28060", 
-    "name" : {
-        "en" : "Imprison", 
-        "ko" : "개문"
-    }, 
-    "icon" : "skill_icon_warlock_0_36"
-}
-{ 
-    "_id" : "28510", 
-    "name" : {
-        "en" : "Attack Thrall", 
-        "ko" : "공격 마령"
-    }, 
-    "icon" : "skill_icon_warlock_0_23"
-}
-{ 
-    "_id" : "28800", 
-    "name" : {
-        "en" : "Obliterate", 
-        "ko" : "소멸"
-    }, 
-    "icon" : "skill_icon_warlock_0_25"
-}
-{ 
-    "_id" : "30240", 
-    "name" : {
-        "en" : "Footwork", 
-        "ko" : "파고들기"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_34"
-}
-{ 
-    "_id" : "30270", 
-    "name" : {
-        "en" : "Second Wind", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_39"
-}
-{ 
-    "_id" : "35130", 
-    "name" : {
-        "en" : "Beam Cannon", 
-        "ko" : "기격포"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_55"
-}
-{ 
-    "_id" : "20127", 
-    "name" : {
-        "en" : "Boot", 
-        "ko" : "앞차기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_35"
-}
-{ 
-    "_id" : "20132", 
-    "name" : {
-        "en" : "Evade", 
-        "ko" : "회피"
-    }, 
-    "icon" : "skill_icon_blademaster_0_47"
-}
-{ 
-    "_id" : "20133", 
-    "name" : {
-        "en" : "Flying Sparrow", 
-        "ko" : "신검합일"
-    }, 
-    "icon" : "skill_icon_blademaster_0_61"
-}
-{ 
-    "_id" : "20212", 
-    "name" : {
-        "en" : "Flash Step", 
-        "ko" : "일섬"
-    }, 
-    "icon" : "skill_icon_blademaster_0_34"
-}
-{ 
-    "_id" : "21009-2", 
-    "name" : {
-        "en" : "Ice Guard", 
-        "ko" : "한기파동"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_31"
-}
-{ 
-    "_id" : "21030-2", 
-    "name" : {
-        "en" : "Searing Blow", 
-        "ko" : "백열각"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_48"
-}
-{ 
-    "_id" : "21060", 
-    "name" : {
-        "en" : "Tremor", 
-        "ko" : "산사태"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_25"
-}
-{ 
-    "_id" : "21070", 
-    "name" : {
-        "en" : "Smite", 
-        "ko" : "강타"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_46"
-}
-{ 
-    "_id" : "21107", 
-    "name" : {
-        "en" : "Backstep", 
-        "ko" : "후방이동"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_2"
-}
-{ 
-    "_id" : "21182", 
-    "name" : {
-        "en" : "Falling Star", 
-        "ko" : "공중찍기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_19"
-}
-{ 
-    "_id" : "21609", 
-    "name" : {
-        "en" : "Searing Palm", 
-        "ko" : "점혈"
-    }, 
-    "icon" : "buff_debuff_icon_01_38"
-}
-{ 
-    "_id" : "22007", 
-    "name" : {
-        "en" : "Aerial Phantom Grip", 
-        "ko" : "공중흡공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_49"
-}
-{ 
-    "_id" : "22205", 
-    "name" : {
-        "en" : "Dual Dragons", 
-        "ko" : "쌍룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_4"
-}
-{ 
-    "_id" : "22266", 
-    "name" : {
-        "en" : "Ice Coil", 
-        "ko" : "파음지"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_40"
-}
-{ 
-    "_id" : "22266-2", 
-    "name" : {
-        "en" : "Frost Burst", 
-        "ko" : "동파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_44"
-}
-{ 
-    "_id" : "24060-2", 
-    "name" : {
-        "en" : "Stone Shield", 
-        "ko" : "철벽"
-    }, 
-    "icon" : "skill_icon_destroyer_1_7"
-}
-{ 
-    "_id" : "24080", 
-    "name" : {
-        "en" : "Axe Sweep", 
-        "ko" : "절단"
-    }, 
-    "icon" : "skill_icon_destroyer_1_5"
-}
-{ 
-    "_id" : "24600", 
-    "name" : {
-        "en" : "Berserker's Fury", 
-        "ko" : "광천부"
-    }, 
-    "icon" : "skill_icon_destroyer_1_55"
-}
-{ 
-    "_id" : "25008", 
-    "name" : {
-        "en" : "Shadow Dash", 
-        "ko" : "잠입"
-    }, 
-    "icon" : "skill_icon_assassin_0_33"
-}
-{ 
-    "_id" : "25043", 
-    "name" : {
-        "en" : "Thrash", 
-        "ko" : "걷어차기"
-    }, 
-    "icon" : "skill_icon_assassin_1_4"
-}
-{ 
-    "_id" : "25128", 
-    "name" : {
-        "en" : "Time Bomb", 
-        "ko" : "시한폭탄"
-    }, 
-    "icon" : "skill_icon_assassin_0_38"
-}
-{ 
-    "_id" : "25214-4", 
-    "name" : {
-        "en" : "Fighting Spirit", 
-        "ko" : "투지발산"
-    }, 
-    "icon" : "skill_icon_assassin_1_25"
-}
+},
 { 
     "_id" : "25491", 
     "name" : {
-        "en" : "Clean Kill", 
+        "en" : "Viper Fang", 
         "ko" : "무영살"
     }, 
     "icon" : "skill_icon_assassin_1_29"
-}
-{ 
-    "_id" : "26001-2", 
-    "name" : {
-        "en" : "House Cat", 
-        "ko" : "굳세다냥"
-    }, 
-    "icon" : "skill_icon_summon_0_37"
-}
-{ 
-    "_id" : "26137", 
-    "name" : {
-        "en" : "Backstep", 
-        "ko" : "후방 회피"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_2"
-}
-{ 
-    "_id" : "26304", 
-    "name" : {
-        "en" : "True Friend", 
-        "ko" : "우정"
-    }, 
-    "icon" : "skill_icon_summon_0_41"
-}
-{ 
-    "_id" : "27124", 
-    "name" : {
-        "en" : "Wind Sunder", 
-        "ko" : "바람가르기"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_29"
-}
-{ 
-    "_id" : "27181", 
-    "name" : {
-        "en" : "Rolling Typhoon", 
-        "ko" : "태풍참"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_24"
-}
-{ 
-    "_id" : "27404-4", 
-    "name" : {
-        "en" : "Flash Step", 
-        "ko" : "일섬"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_37"
-}
-{ 
-    "_id" : "27407-2", 
-    "name" : {
-        "en" : "Skyward Slash", 
-        "ko" : "하늘베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_33"
-}
-{ 
-    "_id" : "27444", 
-    "name" : {
-        "en" : "Cyclonic Slash", 
-        "ko" : "파천검륜"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_41"
-}
-{ 
-    "_id" : "28500", 
-    "name" : {
-        "en" : "Summon", 
-        "ko" : "소환"
-    }, 
-    "icon" : "skill_icon_warlock_0_19"
-}
-{ 
-    "_id" : "28610", 
-    "name" : {
-        "en" : "Pulse", 
-        "ko" : "파"
-    }, 
-    "icon" : "skill_icon_warlock_0_29"
-}
-{ 
-    "_id" : "28660-3", 
-    "name" : {
-        "en" : "Hallowed Ground", 
-        "ko" : "내력진"
-    }, 
-    "icon" : "skill_icon_warlock_0_38"
-}
-{ 
-    "_id" : "30020", 
-    "name" : {
-        "en" : "Cobalt Punch", 
-        "ko" : "창천권"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_4"
-}
-{ 
-    "_id" : "30070", 
-    "name" : {
-        "en" : "Dragon Fist", 
-        "ko" : "천룡열권"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_14"
-}
-{ 
-    "_id" : "30280", 
-    "name" : {
-        "en" : "Tornado", 
-        "ko" : "회전차기"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_40"
-}
-{ 
-    "_id" : "30350", 
-    "name" : {
-        "en" : "Lotus", 
-        "ko" : "연화"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_47"
-}
-{ 
-    "_id" : "35140-3", 
-    "name" : {
-        "en" : "Awakened Left Punch", 
-        "ko" : "각성 좌벽장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_58"
-}
-{ 
-    "_id" : "20129", 
-    "name" : {
-        "en" : "Crash", 
-        "ko" : "추락"
-    }, 
-    "icon" : "skill_icon_blademaster_0_37"
-}
-{ 
-    "_id" : "20202", 
-    "name" : {
-        "en" : "Lightning Draw", 
-        "ko" : "번개베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_21"
-}
-{ 
-    "_id" : "20400", 
-    "name" : {
-        "en" : "Awakened Honed Slash", 
-        "ko" : "각성 급소베기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_31"
-}
-{ 
-    "_id" : "21009", 
-    "name" : {
-        "en" : "Grapple", 
-        "ko" : "제압"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_6"
-}
+},
 { 
     "_id" : "21108", 
     "name" : {
@@ -2312,23 +677,7 @@
         "ko" : "붕권"
     }, 
     "icon" : "skill_icon_kungfufighter_0_21"
-}
-{ 
-    "_id" : "21144", 
-    "name" : {
-        "en" : "Clobber", 
-        "ko" : "강습"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_10"
-}
-{ 
-    "_id" : "21166", 
-    "name" : {
-        "en" : "Slip Kick", 
-        "ko" : "비상격"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_21"
-}
+},
 { 
     "_id" : "21385", 
     "name" : {
@@ -2336,122 +685,7 @@
         "ko" : "비염각"
     }, 
     "icon" : "skill_icon_kungfufighter_1_13"
-}
-{ 
-    "_id" : "21451", 
-    "name" : {
-        "en" : "One-Two Punch", 
-        "ko" : "천수장"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_51"
-}
-{ 
-    "_id" : "21509", 
-    "name" : {
-        "en" : "Emit Frost", 
-        "ko" : "한기발산"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_11"
-}
-{ 
-    "_id" : "22003-2", 
-    "name" : {
-        "en" : "Blazing Beam", 
-        "ko" : "폭열염포"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_34"
-}
-{ 
-    "_id" : "22101", 
-    "name" : {
-        "en" : "Blackout", 
-        "ko" : "봉인"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_4"
-}
-{ 
-    "_id" : "22117", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Barrage", 
-        "ko" : "연환장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_9"
-}
-{ 
-    "_id" : "22251-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Blazing Beam", 
-        "ko" : "폭열염포"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_34"
-}
-{ 
-    "_id" : "22304", 
-    "name" : {
-        "en" : "Frost Step", 
-        "ko" : "한신보"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_55"
-}
-{ 
-    "_id" : "22411", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Soul", 
-        "ko" : "빙혼"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_27"
-}
-{ 
-    "_id" : "24030-2", 
-    "name" : {
-        "en" : "Eradicate", 
-        "ko" : "섬멸"
-    }, 
-    "icon" : "skill_icon_destroyer_1_50"
-}
-{ 
-    "_id" : "25006-4", 
-    "name" : {
-        "en" : "Detonate", 
-        "ko" : "폭파"
-    }, 
-    "icon" : "skill_icon_assassin_1_14"
-}
-{ 
-    "_id" : "25012-4", 
-    "name" : {
-        "en" : "Plaguemist", 
-        "ko" : "독연무"
-    }, 
-    "icon" : "skill_icon_assassin_0_59"
-}
-{ 
-    "_id" : "25035", 
-    "name" : {
-        "en" : "Blink Step", 
-        "ko" : "순간이동"
-    }, 
-    "icon" : "skill_icon_assassin_0_18"
-}
-{ 
-    "_id" : "26103", 
-    "name" : {
-        "en" : "Entangle", 
-        "ko" : "휘감기"
-    }, 
-    "icon" : "skill_icon_summon_0_4"
-}
-{ 
-    "_id" : "26111-2", 
-    "name" : {
-        "en" : "Petal Storm Toss", 
-        "ko" : "투척꽃가루"
-    }, 
-    "icon" : "skill_icon_summon_0_57"
-}
+},
 { 
     "_id" : "27124-2", 
     "name" : {
@@ -2459,438 +693,7 @@
         "ko" : "번개가르기"
     }, 
     "icon" : "skill_icon_swordmaster_0_2"
-}
-{ 
-    "_id" : "27158", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Lightning Focus", 
-        "ko" : "뇌혼"
-    }, 
-    "icon" : "buff_debuff_icon_05_27"
-}
-{ 
-    "_id" : "27407", 
-    "name" : {
-        "en" : "Five Point Strike", 
-        "ko" : "오연베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_24"
-}
-{ 
-    "_id" : "28300", 
-    "name" : {
-        "en" : "Eclipse", 
-        "ko" : "월식"
-    }, 
-    "icon" : "skill_icon_warlock_0_18"
-}
-{ 
-    "_id" : "28430", 
-    "name" : {
-        "en" : "Bounded Souls", 
-        "ko" : "사령결계"
-    }, 
-    "icon" : "skill_icon_warlock_0_57"
-}
-{ 
-    "_id" : "30100", 
-    "name" : {
-        "en" : "Leg Sweep", 
-        "ko" : "다리걸기"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_17"
-}
-{ 
-    "_id" : "30251", 
-    "name" : {
-        "en" : "Backstep", 
-        "ko" : "이탈"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_37"
-}
-{ 
-    "_id" : "20003-2", 
-    "name" : {
-        "en" : "Blade Call", 
-        "ko" : "천검"
-    }, 
-    "icon" : "skill_icon_blademaster_1_13"
-}
-{ 
-    "_id" : "20105", 
-    "name" : {
-        "en" : "Block", 
-        "ko" : "막기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_6"
-}
-{ 
-    "_id" : "20108-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Fissure", 
-        "ko" : "대지가르기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_12"
-}
-{ 
-    "_id" : "20115", 
-    "name" : {
-        "en" : "Stomp", 
-        "ko" : "밟기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_15"
-}
-{ 
-    "_id" : "20202-2", 
-    "name" : {
-        "en" : "Searing Slash", 
-        "ko" : "초열베기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_30"
-}
-{ 
-    "_id" : "20603", 
-    "name" : {
-        "en" : "Lightning Rod", 
-        "ko" : "뇌령"
-    }, 
-    "icon" : "skill_icon_blademaster_1_20"
-}
-{ 
-    "_id" : "20603-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Lightning Retribution", 
-        "ko" : "뇌징"
-    }, 
-    "icon" : "skill_icon_blademaster_1_15"
-}
-{ 
-    "_id" : "21005-4", 
-    "name" : {
-        "en" : "Blazing Twin Cobra", 
-        "ko" : "폭열쌍박수"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_7"
-}
-{ 
-    "_id" : "21009-4", 
-    "name" : {
-        "en" : "Focused Fighting Spirit", 
-        "ko" : "투지집중"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_32"
-}
-{ 
-    "_id" : "21145-2", 
-    "name" : {
-        "en" : "Roaring Tiger", 
-        "ko" : "맹호경파산"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_1"
-}
-{ 
-    "_id" : "21256-2", 
-    "name" : {
-        "en" : "Hellfire Kick", 
-        "ko" : "돌려차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_36"
-}
-{ 
-    "_id" : "22110", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Snowball", 
-        "ko" : "빙하장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_10"
-}
-{ 
-    "_id" : "22307", 
-    "name" : {
-        "en" : "Awakened Dragonchar", 
-        "ko" : "각성 폭열신장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_16"
-}
-{ 
-    "_id" : "22380", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Second Wind", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_64"
-}
-{ 
-    "_id" : "22394", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Dual Dragons", 
-        "ko" : "쌍룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_4"
-}
-{ 
-    "_id" : "24083", 
-    "name" : {
-        "en" : "Piledriver", 
-        "ko" : "나락"
-    }, 
-    "icon" : "skill_icon_destroyer_0_22"
-}
-{ 
-    "_id" : "24150", 
-    "name" : {
-        "en" : "Hurl", 
-        "ko" : "던지기"
-    }, 
-    "icon" : "skill_icon_destroyer_0_63"
-}
-{ 
-    "_id" : "24230", 
-    "name" : {
-        "en" : "Tempest", 
-        "ko" : "기상광풍"
-    }, 
-    "icon" : "skill_icon_destroyer_1_9"
-}
-{ 
-    "_id" : "24260", 
-    "name" : {
-        "en" : "Wedge", 
-        "ko" : "쐐기"
-    }, 
-    "icon" : "skill_icon_destroyer_0_10"
-}
-{ 
-    "_id" : "24320", 
-    "name" : {
-        "en" : "Iron Fortress", 
-        "ko" : "철옹성"
-    }, 
-    "icon" : "skill_icon_destroyer_1_12"
-}
-{ 
-    "_id" : "25006-3", 
-    "name" : {
-        "en" : "Detonate", 
-        "ko" : "폭파"
-    }, 
-    "icon" : "skill_icon_assassin_0_34"
-}
-{ 
-    "_id" : "25039", 
-    "name" : {
-        "en" : "Pull Highwire Cord", 
-        "ko" : "은사당기기"
-    }, 
-    "icon" : "skill_icon_assassin_0_61"
-}
-{ 
-    "_id" : "25049", 
-    "name" : {
-        "en" : "Shadowslip", 
-        "ko" : "나뭇잎가르기"
-    }, 
-    "icon" : "skill_icon_assassin_1_16"
-}
-{ 
-    "_id" : "26000-2", 
-    "name" : {
-        "en" : "Alley Cat", 
-        "ko" : "날쌔다냥"
-    }, 
-    "icon" : "skill_icon_summon_0_38"
-}
-{ 
-    "_id" : "26106", 
-    "name" : {
-        "en" : "Thorn Strike", 
-        "ko" : "가시덩굴"
-    }, 
-    "icon" : "skill_icon_summon_0_40"
-}
-{ 
-    "_id" : "26206", 
-    "name" : {
-        "en" : "Power Pounce", 
-        "ko" : "누르기"
-    }, 
-    "icon" : "skill_icon_summon_0_18"
-}
-{ 
-    "_id" : "26210", 
-    "name" : {
-        "en" : "Hammer Spin", 
-        "ko" : "망치 돌리기"
-    }, 
-    "icon" : "skill_icon_summon_0_22"
-}
-{ 
-    "_id" : "26216", 
-    "name" : {
-        "en" : "Play Time", 
-        "ko" : "파닥파닥"
-    }, 
-    "icon" : "skill_icon_summon_0_30"
-}
-{ 
-    "_id" : "27119", 
-    "name" : {
-        "en" : "Take Flight", 
-        "ko" : "올려베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_10"
-}
-{ 
-    "_id" : "27152", 
-    "name" : {
-        "en" : "Counterstrike", 
-        "ko" : "받아치기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_51"
-}
-{ 
-    "_id" : "27404-2", 
-    "name" : {
-        "en" : "Lightning Flash", 
-        "ko" : "뇌연섬"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_25"
-}
-{ 
-    "_id" : "27407-3", 
-    "name" : {
-        "en" : "Thunder Slash", 
-        "ko" : "천둥베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_34"
-}
-{ 
-    "_id" : "28330", 
-    "name" : {
-        "en" : "Displace", 
-        "ko" : "진공파"
-    }, 
-    "icon" : "skill_icon_warlock_0_14"
-}
-{ 
-    "_id" : "28457-2", 
-    "name" : {
-        "en" : "Awakened Dimensional Salvo", 
-        "ko" : "각성 수라"
-    }, 
-    "icon" : "skill_icon_warlock_0_55"
-}
-{ 
-    "_id" : "28800-2", 
-    "name" : {
-        "en" : "Soulburn", 
-        "ko" : "강신"
-    }, 
-    "icon" : "skill_icon_warlock_0_27"
-}
-{ 
-    "_id" : "30020-2", 
-    "name" : {
-        "en" : "Right Punch", 
-        "ko" : "우벽장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_6"
-}
-{ 
-    "_id" : "30060-3", 
-    "name" : {
-        "en" : "Blazing Twin Cobra", 
-        "ko" : "폭열쌍박수"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_12"
-}
-{ 
-    "_id" : "30320", 
-    "name" : {
-        "en" : "Rising Dragon Strike", 
-        "ko" : "승룡격"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_44"
-}
-{ 
-    "_id" : "20104", 
-    "name" : {
-        "en" : "Soaring Falcon", 
-        "ko" : "비연검"
-    }, 
-    "icon" : "skill_icon_blademaster_0_5"
-}
-{ 
-    "_id" : "20515", 
-    "name" : {
-        "en" : "Fissure", 
-        "ko" : "대지가르기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_12"
-}
-{ 
-    "_id" : "21145", 
-    "name" : {
-        "en" : "Leading Palm", 
-        "ko" : "통배권"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_24"
-}
-{ 
-    "_id" : "22120", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Wildfire", 
-        "ko" : "불씨확산"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_45"
-}
-{ 
-    "_id" : "22209", 
-    "name" : {
-        "en" : "Second Wind", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_64"
-}
-{ 
-    "_id" : "24030-3", 
-    "name" : {
-        "en" : "Repulse", 
-        "ko" : "격퇴"
-    }, 
-    "icon" : "skill_icon_destroyer_1_51"
-}
-{ 
-    "_id" : "24050", 
-    "name" : {
-        "en" : "Ram", 
-        "ko" : "격돌"
-    }, 
-    "icon" : "skill_icon_destroyer_0_13"
-}
-{ 
-    "_id" : "24180", 
-    "name" : {
-        "en" : "Blitz", 
-        "ko" : "지진"
-    }, 
-    "icon" : "skill_icon_destroyer_0_5"
-}
-{ 
-    "_id" : "24610", 
-    "name" : {
-        "en" : "Highwind", 
-        "ko" : "천풍"
-    }, 
-    "icon" : "skill_icon_destroyer_1_56"
-}
+},
 { 
     "_id" : "25038", 
     "name" : {
@@ -2898,128 +701,7 @@
         "ko" : "은사탄주"
     }, 
     "icon" : "skill_icon_assassin_0_58"
-}
-{ 
-    "_id" : "25040", 
-    "name" : {
-        "en" : "High Voltage", 
-        "ko" : "뇌전"
-    }, 
-    "icon" : "skill_icon_assassin_0_57"
-}
-{ 
-    "_id" : "25041", 
-    "name" : {
-        "en" : "Hook Kick", 
-        "ko" : "그림자침입"
-    }, 
-    "icon" : "skill_icon_assassin_0_40"
-}
-{ 
-    "_id" : "25107", 
-    "name" : {
-        "en" : "Venom Slash", 
-        "ko" : "맹독베기"
-    }, 
-    "icon" : "skill_icon_assassin_1_20"
-}
-{ 
-    "_id" : "25120", 
-    "name" : {
-        "en" : "Spinal Tap", 
-        "ko" : "척추찌르기"
-    }, 
-    "icon" : "skill_icon_assassin_0_21"
-}
-{ 
-    "_id" : "26107", 
-    "name" : {
-        "en" : "Rumblebees", 
-        "ko" : "말벌"
-    }, 
-    "icon" : "skill_icon_summon_0_10"
-}
-{ 
-    "_id" : "26107-2", 
-    "name" : {
-        "en" : "Sunflower", 
-        "ko" : "해바라기"
-    }, 
-    "icon" : "skill_icon_summon_0_49"
-}
-{ 
-    "_id" : "26559", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Awakened Rosethorn", 
-        "ko" : "각성 장미"
-    }, 
-    "icon" : "skill_icon_summon_0_47"
-}
-{ 
-    "_id" : "27109", 
-    "name" : {
-        "en" : "Body Kick", 
-        "ko" : "발차기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_35"
-}
-{ 
-    "_id" : "27115", 
-    "name" : {
-        "en" : "Strafe", 
-        "ko" : "역공"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_21"
-}
-{ 
-    "_id" : "27118", 
-    "name" : {
-        "en" : "Evade", 
-        "ko" : "회피"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_47"
-}
-{ 
-    "_id" : "27280", 
-    "name" : {
-        "en" : "Storming Sword", 
-        "ko" : "풍운비검"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_31"
-}
-{ 
-    "_id" : "27304", 
-    "name" : {
-        "en" : "Guardian Tempest", 
-        "ko" : "호위령"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_58"
-}
-{ 
-    "_id" : "27307", 
-    "name" : {
-        "en" : "Blitzblade", 
-        "ko" : "폭검"
-    }, 
-    "icon" : "skill_icon_swordmaster_0_7"
-}
-{ 
-    "_id" : "28040", 
-    "name" : {
-        "en" : "Wingstorm", 
-        "ko" : "사령쇄도"
-    }, 
-    "icon" : "skill_icon_warlock_0_13"
-}
-{ 
-    "_id" : "28450-3", 
-    "name" : {
-        "en" : "Dimensional Charge", 
-        "ko" : "나찰"
-    }, 
-    "icon" : "skill_icon_warlock_0_47"
-}
+},
 { 
     "_id" : "28520", 
     "name" : {
@@ -3027,245 +709,7 @@
         "ko" : "혼령질주"
     }, 
     "icon" : "skill_icon_warlock_0_52"
-}
-{ 
-    "_id" : "30030", 
-    "name" : {
-        "en" : "Iron Shoulder", 
-        "ko" : "철산고"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_7"
-}
-{ 
-    "_id" : "30060-2", 
-    "name" : {
-        "en" : "Freezing Twin Cobra", 
-        "ko" : "빙결쌍박수"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_11"
-}
-{ 
-    "_id" : "20111", 
-    "name" : {
-        "en" : "Second Wind", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_blademaster_0_11"
-}
-{ 
-    "_id" : "20150", 
-    "name" : {
-        "en" : "Divine Retribution", 
-        "ko" : "번개찍기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_62"
-}
-{ 
-    "_id" : "20233", 
-    "name" : {
-        "en" : "Honed Slash", 
-        "ko" : "급소베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_63"
-}
-{ 
-    "_id" : "20550", 
-    "name" : {
-        "en" : "Crackling Blade", 
-        "ko" : "홍문일검"
-    }, 
-    "icon" : "skill_icon_blademaster_1_2"
-}
-{ 
-    "_id" : "20601", 
-    "name" : {
-        "en" : "Blade Storm", 
-        "ko" : "어검연속베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_56"
-}
-{ 
-    "_id" : "21005", 
-    "name" : {
-        "en" : "Counter", 
-        "ko" : "반격"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_1"
-}
-{ 
-    "_id" : "21030", 
-    "name" : {
-        "en" : "Cyclone Kick", 
-        "ko" : "회천각"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_42"
-}
-{ 
-    "_id" : "21205", 
-    "name" : {
-        "en" : "Second Wind", 
-        "ko" : "탈출"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_18"
-}
-{ 
-    "_id" : "22110-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Tornado", 
-        "ko" : "한빙면장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_36"
-}
-{ 
-    "_id" : "22235", 
-    "name" : {
-        "en" : "Dragonwhorl", 
-        "ko" : "빙백신장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_15"
-}
-{ 
-    "_id" : "22235-2", 
-    "name" : {
-        "en" : "Frost Nova", 
-        "ko" : "광한지"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_43"
-}
-{ 
-    "_id" : "22244", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Blaze Step", 
-        "ko" : "화신보"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_54"
-}
-{ 
-    "_id" : "22251", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Dragonchar", 
-        "ko" : "폭열신장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_31"
-}
-{ 
-    "_id" : "22266-3", 
-    "name" : {
-        "en" : "Cold Snap", 
-        "ko" : "설빙장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_13"
-}
-{ 
-    "_id" : "22381", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Fire Fury", 
-        "ko" : "열파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_7"
-}
-{ 
-    "_id" : "22392", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Dragonfrost", 
-        "ko" : "빙룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_3"
-}
-{ 
-    "_id" : "22420-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Awakened Blazing Beam", 
-        "ko" : "각성 폭열염포"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_17"
-}
-{ 
-    "_id" : "24070", 
-    "name" : {
-        "en" : "Emberstomp", 
-        "ko" : "발구르기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_43"
-}
-{ 
-    "_id" : "25003-2", 
-    "name" : {
-        "en" : "Bombard", 
-        "ko" : "진천뢰"
-    }, 
-    "icon" : "skill_icon_assassin_0_50"
-}
-{ 
-    "_id" : "25009-2", 
-    "name" : {
-        "en" : "Lotus Kick", 
-        "ko" : "연화각"
-    }, 
-    "icon" : "skill_icon_assassin_0_60"
-}
-{ 
-    "_id" : "25010-2", 
-    "name" : {
-        "en" : "Webbing", 
-        "ko" : "거미줄"
-    }, 
-    "icon" : "skill_icon_assassin_0_29"
-}
-{ 
-    "_id" : "25012", 
-    "name" : {
-        "en" : "Poison Breath", 
-        "ko" : "풍독술"
-    }, 
-    "icon" : "skill_icon_assassin_0_41"
-}
-{ 
-    "_id" : "25013-2", 
-    "name" : {
-        "en" : "Sidestep Right", 
-        "ko" : "우횡보"
-    }, 
-    "icon" : "skill_icon_assassin_0_24"
-}
-{ 
-    "_id" : "26000", 
-    "name" : {
-        "en" : "Alley Cat", 
-        "ko" : "고양이의 폭력성"
-    }, 
-    "icon" : "skill_icon_summon_0_38"
-}
-{ 
-    "_id" : "26104", 
-    "name" : {
-        "en" : "Huzzah!", 
-        "ko" : "응원"
-    }, 
-    "icon" : "skill_icon_summon_0_7"
-}
-{ 
-    "_id" : "26114", 
-    "name" : {
-        "en" : "Tag Team", 
-        "ko" : "교체"
-    }, 
-    "icon" : "skill_icon_summon_0_24"
-}
-{ 
-    "_id" : "26125", 
-    "name" : {
-        "en" : "Evade", 
-        "ko" : "회피"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_56"
-}
+},
 { 
     "_id" : "26202-4", 
     "name" : {
@@ -3273,39 +717,7 @@
         "ko" : "폭탄발사"
     }, 
     "icon" : "buff_debuff_icon_03_21"
-}
-{ 
-    "_id" : "27100", 
-    "name" : {
-        "en" : "Breeze", 
-        "ko" : "질풍"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_1"
-}
-{ 
-    "_id" : "27111-2", 
-    "name" : {
-        "en" : "Multislash", 
-        "ko" : "연속베기"
-    }, 
-    "icon" : "skill_icon_blademaster_1_11"
-}
-{ 
-    "_id" : "27144", 
-    "name" : {
-        "en" : "Dual Strike", 
-        "ko" : "풍월도"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_64"
-}
-{ 
-    "_id" : "27200", 
-    "name" : {
-        "en" : "Phantom Grip", 
-        "ko" : "흡공"
-    }, 
-    "icon" : "skill_icon_swordmaster_0_4"
-}
+},
 { 
     "_id" : "27304-3", 
     "name" : {
@@ -3313,95 +725,7 @@
         "ko" : "귀검령"
     }, 
     "icon" : "skill_icon_swordmaster_2_18"
-}
-{ 
-    "_id" : "27450", 
-    "name" : {
-        "en" : "Mass Pull", 
-        "ko" : "광흡장"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_42"
-}
-{ 
-    "_id" : "28035-2", 
-    "name" : {
-        "en" : "Mantra", 
-        "ko" : "진언"
-    }, 
-    "icon" : "skill_icon_warlock_0_41"
-}
-{ 
-    "_id" : "28070", 
-    "name" : {
-        "en" : "Bastion", 
-        "ko" : "보호부"
-    }, 
-    "icon" : "skill_icon_warlock_0_11"
-}
-{ 
-    "_id" : "30190", 
-    "name" : {
-        "en" : "Frost Nova", 
-        "ko" : "광한지"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_28"
-}
-{ 
-    "_id" : "30210-2", 
-    "name" : {
-        "en" : "Whirlwind", 
-        "ko" : "소멸장"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_31"
-}
-{ 
-    "_id" : "30230", 
-    "name" : {
-        "en" : "Shadow Dance", 
-        "ko" : "횡이동"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_32"
-}
-{ 
-    "_id" : "30250", 
-    "name" : {
-        "en" : "Backstep", 
-        "ko" : "후방이동"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_36"
-}
-{ 
-    "_id" : "35140", 
-    "name" : {
-        "en" : "Awakened Cobalt Punch", 
-        "ko" : "각성 창천권"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_59"
-}
-{ 
-    "_id" : "20131", 
-    "name" : {
-        "en" : "Blindside", 
-        "ko" : "역습"
-    }, 
-    "icon" : "skill_icon_blademaster_0_13"
-}
-{ 
-    "_id" : "20229", 
-    "name" : {
-        "en" : "Heavenly Dance", 
-        "ko" : "천무"
-    }, 
-    "icon" : "skill_icon_blademaster_0_49"
-}
-{ 
-    "_id" : "20400-2", 
-    "name" : {
-        "en" : "Awakened Dragontongue", 
-        "ko" : "각성 화룡연참"
-    }, 
-    "icon" : "skill_icon_blademaster_1_32"
-}
+},
 { 
     "_id" : "20600", 
     "name" : {
@@ -3409,72 +733,7 @@
         "ko" : "보호령"
     }, 
     "icon" : "skill_icon_blademaster_0_58"
-}
-{ 
-    "_id" : "21055", 
-    "name" : {
-        "en" : "Rising Dragon", 
-        "ko" : "승룡각"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_38"
-}
-{ 
-    "_id" : "21106", 
-    "name" : {
-        "en" : "Leg Sweep", 
-        "ko" : "다리걸기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_5"
-}
-{ 
-    "_id" : "21132", 
-    "name" : {
-        "en" : "Tornado", 
-        "ko" : "회전차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_58"
-}
-{ 
-    "_id" : "21142", 
-    "name" : {
-        "en" : "Ground Pound", 
-        "ko" : "연타"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_50"
-}
-{ 
-    "_id" : "21180", 
-    "name" : {
-        "en" : "Sky Kick", 
-        "ko" : "올려차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_4"
-}
-{ 
-    "_id" : "21181", 
-    "name" : {
-        "en" : "Rising Kick", 
-        "ko" : "공중차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_18"
-}
-{ 
-    "_id" : "22103", 
-    "name" : {
-        "en" : "Blazing Wall", 
-        "ko" : "화염지옥"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_21"
-}
-{ 
-    "_id" : "22125", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Windstorm", 
-        "ko" : "신룡열파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_11"
-}
+},
 { 
     "_id" : "22208", 
     "name" : {
@@ -3482,41 +741,7 @@
         "ko" : "결빙공"
     }, 
     "icon" : "skill_icon_forcemaster_0_30"
-}
-{ 
-    "_id" : "22300", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Phantom Grip", 
-        "ko" : "흡공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_1"
-}
-{ 
-    "_id" : "22550", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Mystic Fire", 
-        "ko" : "신화경"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_14"
-}
-{ 
-    "_id" : "22560", 
-    "name" : {
-        "en" : "Draco Cannon", 
-        "ko" : "천룡포"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_19"
-}
-{ 
-    "_id" : "22561", 
-    "name" : {
-        "en" : "Freezing Tundra", 
-        "ko" : "천빙장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_20"
-}
+},
 { 
     "_id" : "24081", 
     "name" : {
@@ -3524,7 +749,7 @@
         "ko" : "천지뒤집기"
     }, 
     "icon" : "skill_icon_destroyer_1_22"
-}
+},
 { 
     "_id" : "25013", 
     "name" : {
@@ -3532,321 +757,7 @@
         "ko" : "순보"
     }, 
     "icon" : "skill_icon_assassin_1_6"
-}
-{ 
-    "_id" : "25045", 
-    "name" : {
-        "en" : "Lightning Stride", 
-        "ko" : "뇌격보"
-    }, 
-    "icon" : "skill_icon_assassin_1_7"
-}
-{ 
-    "_id" : "25050", 
-    "name" : {
-        "en" : "Lightning Crash", 
-        "ko" : "뇌전살"
-    }, 
-    "icon" : "skill_icon_assassin_1_15"
-}
-{ 
-    "_id" : "25142", 
-    "name" : {
-        "en" : "Lightning Rend", 
-        "ko" : "뇌절도"
-    }, 
-    "icon" : "skill_icon_assassin_0_63"
-}
-{ 
-    "_id" : "25214-2", 
-    "name" : {
-        "en" : "Lotus of Poison", 
-        "ko" : "역주의 진"
-    }, 
-    "icon" : "skill_icon_assassin_0_55"
-}
-{ 
-    "_id" : "26101", 
-    "name" : {
-        "en" : "Rosethorn", 
-        "ko" : "장미"
-    }, 
-    "icon" : "skill_icon_summon_0_2"
-}
-{ 
-    "_id" : "26111", 
-    "name" : {
-        "en" : "Petal Storm", 
-        "ko" : "꽃가루"
-    }, 
-    "icon" : "skill_icon_summon_0_16"
-}
-{ 
-    "_id" : "26201", 
-    "name" : {
-        "en" : "Paw", 
-        "ko" : "냥~"
-    }, 
-    "icon" : "skill_icon_summon_0_28"
-}
-{ 
-    "_id" : "27113", 
-    "name" : {
-        "en" : "Anklebiter", 
-        "ko" : "하단베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_9"
-}
-{ 
-    "_id" : "27126-2", 
-    "name" : {
-        "en" : "Wind Draw", 
-        "ko" : "바람베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_21"
-}
-{ 
-    "_id" : "27511", 
-    "name" : {
-        "en" : "Lightning Strike", 
-        "ko" : "뇌격"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_26"
-}
-{ 
-    "_id" : "28001", 
-    "name" : {
-        "en" : "Incantation", 
-        "ko" : "염"
-    }, 
-    "icon" : "skill_icon_warlock_0_1"
-}
-{ 
-    "_id" : "28030", 
-    "name" : {
-        "en" : "Repulse", 
-        "ko" : "진압"
-    }, 
-    "icon" : "skill_icon_warlock_0_7"
-}
-{ 
-    "_id" : "28035", 
-    "name" : {
-        "en" : "Mantra", 
-        "ko" : "진언"
-    }, 
-    "icon" : "skill_icon_warlock_0_37"
-}
-{ 
-    "_id" : "28630", 
-    "name" : {
-        "en" : "Nether Pulse", 
-        "ko" : "명계파동"
-    }, 
-    "icon" : "skill_icon_warlock_0_31"
-}
-{ 
-    "_id" : "30000", 
-    "name" : {
-        "en" : "Straight Jab", 
-        "ko" : "정권"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_1"
-}
-{ 
-    "_id" : "30060", 
-    "name" : {
-        "en" : "Elbow Smash", 
-        "ko" : "이문정주"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_10"
-}
-{ 
-    "_id" : "30110-2", 
-    "name" : {
-        "en" : "Frost Storm", 
-        "ko" : "한기폭풍"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_19"
-}
-{ 
-    "_id" : "30120", 
-    "name" : {
-        "en" : "Focus Chi", 
-        "ko" : "내공집중"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_20"
-}
-{ 
-    "_id" : "30180", 
-    "name" : {
-        "en" : "Displace", 
-        "ko" : "진공파"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_27"
-}
-{ 
-    "_id" : "30190-2", 
-    "name" : {
-        "en" : "Ice Coil", 
-        "ko" : "파음지"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_40"
-}
-{ 
-    "_id" : "20103", 
-    "name" : {
-        "en" : "Pierce", 
-        "ko" : "찌르기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_4"
-}
-{ 
-    "_id" : "20108", 
-    "name" : {
-        "en" : "Anklebiter", 
-        "ko" : "하단베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_9"
-}
-{ 
-    "_id" : "20138", 
-    "name" : {
-        "en" : "Lunar Slash", 
-        "ko" : "만월베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_26"
-}
-{ 
-    "_id" : "20981", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Awakened Flicker", 
-        "ko" : "각성 발도"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_23"
-}
-{ 
-    "_id" : "21110", 
-    "name" : {
-        "en" : "Iron Shoulder", 
-        "ko" : "철산고"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_2"
-}
-{ 
-    "_id" : "21285", 
-    "name" : {
-        "en" : "Swooping Crane", 
-        "ko" : "날아차기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_48"
-}
-{ 
-    "_id" : "21981", 
-    "name" : {
-        "en" : "Blazing Strike", 
-        "ko" : "염황포"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_53"
-}
-{ 
-    "_id" : "22001", 
-    "name" : {
-        "en" : "Frost Palm", 
-        "ko" : "한빙장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_33"
-}
-{ 
-    "_id" : "22008", 
-    "name" : {
-        "en" : "Bolt Bash", 
-        "ko" : "탄지공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_12"
-}
-{ 
-    "_id" : "22108-2", 
-    "name" : {
-        "en" : "Frost Tornado", 
-        "ko" : "한빙면장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_36"
-}
-{ 
-    "_id" : "22202-2", 
-    "name" : {
-        "en" : "Frost Prison", 
-        "ko" : "얼음감옥"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_17"
-}
-{ 
-    "_id" : "22239-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Meteor Shower", 
-        "ko" : "유성지"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_5"
-}
-{ 
-    "_id" : "22420-3", 
-    "name" : {
-        "en" : "Awakened Ice Rain", 
-        "ko" : "각성 빙하신장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_18"
-}
-{ 
-    "_id" : "24012", 
-    "name" : {
-        "en" : "Typhoon", 
-        "ko" : "태풍"
-    }, 
-    "icon" : "skill_icon_destroyer_1_40"
-}
-{ 
-    "_id" : "24038", 
-    "name" : {
-        "en" : "Mighty Cleave", 
-        "ko" : "대파괴"
-    }, 
-    "icon" : "skill_icon_destroyer_1_41"
-}
-{ 
-    "_id" : "25025", 
-    "name" : {
-        "en" : "Guard Break", 
-        "ko" : "공수탈백인"
-    }, 
-    "icon" : "skill_icon_assassin_0_48"
-}
-{ 
-    "_id" : "25111-3", 
-    "name" : {
-        "en" : "Shadow Drain", 
-        "ko" : "그림자흡수"
-    }, 
-    "icon" : "skill_icon_assassin_1_18"
-}
-{ 
-    "_id" : "25470", 
-    "name" : {
-        "en" : "Doubletime", 
-        "ko" : "그림자 질주"
-    }, 
-    "icon" : "skill_icon_assassin_1_26"
-}
-{ 
-    "_id" : "25490", 
-    "name" : {
-        "en" : "Night Raid", 
-        "ko" : "야행"
-    }, 
-    "icon" : "skill_icon_assassin_0_3"
-}
+},
 { 
     "_id" : "27113-2", 
     "legacy" : true, 
@@ -3855,47 +766,7 @@
         "ko" : "대지가르기"
     }, 
     "icon" : "skill_icon_blademaster_1_12"
-}
-{ 
-    "_id" : "27200-2", 
-    "name" : {
-        "en" : "Exalted Boost", 
-        "ko" : "경배"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_35"
-}
-{ 
-    "_id" : "27300", 
-    "name" : {
-        "en" : "Soaring Falcon", 
-        "ko" : "비연검"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_5"
-}
-{ 
-    "_id" : "27335", 
-    "name" : {
-        "en" : "Blade Storm", 
-        "ko" : "어검연속베기"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_56"
-}
-{ 
-    "_id" : "27404", 
-    "name" : {
-        "en" : "Flash Step", 
-        "ko" : "일섬"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_34"
-}
-{ 
-    "_id" : "27404-3", 
-    "name" : {
-        "en" : "Wind Flash", 
-        "ko" : "풍연섬"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_39"
-}
+},
 { 
     "_id" : "28030-2", 
     "name" : {
@@ -3903,47 +774,7 @@
         "ko" : "진압"
     }, 
     "icon" : "skill_icon_warlock_0_43"
-}
-{ 
-    "_id" : "28050", 
-    "name" : {
-        "en" : "Tether Blade", 
-        "ko" : "경계베기"
-    }, 
-    "icon" : "skill_icon_warlock_0_12"
-}
-{ 
-    "_id" : "28220", 
-    "name" : {
-        "en" : "Rupture", 
-        "ko" : "파열"
-    }, 
-    "icon" : "skill_icon_warlock_0_4"
-}
-{ 
-    "_id" : "28350", 
-    "name" : {
-        "en" : "Void Walk", 
-        "ko" : "치환"
-    }, 
-    "icon" : "skill_icon_warlock_0_51"
-}
-{ 
-    "_id" : "28700", 
-    "name" : {
-        "en" : "Fall In", 
-        "ko" : "호출"
-    }, 
-    "icon" : "skill_icon_warlock_0_20"
-}
-{ 
-    "_id" : "30040", 
-    "name" : {
-        "en" : "Breaking Claw", 
-        "ko" : "발경"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_8"
-}
+},
 { 
     "_id" : "30231", 
     "name" : {
@@ -3951,325 +782,7 @@
         "ko" : "좌신보"
     }, 
     "icon" : "skill_icon_soulfighter_0_33"
-}
-{ 
-    "_id" : "20211", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Flash Step", 
-        "ko" : "일섬"
-    }, 
-    "icon" : "skill_icon_blademaster_0_34"
-}
-{ 
-    "_id" : "20602", 
-    "name" : {
-        "en" : "Whirling Scourge", 
-        "ko" : "회천령"
-    }, 
-    "icon" : "skill_icon_blademaster_0_55"
-}
-{ 
-    "_id" : "21054", 
-    "name" : {
-        "en" : "Rising Flurry", 
-        "ko" : "승천권무"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_40"
-}
-{ 
-    "_id" : "21111-2", 
-    "name" : {
-        "en" : "Tiger Strike", 
-        "ko" : "맹호장"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_63"
-}
-{ 
-    "_id" : "21136", 
-    "name" : {
-        "en" : "Chokehold", 
-        "ko" : "조르기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_53"
-}
-{ 
-    "_id" : "21256", 
-    "name" : {
-        "en" : "Pivot Kick", 
-        "ko" : "회축"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_35"
-}
-{ 
-    "_id" : "21406", 
-    "name" : {
-        "en" : "Shin Kick", 
-        "ko" : "발목강타"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_41"
-}
-{ 
-    "_id" : "22005-2", 
-    "name" : {
-        "en" : "Shadow Grasp", 
-        "ko" : "중력장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_1"
-}
-{ 
-    "_id" : "22100", 
-    "name" : {
-        "en" : "Drain", 
-        "ko" : "흡수"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_5"
-}
-{ 
-    "_id" : "22105-2", 
-    "name" : {
-        "en" : "Scorching Heat", 
-        "ko" : "폭염발산"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_62"
-}
-{ 
-    "_id" : "22118", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Multiple Blaze", 
-        "ko" : "폭열연파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_13"
-}
-{ 
-    "_id" : "22204", 
-    "name" : {
-        "en" : "Dragonfrost", 
-        "ko" : "빙룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_3"
-}
-{ 
-    "_id" : "22237", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Prison", 
-        "ko" : "얼음감옥"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_17"
-}
-{ 
-    "_id" : "22237-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Sheath", 
-        "ko" : "얼음꽃"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_29"
-}
-{ 
-    "_id" : "22742", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Awakened Dual Dragons", 
-        "ko" : "각성 쌍룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_12"
-}
-{ 
-    "_id" : "24039", 
-    "name" : {
-        "en" : "Galeforce", 
-        "ko" : "격풍"
-    }, 
-    "icon" : "skill_icon_destroyer_1_10"
-}
-{ 
-    "_id" : "24090-2", 
-    "name" : {
-        "en" : "Persistence", 
-        "ko" : "불굴"
-    }, 
-    "icon" : "skill_icon_destroyer_1_17"
-}
-{ 
-    "_id" : "24160", 
-    "name" : {
-        "en" : "Gust", 
-        "ko" : "탈출광풍"
-    }, 
-    "icon" : "skill_icon_destroyer_0_48"
-}
-{ 
-    "_id" : "24207", 
-    "name" : {
-        "en" : "Shove", 
-        "ko" : "밀쳐내기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_37"
-}
-{ 
-    "_id" : "24590", 
-    "name" : {
-        "en" : "Awakened Wrath", 
-        "ko" : "각성 격노"
-    }, 
-    "icon" : "skill_icon_destroyer_1_47"
-}
-{ 
-    "_id" : "25003", 
-    "name" : {
-        "en" : "Heart Stab", 
-        "ko" : "심장찌르기"
-    }, 
-    "icon" : "skill_icon_assassin_0_8"
-}
-{ 
-    "_id" : "25024", 
-    "name" : {
-        "en" : "Shadow Dance", 
-        "ko" : "횡이동"
-    }, 
-    "icon" : "skill_icon_assassin_0_9"
-}
-{ 
-    "_id" : "25030", 
-    "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
-    }, 
-    "icon" : "skill_icon_assassin_0_35"
-}
-{ 
-    "_id" : "25034-3", 
-    "name" : {
-        "en" : "Lightning Pierce", 
-        "ko" : "뇌격살"
-    }, 
-    "icon" : "skill_icon_assassin_1_19"
-}
-{ 
-    "_id" : "25044", 
-    "name" : {
-        "en" : "Slipping Lotus", 
-        "ko" : "연화"
-    }, 
-    "icon" : "skill_icon_assassin_0_45"
-}
-{ 
-    "_id" : "25265", 
-    "name" : {
-        "en" : "Awakened Dark Strike", 
-        "ko" : "각성 암흑살"
-    }, 
-    "icon" : "skill_icon_assassin_1_21"
-}
-{ 
-    "_id" : "26217", 
-    "name" : {
-        "en" : "Guard Duty", 
-        "ko" : "경호"
-    }, 
-    "icon" : "skill_icon_summon_0_31"
-}
-{ 
-    "_id" : "26565", 
-    "name" : {
-        "en" : "Golden Bee", 
-        "ko" : "황금벌"
-    }, 
-    "icon" : "skill_icon_summon_0_62"
-}
-{ 
-    "_id" : "27104", 
-    "name" : {
-        "en" : "Sunder", 
-        "ko" : "가르기"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_28"
-}
-{ 
-    "_id" : "27114", 
-    "name" : {
-        "en" : "Blindside", 
-        "ko" : "역습"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_13"
-}
-{ 
-    "_id" : "27127", 
-    "name" : {
-        "en" : "Heavenly Dance", 
-        "ko" : "천무"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_49"
-}
-{ 
-    "_id" : "27157", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Wind Focus", 
-        "ko" : "풍혼"
-    }, 
-    "icon" : "buff_debuff_icon_05_24"
-}
-{ 
-    "_id" : "27181-2", 
-    "name" : {
-        "en" : "Rolling Thunder", 
-        "ko" : "낙뢰격"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_38"
-}
-{ 
-    "_id" : "27203", 
-    "name" : {
-        "en" : "Hurl", 
-        "ko" : "던지기"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_2"
-}
-{ 
-    "_id" : "27511-2", 
-    "name" : {
-        "en" : "Bladeguard ", 
-        "ko" : "탄검"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_27"
-}
-{ 
-    "_id" : "28090-2", 
-    "name" : {
-        "en" : "Dragon Helix", 
-        "ko" : "흑염룡"
-    }, 
-    "icon" : "skill_icon_warlock_0_50"
-}
-{ 
-    "_id" : "28230", 
-    "name" : {
-        "en" : "Sanctum", 
-        "ko" : "항마진"
-    }, 
-    "icon" : "skill_icon_warlock_0_35"
-}
-{ 
-    "_id" : "28450-4", 
-    "name" : {
-        "en" : "Dimensional Salvo", 
-        "ko" : "수라"
-    }, 
-    "icon" : "skill_icon_warlock_0_46"
-}
-{ 
-    "_id" : "28620", 
-    "name" : {
-        "en" : "Claw", 
-        "ko" : "멸"
-    }, 
-    "icon" : "skill_icon_warlock_0_30"
-}
+},
 { 
     "_id" : "30064", 
     "name" : {
@@ -4277,128 +790,7 @@
         "ko" : "배후강타"
     }, 
     "icon" : "skill_icon_soulfighter_0_13"
-}
-{ 
-    "_id" : "30090", 
-    "name" : {
-        "en" : "Ground Ripple", 
-        "ko" : "대지파동"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_16"
-}
-{ 
-    "_id" : "30220", 
-    "name" : {
-        "en" : "Breeze Kick", 
-        "ko" : "질풍각"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_54"
-}
-{ 
-    "_id" : "30340", 
-    "name" : {
-        "en" : "Windstorm", 
-        "ko" : "신룡열파"
-    }, 
-    "icon" : "skill_icon_soulfighter_0_46"
-}
-{ 
-    "_id" : "20205", 
-    "name" : {
-        "en" : "Five Point Strike", 
-        "ko" : "오연베기"
-    }, 
-    "icon" : "skill_icon_blademaster_0_24"
-}
-{ 
-    "_id" : "20211-2", 
-    "name" : {
-        "en" : "Violent Blade", 
-        "ko" : "격검"
-    }, 
-    "icon" : "skill_icon_blademaster_0_44"
-}
-{ 
-    "_id" : "20230", 
-    "name" : {
-        "en" : "Raid", 
-        "ko" : "습격"
-    }, 
-    "icon" : "skill_icon_blademaster_0_23"
-}
-{ 
-    "_id" : "20990-3", 
-    "name" : {
-        "en" : "Lightning Edge", 
-        "ko" : "뇌령기검"
-    }, 
-    "icon" : "skill_icon_blademaster_1_33"
-}
-{ 
-    "_id" : "21007", 
-    "name" : {
-        "en" : "Guiding Fist", 
-        "ko" : "전질보"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_62"
-}
-{ 
-    "_id" : "21053", 
-    "name" : {
-        "en" : "Flurry", 
-        "ko" : "권무"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_49"
-}
-{ 
-    "_id" : "21112-3", 
-    "name" : {
-        "en" : "Chained Mace", 
-        "ko" : "연환퇴"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_46"
-}
-{ 
-    "_id" : "21255", 
-    "name" : {
-        "en" : "Avenging Fist", 
-        "ko" : "진격권"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_43"
-}
-{ 
-    "_id" : "22002", 
-    "name" : {
-        "en" : "Impact", 
-        "ko" : "충격파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_6"
-}
-{ 
-    "_id" : "22009", 
-    "name" : {
-        "en" : "Phantom Push", 
-        "ko" : "밀기"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_2"
-}
-{ 
-    "_id" : "22108", 
-    "name" : {
-        "en" : "Snowball", 
-        "ko" : "빙하장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_10"
-}
-{ 
-    "_id" : "22141", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Antigravity", 
-        "ko" : "반탄공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_50"
-}
+},
 { 
     "_id" : "22202-3", 
     "name" : {
@@ -4406,124 +798,7 @@
         "ko" : "광한지"
     }, 
     "icon" : "skill_icon_forcemaster_0_43"
-}
-{ 
-    "_id" : "22207", 
-    "name" : {
-        "en" : "Fire Storm", 
-        "ko" : "화염폭발"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_20"
-}
-{ 
-    "_id" : "22238", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Fire Storm", 
-        "ko" : "화염폭발"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_20"
-}
-{ 
-    "_id" : "22238-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Heatwave", 
-        "ko" : "폭염"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_46"
-}
-{ 
-    "_id" : "22241", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Inferno", 
-        "ko" : "화련장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_25"
-}
-{ 
-    "_id" : "22256", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Palm", 
-        "ko" : "한빙장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_33"
-}
-{ 
-    "_id" : "22300-2", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Shadow Grasp", 
-        "ko" : "중력장"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_1"
-}
-{ 
-    "_id" : "24020", 
-    "name" : {
-        "en" : "Wrath", 
-        "ko" : "격노"
-    }, 
-    "icon" : "skill_icon_destroyer_1_39"
-}
-{ 
-    "_id" : "24091", 
-    "name" : {
-        "en" : "Searing Strike", 
-        "ko" : "열화륜"
-    }, 
-    "icon" : "skill_icon_destroyer_1_19"
-}
-{ 
-    "_id" : "24251", 
-    "name" : {
-        "en" : "Set Down", 
-        "ko" : "내려놓기"
-    }, 
-    "icon" : "skill_icon_destroyer_1_8"
-}
-{ 
-    "_id" : "25021-3", 
-    "name" : {
-        "en" : "Webbing", 
-        "ko" : "거미줄"
-    }, 
-    "icon" : "skill_icon_assassin_0_29"
-}
-{ 
-    "_id" : "25022", 
-    "name" : {
-        "en" : "Backstep", 
-        "ko" : "후방이동"
-    }, 
-    "icon" : "skill_icon_assassin_0_10"
-}
-{ 
-    "_id" : "25023", 
-    "name" : {
-        "en" : "Swiftstep", 
-        "ko" : "나뭇잎운신"
-    }, 
-    "icon" : "skill_icon_assassin_0_47"
-}
-{ 
-    "_id" : "25268", 
-    "name" : {
-        "en" : "Awakened Heart Stab", 
-        "ko" : "각성 심장찌르기"
-    }, 
-    "icon" : "skill_icon_assassin_1_31"
-}
-{ 
-    "_id" : "26104-2", 
-    "name" : {
-        "en" : "Huzzah!", 
-        "ko" : "응원"
-    }, 
-    "icon" : "skill_icon_summon_0_56"
-}
+},
 { 
     "_id" : "26453", 
     "name" : {
@@ -4531,39 +806,7 @@
         "ko" : "각성 말벌"
     }, 
     "icon" : "skill_icon_summon_0_59"
-}
-{ 
-    "_id" : "27111", 
-    "name" : {
-        "en" : "Rush", 
-        "ko" : "돌진"
-    }, 
-    "icon" : "skill_icon_swordmaster_1_23"
-}
-{ 
-    "_id" : "27133", 
-    "name" : {
-        "en" : "Thrash", 
-        "ko" : "걷어차기"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_8"
-}
-{ 
-    "_id" : "27304-2", 
-    "name" : {
-        "en" : "Whirling Scourge", 
-        "ko" : "회천령"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_17"
-}
-{ 
-    "_id" : "27311", 
-    "name" : {
-        "en" : "Lightning Rod", 
-        "ko" : "뇌령"
-    }, 
-    "icon" : "skill_icon_swordmaster_2_5"
-}
+},
 { 
     "_id" : "27500", 
     "icon" : "skill_icon_blademaster_0_20", 
@@ -4571,55 +814,338 @@
         "ko" : "쾌검", 
         "en" : "Blade Echo"
     }
-}
+},
 { 
-    "_id" : "30150", 
+    "_id" : "26211", 
     "name" : {
-        "en" : "Stance Shift", 
-        "ko" : "태세전환"
+        "en" : "Strike", 
+        "ko" : "충격"
     }, 
-    "icon" : "skill_icon_soulfighter_0_23"
-}
+    "icon" : "skill_icon_summon_0_25"
+},
 { 
-    "_id" : "30160", 
+    "_id" : "28710", 
     "name" : {
-        "en" : "Frost Palm", 
-        "ko" : "한빙장"
+        "en" : "Onrush", 
+        "ko" : "명령"
     }, 
-    "icon" : "skill_icon_soulfighter_0_24"
-}
+    "icon" : "skill_icon_warlock_0_21"
+},
 { 
-    "_id" : "20115-2", 
+    "_id" : "24110", 
     "name" : {
-        "en" : "Divebomb", 
-        "ko" : "벼락"
+        "en" : "Grab", 
+        "ko" : "장악"
     }, 
-    "icon" : "skill_icon_blademaster_1_10"
-}
+    "icon" : "skill_icon_destroyer_1_4"
+},
 { 
-    "_id" : "20151", 
+    "_id" : "24130", 
     "name" : {
-        "en" : "Thrash", 
-        "ko" : "걷어차기"
+        "en" : "Headbutt", 
+        "ko" : "박치기"
     }, 
-    "icon" : "skill_icon_blademaster_1_8"
-}
+    "icon" : "skill_icon_destroyer_0_62"
+},
 { 
-    "_id" : "20306", 
+    "_id" : "26220", 
     "name" : {
-        "en" : "Cyclone", 
-        "ko" : "회전베기"
+        "en" : "Helping Paw", 
+        "ko" : "심페소생술"
     }, 
-    "icon" : "skill_icon_blademaster_0_45"
-}
+    "icon" : "skill_icon_summon_0_12"
+},
 { 
-    "_id" : "20604", 
+    "_id" : "26566", 
     "name" : {
-        "en" : "Blitzblade Scourge", 
-        "ko" : "폭검령"
+        "en" : "Party Time", 
+        "ko" : "도약"
     }, 
-    "icon" : "skill_icon_blademaster_1_17"
-}
+    "icon" : "skill_icon_summon_0_63"
+},
+{ 
+    "_id" : "28450-2", 
+    "name" : {
+        "en" : "Dimensional Volley", 
+        "ko" : "야차"
+    }, 
+    "icon" : "skill_icon_warlock_0_45"
+},
+{ 
+    "_id" : "30170", 
+    "name" : {
+        "en" : "Snowball", 
+        "ko" : "빙하장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_25"
+},
+{ 
+    "_id" : "20106-2", 
+    "name" : {
+        "en" : "Winged Protector", 
+        "ko" : "어검보호"
+    }, 
+    "icon" : "buff_debuff_icon_02_57"
+},
+{ 
+    "_id" : "25032", 
+    "name" : {
+        "en" : "Volley", 
+        "ko" : "암연비각"
+    }, 
+    "icon" : "skill_icon_assassin_0_51"
+},
+{ 
+    "_id" : "26211-2", 
+    "name" : {
+        "en" : "Clawnado", 
+        "ko" : "용호냥무"
+    }, 
+    "icon" : "skill_icon_summon_0_52"
+},
+{ 
+    "_id" : "27305", 
+    "name" : {
+        "en" : "Soul Stab", 
+        "ko" : "어검징표"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_1"
+},
+{ 
+    "_id" : "26202-2", 
+    "name" : {
+        "en" : "Surprise Gift", 
+        "ko" : "폭탄설치"
+    }, 
+    "icon" : "skill_icon_summon_0_26"
+},
+{ 
+    "_id" : "28660", 
+    "name" : {
+        "en" : "Gravity Well", 
+        "ko" : "중력진"
+    }, 
+    "icon" : "skill_icon_warlock_0_33"
+},
+{ 
+    "_id" : "20991", 
+    "name" : {
+        "en" : "Lightning Surge", 
+        "ko" : "유성섬"
+    }, 
+    "icon" : "skill_icon_blademaster_1_34"
+},
+{ 
+    "_id" : "21009-3", 
+    "name" : {
+        "en" : "Fighting Spirit", 
+        "ko" : "투지발산"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_32"
+},
+{ 
+    "_id" : "22307-2", 
+    "name" : {
+        "en" : "Awakened Glacial Beam", 
+        "ko" : "각성 빙백한포"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_18"
+},
+{ 
+    "_id" : "24040-2", 
+    "name" : {
+        "en" : "Drag", 
+        "ko" : "끌어오기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_42"
+},
+{ 
+    "_id" : "26215", 
+    "name" : {
+        "en" : "Uppercut", 
+        "ko" : "올려치기"
+    }, 
+    "icon" : "skill_icon_summon_0_29"
+},
+{ 
+    "_id" : "22007", 
+    "name" : {
+        "en" : "Aerial Phantom Grip", 
+        "ko" : "공중흡공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_49"
+},
+{ 
+    "_id" : "22266", 
+    "name" : {
+        "en" : "Ice Coil", 
+        "ko" : "파음지"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_40"
+},
+{ 
+    "_id" : "21009", 
+    "name" : {
+        "en" : "Grapple", 
+        "ko" : "제압"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_6"
+},
+{ 
+    "_id" : "21509", 
+    "name" : {
+        "en" : "Emit Frost", 
+        "ko" : "한기발산"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_11"
+},
+{ 
+    "_id" : "26111-2", 
+    "name" : {
+        "en" : "Petal Storm Toss", 
+        "ko" : "투척꽃가루"
+    }, 
+    "icon" : "skill_icon_summon_0_57"
+},
+{ 
+    "_id" : "20003-2", 
+    "name" : {
+        "en" : "Blade Call", 
+        "ko" : "천검"
+    }, 
+    "icon" : "skill_icon_blademaster_1_13"
+},
+{ 
+    "_id" : "20108-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Fissure", 
+        "ko" : "대지가르기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_12"
+},
+{ 
+    "_id" : "27152", 
+    "name" : {
+        "en" : "Counterstrike", 
+        "ko" : "받아치기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_51"
+},
+{ 
+    "_id" : "22120", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Wildfire", 
+        "ko" : "불씨확산"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_45"
+},
+{ 
+    "_id" : "30030", 
+    "name" : {
+        "en" : "Iron Shoulder", 
+        "ko" : "철산고"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_7"
+},
+{ 
+    "_id" : "22244", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Blaze Step", 
+        "ko" : "화신보"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_54"
+},
+{ 
+    "_id" : "28070", 
+    "name" : {
+        "en" : "Bastion", 
+        "ko" : "보호부"
+    }, 
+    "icon" : "skill_icon_warlock_0_11"
+},
+{ 
+    "_id" : "30210-2", 
+    "name" : {
+        "en" : "Whirlwind", 
+        "ko" : "소멸장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_31"
+},
+{ 
+    "_id" : "30230", 
+    "name" : {
+        "en" : "Shadow Dance", 
+        "ko" : "횡이동"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_32"
+},
+{ 
+    "_id" : "20400-2", 
+    "name" : {
+        "en" : "Awakened Dragontongue", 
+        "ko" : "각성 화룡연참"
+    }, 
+    "icon" : "skill_icon_blademaster_1_32"
+},
+{ 
+    "_id" : "21180", 
+    "name" : {
+        "en" : "Sky Kick", 
+        "ko" : "올려차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_4"
+},
+{ 
+    "_id" : "26101", 
+    "name" : {
+        "en" : "Rosethorn", 
+        "ko" : "장미"
+    }, 
+    "icon" : "skill_icon_summon_0_2"
+},
+{ 
+    "_id" : "30110-2", 
+    "name" : {
+        "en" : "Frost Storm", 
+        "ko" : "한기폭풍"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_19"
+},
+{ 
+    "_id" : "24012", 
+    "name" : {
+        "en" : "Typhoon", 
+        "ko" : "태풍"
+    }, 
+    "icon" : "skill_icon_destroyer_1_40"
+},
+{ 
+    "_id" : "25111-3", 
+    "name" : {
+        "en" : "Shadow Drain", 
+        "ko" : "그림자흡수"
+    }, 
+    "icon" : "skill_icon_assassin_1_18"
+},
+{ 
+    "_id" : "24091", 
+    "name" : {
+        "en" : "Searing Strike", 
+        "ko" : "열화륜"
+    }, 
+    "icon" : "skill_icon_destroyer_1_19"
+},
+{ 
+    "_id" : "24251", 
+    "name" : {
+        "en" : "Set Down", 
+        "ko" : "내려놓기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_8"
+},
 { 
     "_id" : "21005-3", 
     "name" : {
@@ -4627,65 +1153,7 @@
         "ko" : "쌍박수"
     }, 
     "icon" : "skill_icon_kungfufighter_1_7"
-}
-{ 
-    "_id" : "21115", 
-    "name" : {
-        "en" : "Flying Slam", 
-        "ko" : "뛰어찍기"
-    }, 
-    "icon" : "skill_icon_kungfufighter_0_13"
-}
-{ 
-    "_id" : "21979", 
-    "name" : {
-        "en" : "Awakened Searing Palm", 
-        "ko" : "각성 점혈"
-    }, 
-    "icon" : "skill_icon_kungfufighter_1_47"
-}
-{ 
-    "_id" : "22006", 
-    "name" : {
-        "en" : "Multiple Blaze", 
-        "ko" : "폭열연파"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_13"
-}
-{ 
-    "_id" : "22107", 
-    "name" : {
-        "en" : "Inferno", 
-        "ko" : "화련장"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_25"
-}
-{ 
-    "_id" : "22203", 
-    "name" : {
-        "en" : "Dragonblaze", 
-        "ko" : "염룡파"
-    }, 
-    "icon" : "skill_icon_forcemaster_1_2"
-}
-{ 
-    "_id" : "22245", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Step", 
-        "ko" : "한신보"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_55"
-}
-{ 
-    "_id" : "22250", 
-    "legacy" : true, 
-    "name" : {
-        "en" : "Frost Armor", 
-        "ko" : "결빙공"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_30"
-}
+},
 { 
     "_id" : "22255", 
     "legacy" : true, 
@@ -4694,55 +1162,15 @@
         "ko" : "열화장"
     }, 
     "icon" : "skill_icon_forcemaster_0_32"
-}
-{ 
-    "_id" : "22302", 
-    "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
-    }, 
-    "icon" : "skill_icon_forcemaster_0_56"
-}
-{ 
-    "_id" : "24010", 
-    "name" : {
-        "en" : "Hurricane", 
-        "ko" : "광풍"
-    }, 
-    "icon" : "skill_icon_destroyer_0_29"
-}
+},
 { 
     "_id" : "24073", 
     "name" : {
-        "en" : "Stone Armor", 
+        "en" : "Iron Plating", 
         "ko" : "철갑"
     }, 
     "icon" : "skill_icon_destroyer_1_12"
-}
-{ 
-    "_id" : "25009", 
-    "name" : {
-        "en" : "Lotus Fury", 
-        "ko" : "연화난무"
-    }, 
-    "icon" : "skill_icon_assassin_0_60"
-}
-{ 
-    "_id" : "25031", 
-    "name" : {
-        "en" : "Sweeping Gale", 
-        "ko" : "나뭇잎열풍"
-    }, 
-    "icon" : "skill_icon_assassin_0_23"
-}
-{ 
-    "_id" : "25037", 
-    "name" : {
-        "en" : "Highwire", 
-        "ko" : "은사"
-    }, 
-    "icon" : "skill_icon_assassin_0_52"
-}
+},
 { 
     "_id" : "25051", 
     "name" : {
@@ -4750,119 +1178,265 @@
         "ko" : "독비수"
     }, 
     "icon" : "skill_icon_assassin_1_1"
-}
+},
 { 
-    "_id" : "25052", 
+    "_id" : "26201-2", 
     "name" : {
-        "en" : "Venom Pierce", 
-        "ko" : "맹독찌르기"
+        "en" : "Heavy Swipe", 
+        "ko" : "야옹~"
     }, 
-    "icon" : "skill_icon_swordmaster_2_20"
-}
+    "icon" : "skill_icon_summon_0_28"
+},
 { 
-    "_id" : "25127", 
+    "_id" : "20990-2", 
     "name" : {
-        "en" : "Shadow Kick", 
-        "ko" : "일격"
+        "en" : "Flame Edge", 
+        "ko" : "화령기검"
     }, 
-    "icon" : "skill_icon_assassin_0_49"
-}
+    "icon" : "skill_icon_blademaster_1_33"
+},
 { 
-    "_id" : "25214", 
+    "_id" : "25018", 
     "name" : {
-        "en" : "Lotus of Escape", 
-        "ko" : "둔주의 진"
+        "en" : "Sneak Attack", 
+        "ko" : "그림자 밟기"
     }, 
-    "icon" : "skill_icon_assassin_0_42"
-}
+    "icon" : "skill_icon_assassin_1_12"
+},
 { 
-    "_id" : "26203", 
+    "_id" : "25405", 
     "name" : {
-        "en" : "Farewell", 
-        "ko" : "고양이의 보은"
+        "en" : "Protection Decoy", 
+        "ko" : "보호 나무토막"
     }, 
-    "icon" : "skill_icon_summon_0_13"
-}
+    "icon" : "skill_icon_assassin_1_28"
+},
 { 
-    "_id" : "26206-2", 
+    "_id" : "24204", 
     "name" : {
-        "en" : "Kapow!", 
-        "ko" : "우다다"
+        "en" : "Reaching Kick", 
+        "ko" : "뻗어차기"
     }, 
-    "icon" : "skill_icon_summon_0_45"
-}
+    "icon" : "skill_icon_destroyer_1_36"
+},
 { 
-    "_id" : "26208", 
+    "_id" : "20133", 
     "name" : {
-        "en" : "Headbutt", 
-        "ko" : "박치기"
+        "en" : "Flying Sparrow", 
+        "ko" : "신검합일"
     }, 
-    "icon" : "skill_icon_summon_0_20"
-}
+    "icon" : "skill_icon_blademaster_0_61"
+},
 { 
-    "_id" : "27110", 
+    "_id" : "21030-2", 
     "name" : {
-        "en" : "Stomp", 
-        "ko" : "밟기"
+        "en" : "Searing Blow", 
+        "ko" : "백열각"
     }, 
-    "icon" : "skill_icon_swordmaster_1_15"
-}
+    "icon" : "skill_icon_kungfufighter_1_48"
+},
 { 
-    "_id" : "27120", 
+    "_id" : "21107", 
     "name" : {
-        "en" : "Rising Eagle", 
-        "ko" : "비상"
+        "en" : "Backstep", 
+        "ko" : "후방이동"
     }, 
-    "icon" : "skill_icon_swordmaster_1_17"
-}
+    "icon" : "skill_icon_kungfufighter_1_2"
+},
 { 
-    "_id" : "27121", 
+    "_id" : "20202", 
     "name" : {
-        "en" : "Ascend", 
-        "ko" : "승천"
+        "en" : "Lightning Draw", 
+        "ko" : "번개베기"
     }, 
-    "icon" : "skill_icon_swordmaster_1_18"
-}
+    "icon" : "skill_icon_blademaster_0_21"
+},
 { 
-    "_id" : "27151", 
+    "_id" : "21451", 
     "name" : {
-        "en" : "Retreat", 
-        "ko" : "뒤구르기"
+        "en" : "One-Two Punch", 
+        "ko" : "천수장"
     }, 
-    "icon" : "skill_icon_swordmaster_2_7"
-}
+    "icon" : "skill_icon_kungfufighter_0_51"
+},
 { 
-    "_id" : "27282", 
+    "_id" : "25006-4", 
     "name" : {
-        "en" : "Thundering Sword", 
-        "ko" : "뇌우비검"
+        "en" : "Detonate", 
+        "ko" : "폭파"
     }, 
-    "icon" : "skill_icon_swordmaster_2_32"
-}
+    "icon" : "skill_icon_assassin_1_14"
+},
 { 
-    "_id" : "27633-2", 
+    "_id" : "28430", 
     "name" : {
-        "en" : "Awakened Sunder", 
-        "ko" : "각성 가르기"
+        "en" : "Necrotic Chains", 
+        "ko" : "사령결계"
     }, 
-    "icon" : "skill_icon_swordmaster_2_40"
-}
+    "icon" : "skill_icon_warlock_0_57"
+},
 { 
-    "_id" : "28335", 
+    "_id" : "26106", 
     "name" : {
-        "en" : "Thrash", 
-        "ko" : "걷어차기"
+        "en" : "Thorn Strike", 
+        "ko" : "가시덩굴"
     }, 
-    "icon" : "skill_icon_assassin_1_4"
-}
+    "icon" : "skill_icon_summon_0_40"
+},
 { 
-    "_id" : "28340", 
+    "_id" : "28330", 
     "name" : {
-        "en" : "Reversal", 
-        "ko" : "벗어나기"
+        "en" : "Displace", 
+        "ko" : "진공파"
     }, 
-    "icon" : "skill_icon_warlock_0_15"
-}
+    "icon" : "skill_icon_warlock_0_14"
+},
+{ 
+    "_id" : "25041", 
+    "name" : {
+        "en" : "Hook Kick", 
+        "ko" : "그림자침입"
+    }, 
+    "icon" : "skill_icon_assassin_0_40"
+},
+{ 
+    "_id" : "22251", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Dragonchar", 
+        "ko" : "폭열신장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_31"
+},
+{ 
+    "_id" : "21106", 
+    "name" : {
+        "en" : "Leg Sweep", 
+        "ko" : "다리걸기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_5"
+},
+{ 
+    "_id" : "21132", 
+    "name" : {
+        "en" : "Tornado", 
+        "ko" : "회전차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_58"
+},
+{ 
+    "_id" : "21142", 
+    "name" : {
+        "en" : "Ground Pound", 
+        "ko" : "연타"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_50"
+},
+{ 
+    "_id" : "22300", 
+    "name" : {
+        "en" : "Backstep", 
+        "ko" : "이탈"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_19"
+},
+{ 
+    "_id" : "22550", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Mystic Fire", 
+        "ko" : "신화경"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_14"
+},
+{ 
+    "_id" : "30120", 
+    "name" : {
+        "en" : "Focus Chi", 
+        "ko" : "내공집중"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_20"
+},
+{ 
+    "_id" : "30180", 
+    "name" : {
+        "en" : "Displace", 
+        "ko" : "진공파"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_27"
+},
+{ 
+    "_id" : "22008", 
+    "name" : {
+        "en" : "Bolt Bash", 
+        "ko" : "탄지공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_12"
+},
+{ 
+    "_id" : "22202-2", 
+    "name" : {
+        "en" : "Frost Prison", 
+        "ko" : "얼음감옥"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_17"
+},
+{ 
+    "_id" : "28220", 
+    "name" : {
+        "en" : "Rupture", 
+        "ko" : "파열"
+    }, 
+    "icon" : "skill_icon_warlock_0_4"
+},
+{ 
+    "_id" : "26217", 
+    "name" : {
+        "en" : "Guard Duty", 
+        "ko" : "경호"
+    }, 
+    "icon" : "skill_icon_summon_0_31"
+},
+{ 
+    "_id" : "30090", 
+    "name" : {
+        "en" : "Ground Ripple", 
+        "ko" : "대지파동"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_16"
+},
+{ 
+    "_id" : "20211-2", 
+    "name" : {
+        "en" : "Violent Blade", 
+        "ko" : "격검"
+    }, 
+    "icon" : "skill_icon_blademaster_0_44"
+},
+{ 
+    "_id" : "21053", 
+    "name" : {
+        "en" : "Flurry", 
+        "ko" : "권무"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_49"
+},
+{ 
+    "_id" : "20115-2", 
+    "name" : {
+        "en" : "Divebomb", 
+        "ko" : "벼락"
+    }, 
+    "icon" : "skill_icon_blademaster_1_10"
+},
+{ 
+    "_id" : "25037", 
+    "name" : {
+        "en" : "Highwire", 
+        "ko" : "은사"
+    }, 
+    "icon" : "skill_icon_assassin_0_52"
+},
 { 
     "_id" : "28450", 
     "name" : {
@@ -4870,7 +1444,824 @@
         "ko" : "차원탄"
     }, 
     "icon" : "skill_icon_warlock_0_3"
-}
+},
+{ 
+    "_id" : "20516", 
+    "name" : {
+        "en" : "Dual Strike", 
+        "ko" : "풍월도"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_64"
+},
+{ 
+    "_id" : "22221", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Blackout", 
+        "ko" : "봉인"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_4"
+},
+{ 
+    "_id" : "24122", 
+    "name" : {
+        "en" : "Scorching Strike", 
+        "ko" : "격화륜"
+    }, 
+    "icon" : "skill_icon_destroyer_1_32"
+},
+{ 
+    "_id" : "22003-3", 
+    "name" : {
+        "en" : "Glacial Beam", 
+        "ko" : "빙백한포"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_6"
+},
+{ 
+    "_id" : "21134", 
+    "name" : {
+        "en" : "Somersault Kick", 
+        "ko" : "반달차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_57"
+},
+{ 
+    "_id" : "22000", 
+    "name" : {
+        "en" : "Flame Palm", 
+        "ko" : "열화장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_32"
+},
+{ 
+    "_id" : "24100-2", 
+    "name" : {
+        "en" : "Execute", 
+        "ko" : "집행"
+    }, 
+    "icon" : "skill_icon_destroyer_1_52"
+},
+{ 
+    "_id" : "26109", 
+    "name" : {
+        "en" : "Beckon", 
+        "ko" : "강아지풀"
+    }, 
+    "icon" : "skill_icon_summon_0_14"
+},
+{ 
+    "_id" : "20106", 
+    "name" : {
+        "en" : "Sword Shroud", 
+        "ko" : "검막"
+    }, 
+    "icon" : "buff_debuff_icon_02_57"
+},
+{ 
+    "_id" : "20114", 
+    "name" : {
+        "en" : "Guardian Tempest", 
+        "ko" : "호위령"
+    }, 
+    "icon" : "buff_debuff_icon_02_57"
+},
+{ 
+    "_id" : "22211", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Drain", 
+        "ko" : "흡수"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_5"
+},
+{ 
+    "_id" : "27103", 
+    "name" : {
+        "en" : "Vortex", 
+        "ko" : "바람개비"
+    }, 
+    "icon" : "skill_icon_swordmaster_0_3"
+},
+{ 
+    "_id" : "28060", 
+    "name" : {
+        "en" : "Imprison", 
+        "ko" : "개문"
+    }, 
+    "icon" : "skill_icon_warlock_0_36"
+},
+{ 
+    "_id" : "30270", 
+    "name" : {
+        "en" : "Second Wind", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_39"
+},
+{ 
+    "_id" : "30020", 
+    "name" : {
+        "en" : "Cobalt Punch", 
+        "ko" : "창천권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_4"
+},
+{ 
+    "_id" : "35140-3", 
+    "name" : {
+        "en" : "Awakened Left Punch", 
+        "ko" : "각성 좌벽장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_58"
+},
+{ 
+    "_id" : "20129", 
+    "name" : {
+        "en" : "Crash", 
+        "ko" : "추락"
+    }, 
+    "icon" : "skill_icon_blademaster_0_37"
+},
+{ 
+    "_id" : "21144", 
+    "name" : {
+        "en" : "Clobber", 
+        "ko" : "강습"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_10"
+},
+{ 
+    "_id" : "30251", 
+    "name" : {
+        "en" : "Backstep", 
+        "ko" : "이탈"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_37"
+},
+{ 
+    "_id" : "24230", 
+    "name" : {
+        "en" : "Tempest", 
+        "ko" : "기상광풍"
+    }, 
+    "icon" : "skill_icon_destroyer_1_9"
+},
+{ 
+    "_id" : "26000-2", 
+    "name" : {
+        "en" : "Quick Kitty", 
+        "ko" : "날쌔다냥"
+    }, 
+    "icon" : "skill_icon_summon_0_38"
+},
+{ 
+    "_id" : "21145", 
+    "name" : {
+        "en" : "Leading Palm", 
+        "ko" : "통배권"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_24"
+},
+{ 
+    "_id" : "21005", 
+    "name" : {
+        "en" : "Counter", 
+        "ko" : "반격"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_1"
+},
+{ 
+    "_id" : "24070", 
+    "name" : {
+        "en" : "Emberstomp", 
+        "ko" : "발구르기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_43"
+},
+{ 
+    "_id" : "30250", 
+    "name" : {
+        "en" : "Backstep", 
+        "ko" : "후방이동"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_36"
+},
+{ 
+    "_id" : "25142", 
+    "name" : {
+        "en" : "Lightning Rend", 
+        "ko" : "뇌절도"
+    }, 
+    "icon" : "skill_icon_assassin_0_63"
+},
+{ 
+    "_id" : "26201", 
+    "name" : {
+        "en" : "Paw", 
+        "ko" : "냥~"
+    }, 
+    "icon" : "skill_icon_summon_0_28"
+},
+{ 
+    "_id" : "21110", 
+    "name" : {
+        "en" : "Iron Shoulder", 
+        "ko" : "철산고"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_2"
+},
+{ 
+    "_id" : "27335", 
+    "name" : {
+        "en" : "Blade Storm", 
+        "ko" : "어검연속베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_56"
+},
+{ 
+    "_id" : "21406", 
+    "name" : {
+        "en" : "Shin Kick", 
+        "ko" : "발목강타"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_41"
+},
+{ 
+    "_id" : "25044", 
+    "name" : {
+        "en" : "Slipping Lotus", 
+        "ko" : "연화"
+    }, 
+    "icon" : "skill_icon_assassin_0_45"
+},
+{ 
+    "_id" : "27104", 
+    "name" : {
+        "en" : "Sunder", 
+        "ko" : "가르기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_28"
+},
+{ 
+    "_id" : "20205", 
+    "name" : {
+        "en" : "Five Point Strike", 
+        "ko" : "오연베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_24"
+},
+{ 
+    "_id" : "20990-3", 
+    "name" : {
+        "en" : "Lightning Edge", 
+        "ko" : "뇌령기검"
+    }, 
+    "icon" : "skill_icon_blademaster_1_33"
+},
+{ 
+    "_id" : "22207", 
+    "name" : {
+        "en" : "Fire Storm", 
+        "ko" : "화염폭발"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_20"
+},
+{ 
+    "_id" : "22238-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Heatwave", 
+        "ko" : "폭염"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_46"
+},
+{ 
+    "_id" : "22241", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Inferno", 
+        "ko" : "화련장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_25"
+},
+{ 
+    "_id" : "22302", 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_56"
+},
+{ 
+    "_id" : "25009", 
+    "name" : {
+        "en" : "Lotus Fury", 
+        "ko" : "연화난무"
+    }, 
+    "icon" : "skill_icon_assassin_0_60"
+},
+{ 
+    "_id" : "27110", 
+    "name" : {
+        "en" : "Stomp", 
+        "ko" : "밟기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_15"
+},
+{ 
+    "_id" : "28457", 
+    "name" : {
+        "en" : "Awakened Bombardment", 
+        "ko" : "각성 차원탄"
+    }, 
+    "icon" : "skill_icon_warlock_0_54"
+},
+{ 
+    "_id" : "30370", 
+    "name" : {
+        "en" : "Slip Kick", 
+        "ko" : "비상격"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_49"
+},
+{ 
+    "_id" : "21175", 
+    "name" : {
+        "en" : "Body Kick", 
+        "ko" : "발차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_14"
+},
+{ 
+    "_id" : "25016-2", 
+    "name" : {
+        "en" : "Smoke Screen", 
+        "ko" : "연막"
+    }, 
+    "icon" : "skill_icon_assassin_0_13"
+},
+{ 
+    "_id" : "26112", 
+    "name" : {
+        "en" : "Seed Shroud", 
+        "ko" : "민들레씨"
+    }, 
+    "icon" : "skill_icon_summon_0_17"
+},
+{ 
+    "_id" : "26450", 
+    "name" : {
+        "en" : "Super Sunflower", 
+        "ko" : "큰 해바라기"
+    }, 
+    "icon" : "skill_icon_summon_0_50"
+},
+{ 
+    "_id" : "30330", 
+    "name" : {
+        "en" : "Meteor Strike", 
+        "ko" : "유성격"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_45"
+},
+{ 
+    "_id" : "20127", 
+    "name" : {
+        "en" : "Boot", 
+        "ko" : "앞차기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_35"
+},
+{ 
+    "_id" : "21182", 
+    "name" : {
+        "en" : "Falling Star", 
+        "ko" : "공중찍기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_19"
+},
+{ 
+    "_id" : "30280", 
+    "name" : {
+        "en" : "Tornado", 
+        "ko" : "회전차기"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_40"
+},
+{ 
+    "_id" : "20603", 
+    "name" : {
+        "en" : "Lightning Rod", 
+        "ko" : "뇌령"
+    }, 
+    "icon" : "skill_icon_blademaster_1_20"
+},
+{ 
+    "_id" : "24320", 
+    "name" : {
+        "en" : "Iron Fortress", 
+        "ko" : "철옹성"
+    }, 
+    "icon" : "skill_icon_destroyer_1_12"
+},
+{ 
+    "_id" : "25006-3", 
+    "name" : {
+        "en" : "Detonate", 
+        "ko" : "폭파"
+    }, 
+    "icon" : "skill_icon_assassin_0_34"
+},
+{ 
+    "_id" : "28800-2", 
+    "name" : {
+        "en" : "Soulburn", 
+        "ko" : "강신"
+    }, 
+    "icon" : "skill_icon_warlock_0_27"
+},
+{ 
+    "_id" : "25107", 
+    "name" : {
+        "en" : "Venom Slash", 
+        "ko" : "맹독베기"
+    }, 
+    "icon" : "skill_icon_assassin_1_20"
+},
+{ 
+    "_id" : "26559", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Awakened Rosethorn", 
+        "ko" : "각성 장미"
+    }, 
+    "icon" : "skill_icon_summon_0_47"
+},
+{ 
+    "_id" : "27115", 
+    "name" : {
+        "en" : "Strafe", 
+        "ko" : "역공"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_21"
+},
+{ 
+    "_id" : "27307", 
+    "name" : {
+        "en" : "Blitzblade", 
+        "ko" : "폭검"
+    }, 
+    "icon" : "skill_icon_swordmaster_0_7"
+},
+{ 
+    "_id" : "25003-2", 
+    "name" : {
+        "en" : "Bombard", 
+        "ko" : "진천뢰"
+    }, 
+    "icon" : "skill_icon_assassin_0_50"
+},
+{ 
+    "_id" : "26114", 
+    "name" : {
+        "en" : "Tag Team", 
+        "ko" : "교체"
+    }, 
+    "icon" : "skill_icon_summon_0_24"
+},
+{ 
+    "_id" : "27113", 
+    "name" : {
+        "en" : "Anklebiter", 
+        "ko" : "하단베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_9"
+},
+{ 
+    "_id" : "25024", 
+    "name" : {
+        "en" : "Shadow Dance", 
+        "ko" : "횡이동"
+    }, 
+    "icon" : "skill_icon_assassin_0_9"
+},
+{ 
+    "_id" : "28450-4", 
+    "name" : {
+        "en" : "Dimensional Salvo", 
+        "ko" : "수라"
+    }, 
+    "icon" : "skill_icon_warlock_0_46"
+},
+{ 
+    "_id" : "20604", 
+    "name" : {
+        "en" : "Blitzblade Scourge", 
+        "ko" : "폭검령"
+    }, 
+    "icon" : "skill_icon_blademaster_1_17"
+},
+{ 
+    "_id" : "25127", 
+    "name" : {
+        "en" : "Shadow Kick", 
+        "ko" : "일격"
+    }, 
+    "icon" : "skill_icon_assassin_0_49"
+},
+{ 
+    "_id" : "28335", 
+    "name" : {
+        "en" : "Thrash", 
+        "ko" : "걷어차기"
+    }, 
+    "icon" : "skill_icon_assassin_1_4"
+},
+{ 
+    "_id" : "26310", 
+    "name" : {
+        "en" : "Flying Nettles", 
+        "ko" : "투척밤송이"
+    }, 
+    "icon" : "skill_icon_summon_0_15"
+},
+{ 
+    "_id" : "28320", 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_warlock_0_17"
+},
+{ 
+    "_id" : "27400", 
+    "name" : {
+        "en" : "Flicker", 
+        "ko" : "발도"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_19"
+},
+{ 
+    "_id" : "20117", 
+    "name" : {
+        "en" : "Rising Eagle", 
+        "ko" : "비상"
+    }, 
+    "icon" : "skill_icon_blademaster_0_17"
+},
+{ 
+    "_id" : "22410", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Flame Soul", 
+        "ko" : "염혼"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_26"
+},
+{ 
+    "_id" : "27111-3", 
+    "name" : {
+        "en" : "Raid", 
+        "ko" : "습격"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_23"
+},
+{ 
+    "_id" : "28090", 
+    "name" : {
+        "en" : "Dragoncall", 
+        "ko" : "폭마령"
+    }, 
+    "icon" : "skill_icon_warlock_0_10"
+},
+{ 
+    "_id" : "20113", 
+    "name" : {
+        "en" : "Blindside", 
+        "ko" : "역습"
+    }, 
+    "icon" : "skill_icon_blademaster_0_13"
+},
+{ 
+    "_id" : "22251-3", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Ice Rain", 
+        "ko" : "빙하신장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_6"
+},
+{ 
+    "_id" : "28800", 
+    "name" : {
+        "en" : "Obliterate", 
+        "ko" : "소멸"
+    }, 
+    "icon" : "skill_icon_warlock_0_25"
+},
+{ 
+    "_id" : "21060", 
+    "name" : {
+        "en" : "Tremor", 
+        "ko" : "산사태"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_25"
+},
+{ 
+    "_id" : "26304", 
+    "name" : {
+        "en" : "True Friend", 
+        "ko" : "우정"
+    }, 
+    "icon" : "skill_icon_summon_0_41"
+},
+{ 
+    "_id" : "20202-2", 
+    "name" : {
+        "en" : "Searing Slash", 
+        "ko" : "초열베기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_30"
+},
+{ 
+    "_id" : "21145-2", 
+    "name" : {
+        "en" : "Roaring Tiger", 
+        "ko" : "맹호경파산"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_1"
+},
+{ 
+    "_id" : "24083", 
+    "name" : {
+        "en" : "Piledriver", 
+        "ko" : "나락"
+    }, 
+    "icon" : "skill_icon_destroyer_0_22"
+},
+{ 
+    "_id" : "30020-2", 
+    "name" : {
+        "en" : "Right Punch", 
+        "ko" : "우벽장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_6"
+},
+{ 
+    "_id" : "24030-3", 
+    "name" : {
+        "en" : "Repulse", 
+        "ko" : "격퇴"
+    }, 
+    "icon" : "skill_icon_destroyer_1_51"
+},
+{ 
+    "_id" : "27109", 
+    "name" : {
+        "en" : "Body Kick", 
+        "ko" : "발차기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_35"
+},
+{ 
+    "_id" : "22110-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Tornado", 
+        "ko" : "한빙면장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_36"
+},
+{ 
+    "_id" : "25013-2", 
+    "name" : {
+        "en" : "Sidestep Right", 
+        "ko" : "우횡보"
+    }, 
+    "icon" : "skill_icon_assassin_0_24"
+},
+{ 
+    "_id" : "26125", 
+    "name" : {
+        "en" : "Evade", 
+        "ko" : "회피"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_56"
+},
+{ 
+    "_id" : "30190", 
+    "name" : {
+        "en" : "Frost Nova", 
+        "ko" : "광한지"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_28"
+},
+{ 
+    "_id" : "25214-2", 
+    "name" : {
+        "en" : "Lotus of Poison", 
+        "ko" : "역주의 진"
+    }, 
+    "icon" : "skill_icon_assassin_0_55"
+},
+{ 
+    "_id" : "27126-2", 
+    "name" : {
+        "en" : "Wind Slash", 
+        "ko" : "바람베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_21"
+},
+{ 
+    "_id" : "22001", 
+    "name" : {
+        "en" : "Frost Palm", 
+        "ko" : "한빙장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_33"
+},
+{ 
+    "_id" : "25025", 
+    "name" : {
+        "en" : "Guard Break", 
+        "ko" : "공수탈백인"
+    }, 
+    "icon" : "skill_icon_assassin_0_48"
+},
+{ 
+    "_id" : "27404-3", 
+    "name" : {
+        "en" : "Wind Flash", 
+        "ko" : "풍연섬"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_39"
+},
+{ 
+    "_id" : "28050", 
+    "name" : {
+        "en" : "Tether Blade", 
+        "ko" : "경계베기"
+    }, 
+    "icon" : "skill_icon_warlock_0_12"
+},
+{ 
+    "_id" : "24039", 
+    "name" : {
+        "en" : "Galeforce", 
+        "ko" : "격풍"
+    }, 
+    "icon" : "skill_icon_destroyer_1_10"
+},
+{ 
+    "_id" : "24090-2", 
+    "name" : {
+        "en" : "Persistence", 
+        "ko" : "불굴"
+    }, 
+    "icon" : "skill_icon_destroyer_1_17"
+},
+{ 
+    "_id" : "27203", 
+    "name" : {
+        "en" : "Hurl", 
+        "ko" : "던지기"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_2"
+},
+{ 
+    "_id" : "21007", 
+    "name" : {
+        "en" : "Guiding Fist", 
+        "ko" : "전질보"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_62"
+},
+{ 
+    "_id" : "22256", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Palm", 
+        "ko" : "한빙장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_33"
+},
+{ 
+    "_id" : "21979", 
+    "name" : {
+        "en" : "Awakened Searing Palm", 
+        "ko" : "각성 점혈"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_47"
+},
+{ 
+    "_id" : "26206-2", 
+    "name" : {
+        "en" : "Kapow!", 
+        "ko" : "우다다"
+    }, 
+    "icon" : "skill_icon_summon_0_45"
+},
 { 
     "_id" : "28660-2", 
     "name" : {
@@ -4878,7 +2269,979 @@
         "ko" : "명왕진"
     }, 
     "icon" : "skill_icon_warlock_0_34"
-}
+},
+{ 
+    "_id" : "35200", 
+    "name" : {
+        "en" : "Soul Surge", 
+        "ko" : "무영수"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_60"
+},
+{ 
+    "_id" : "30290", 
+    "name" : {
+        "en" : "Somersault Kick", 
+        "ko" : "반달차기"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_41"
+},
+{ 
+    "_id" : "20100", 
+    "name" : {
+        "en" : "Breeze", 
+        "ko" : "질풍"
+    }, 
+    "icon" : "skill_icon_blademaster_0_1"
+},
+{ 
+    "_id" : "25033", 
+    "name" : {
+        "en" : "Thunderstruck", 
+        "ko" : "천둥"
+    }, 
+    "icon" : "skill_icon_assassin_0_32"
+},
+{ 
+    "_id" : "25214-3", 
+    "name" : {
+        "en" : "Lotus of Rescue", 
+        "ko" : "환주의 진"
+    }, 
+    "icon" : "skill_icon_assassin_1_9"
+},
+{ 
+    "_id" : "27144-2", 
+    "name" : {
+        "en" : "Storm Cleave", 
+        "ko" : "참월"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_22"
+},
+{ 
+    "_id" : "30210", 
+    "name" : {
+        "en" : "Burning Tundra", 
+        "ko" : "설화장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_30"
+},
+{ 
+    "_id" : "35210", 
+    "name" : {
+        "en" : "Harmonize", 
+        "ko" : "내공만리"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_61"
+},
+{ 
+    "_id" : "20130", 
+    "name" : {
+        "en" : "Whirl", 
+        "ko" : "다리베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_39"
+},
+{ 
+    "_id" : "20153", 
+    "name" : {
+        "en" : "Reversal", 
+        "ko" : "벗어나기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_9"
+},
+{ 
+    "_id" : "26110", 
+    "name" : {
+        "en" : "Briar Patch", 
+        "ko" : "밤송이"
+    }, 
+    "icon" : "skill_icon_summon_0_15"
+},
+{ 
+    "_id" : "28011", 
+    "name" : {
+        "en" : "Leech", 
+        "ko" : "강탈"
+    }, 
+    "icon" : "skill_icon_warlock_0_5"
+},
+{ 
+    "_id" : "20126", 
+    "name" : {
+        "en" : "Rush", 
+        "ko" : "돌진"
+    }, 
+    "icon" : "skill_icon_blademaster_0_23"
+},
+{ 
+    "_id" : "26453-2", 
+    "name" : {
+        "en" : "Awakened Sunflower", 
+        "ko" : "각성 해바라기"
+    }, 
+    "icon" : "skill_icon_summon_0_60"
+},
+{ 
+    "_id" : "27330", 
+    "name" : {
+        "en" : "Flock of Blades", 
+        "ko" : "어검발산"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_53"
+},
+{ 
+    "_id" : "30240", 
+    "name" : {
+        "en" : "Footwork", 
+        "ko" : "파고들기"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_34"
+},
+{ 
+    "_id" : "22205", 
+    "name" : {
+        "en" : "Dual Dragons", 
+        "ko" : "쌍룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_4"
+},
+{ 
+    "_id" : "24600", 
+    "name" : {
+        "en" : "Axe Frenzy", 
+        "ko" : "광천부"
+    }, 
+    "icon" : "skill_icon_destroyer_1_55"
+},
+{ 
+    "_id" : "27444", 
+    "name" : {
+        "en" : "Giga Sword", 
+        "ko" : "파천검륜"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_41"
+},
+{ 
+    "_id" : "28610", 
+    "name" : {
+        "en" : "Pulse", 
+        "ko" : "파"
+    }, 
+    "icon" : "skill_icon_warlock_0_29"
+},
+{ 
+    "_id" : "22411", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Soul", 
+        "ko" : "빙혼"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_27"
+},
+{ 
+    "_id" : "30100", 
+    "name" : {
+        "en" : "Leg Sweep", 
+        "ko" : "다리걸기"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_17"
+},
+{ 
+    "_id" : "20105", 
+    "name" : {
+        "en" : "Block", 
+        "ko" : "막기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_6"
+},
+{ 
+    "_id" : "21005-4", 
+    "name" : {
+        "en" : "Blazing Twin Cobra", 
+        "ko" : "폭열쌍박수"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_7"
+},
+{ 
+    "_id" : "21256-2", 
+    "name" : {
+        "en" : "Hellfire Kick", 
+        "ko" : "돌려차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_36"
+},
+{ 
+    "_id" : "24150", 
+    "name" : {
+        "en" : "Hurl", 
+        "ko" : "던지기"
+    }, 
+    "icon" : "skill_icon_destroyer_0_63"
+},
+{ 
+    "_id" : "28040", 
+    "name" : {
+        "en" : "Wingstorm", 
+        "ko" : "사령쇄도"
+    }, 
+    "icon" : "skill_icon_warlock_0_13"
+},
+{ 
+    "_id" : "20601", 
+    "name" : {
+        "en" : "Blade Storm", 
+        "ko" : "어검연속베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_56"
+},
+{ 
+    "_id" : "21030", 
+    "name" : {
+        "en" : "Cyclone Kick", 
+        "ko" : "회천각"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_42"
+},
+{ 
+    "_id" : "25010-2", 
+    "name" : {
+        "en" : "Webbing", 
+        "ko" : "거미줄"
+    }, 
+    "icon" : "skill_icon_assassin_0_29"
+},
+{ 
+    "_id" : "25012", 
+    "name" : {
+        "en" : "Poison Breath", 
+        "ko" : "풍독술"
+    }, 
+    "icon" : "skill_icon_assassin_0_41"
+},
+{ 
+    "_id" : "28035-2", 
+    "name" : {
+        "en" : "Mantra", 
+        "ko" : "진언"
+    }, 
+    "icon" : "skill_icon_warlock_0_41"
+},
+{ 
+    "_id" : "22561", 
+    "name" : {
+        "en" : "Glacier", 
+        "ko" : "천빙장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_20"
+},
+{ 
+    "_id" : "26111", 
+    "name" : {
+        "en" : "Petal Storm", 
+        "ko" : "꽃가루"
+    }, 
+    "icon" : "skill_icon_summon_0_16"
+},
+{ 
+    "_id" : "25490", 
+    "name" : {
+        "en" : "Shadow Step", 
+        "ko" : "야행"
+    }, 
+    "icon" : "skill_icon_assassin_0_3"
+},
+{ 
+    "_id" : "21256", 
+    "name" : {
+        "en" : "Pivot Kick", 
+        "ko" : "회축"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_35"
+},
+{ 
+    "_id" : "28230", 
+    "name" : {
+        "en" : "Sanctum", 
+        "ko" : "항마진"
+    }, 
+    "icon" : "skill_icon_warlock_0_35"
+},
+{ 
+    "_id" : "25023", 
+    "name" : {
+        "en" : "Swiftstep", 
+        "ko" : "나뭇잎운신"
+    }, 
+    "icon" : "skill_icon_assassin_0_47"
+},
+{ 
+    "_id" : "27111", 
+    "name" : {
+        "en" : "Rush", 
+        "ko" : "돌진"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_23"
+},
+{ 
+    "_id" : "21005-2", 
+    "name" : {
+        "en" : "Elbow Smash", 
+        "ko" : "이문정주"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_5"
+},
+{ 
+    "_id" : "22249", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Divine Veil", 
+        "ko" : "호신장막"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_41"
+},
+{ 
+    "_id" : "25012-3", 
+    "name" : {
+        "en" : "Choke Bomb", 
+        "ko" : "독무투척"
+    }, 
+    "icon" : "skill_icon_assassin_0_59"
+},
+{ 
+    "_id" : "30200", 
+    "name" : {
+        "en" : "Glacial Beam", 
+        "ko" : "빙백한포"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_29"
+},
+{ 
+    "_id" : "27201", 
+    "name" : {
+        "en" : "Power Slam", 
+        "ko" : "내다꽂기"
+    }, 
+    "icon" : "skill_icon_swordmaster_0_5"
+},
+{ 
+    "_id" : "25019", 
+    "name" : {
+        "en" : "Stealth", 
+        "ko" : "은신"
+    }, 
+    "icon" : "skill_icon_assassin_0_2"
+},
+{ 
+    "_id" : "26201-3", 
+    "name" : {
+        "en" : "Roundabout", 
+        "ko" : "빙글빙글"
+    }, 
+    "icon" : "skill_icon_summon_0_44"
+},
+{ 
+    "_id" : "21070", 
+    "name" : {
+        "en" : "Smite", 
+        "ko" : "강타"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_46"
+},
+{ 
+    "_id" : "25128", 
+    "name" : {
+        "en" : "Time Bomb", 
+        "ko" : "시한폭탄"
+    }, 
+    "icon" : "skill_icon_assassin_0_38"
+},
+{ 
+    "_id" : "28660-3", 
+    "name" : {
+        "en" : "Hallowed Ground", 
+        "ko" : "내력진"
+    }, 
+    "icon" : "skill_icon_warlock_0_38"
+},
+{ 
+    "_id" : "22101", 
+    "name" : {
+        "en" : "Blackout", 
+        "ko" : "봉인"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_4"
+},
+{ 
+    "_id" : "27407-3", 
+    "name" : {
+        "en" : "Thunder Slash", 
+        "ko" : "천둥베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_34"
+},
+{ 
+    "_id" : "25009-2", 
+    "name" : {
+        "en" : "Lotus Kick", 
+        "ko" : "연화각"
+    }, 
+    "icon" : "skill_icon_assassin_0_60"
+},
+{ 
+    "_id" : "25050", 
+    "name" : {
+        "en" : "Lightning Crash", 
+        "ko" : "뇌전살"
+    }, 
+    "icon" : "skill_icon_assassin_1_15"
+},
+{ 
+    "_id" : "21981", 
+    "name" : {
+        "en" : "Aftershock", 
+        "ko" : "염황포"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_53"
+},
+{ 
+    "_id" : "28700", 
+    "name" : {
+        "en" : "Fall In", 
+        "ko" : "호출"
+    }, 
+    "icon" : "skill_icon_warlock_0_20"
+},
+{ 
+    "_id" : "21054", 
+    "name" : {
+        "en" : "Rising Flurry", 
+        "ko" : "승천권무"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_40"
+},
+{ 
+    "_id" : "27181-2", 
+    "name" : {
+        "en" : "Thundering Typhoon", 
+        "ko" : "낙뢰격"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_38"
+},
+{ 
+    "_id" : "22002", 
+    "name" : {
+        "en" : "Impact", 
+        "ko" : "충격파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_6"
+},
+{ 
+    "_id" : "22108", 
+    "name" : {
+        "en" : "Snowball", 
+        "ko" : "빙하장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_10"
+},
+{ 
+    "_id" : "21115", 
+    "name" : {
+        "en" : "Flying Slam", 
+        "ko" : "뛰어찍기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_13"
+},
+{ 
+    "_id" : "25052", 
+    "name" : {
+        "en" : "Venom Pierce", 
+        "ko" : "맹독찌르기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_20"
+},
+{ 
+    "_id" : "27129", 
+    "name" : {
+        "en" : "Second Wind", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_11"
+},
+{ 
+    "_id" : "25021-2", 
+    "name" : {
+        "en" : "Flash Kick", 
+        "ko" : "번개차기"
+    }, 
+    "icon" : "skill_icon_assassin_0_31"
+},
+{ 
+    "_id" : "28400", 
+    "name" : {
+        "en" : "Enthrall", 
+        "ko" : "마령살"
+    }, 
+    "icon" : "skill_icon_warlock_0_56"
+},
+{ 
+    "_id" : "22102", 
+    "name" : {
+        "en" : "Devastate", 
+        "ko" : "허공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_48"
+},
+{ 
+    "_id" : "27195", 
+    "name" : {
+        "en" : "Absorb Chi", 
+        "ko" : "흡기"
+    }, 
+    "icon" : "buff_debuff_icon_00_41"
+},
+{ 
+    "_id" : "30241", 
+    "name" : {
+        "en" : "Right Advance", 
+        "ko" : "우신보"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_35"
+},
+{ 
+    "_id" : "22206", 
+    "name" : {
+        "en" : "Mystic Fire", 
+        "ko" : "신화경"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_14"
+},
+{ 
+    "_id" : "25007", 
+    "name" : {
+        "en" : "Shadow Slash", 
+        "ko" : "그림자베기"
+    }, 
+    "icon" : "skill_icon_assassin_0_12"
+},
+{ 
+    "_id" : "27132", 
+    "name" : {
+        "en" : "Divine Retribution", 
+        "ko" : "번개찍기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_62"
+},
+{ 
+    "_id" : "26401", 
+    "name" : {
+        "en" : "Moonfall", 
+        "ko" : "달빛낙하"
+    }, 
+    "icon" : "skill_icon_summon_0_55"
+},
+{ 
+    "_id" : "27122", 
+    "name" : {
+        "en" : "Crash", 
+        "ko" : "추락"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_37"
+},
+{ 
+    "_id" : "24252", 
+    "name" : {
+        "en" : "Escape", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_destroyer_1_13"
+},
+{ 
+    "_id" : "35130", 
+    "name" : {
+        "en" : "Beam Cannon", 
+        "ko" : "기격포"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_55"
+},
+{ 
+    "_id" : "22266-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Burst", 
+        "ko" : "동파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_44"
+},
+{ 
+    "_id" : "25008", 
+    "name" : {
+        "en" : "Shadow Dash", 
+        "ko" : "잠입"
+    }, 
+    "icon" : "skill_icon_assassin_0_33"
+},
+{ 
+    "_id" : "30350", 
+    "name" : {
+        "en" : "Lotus", 
+        "ko" : "연화"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_47"
+},
+{ 
+    "_id" : "20400", 
+    "name" : {
+        "en" : "Awakened Honed Slash", 
+        "ko" : "각성 급소베기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_31"
+},
+{ 
+    "_id" : "27407", 
+    "name" : {
+        "en" : "Five Point Strike", 
+        "ko" : "오연베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_24"
+},
+{ 
+    "_id" : "24260", 
+    "name" : {
+        "en" : "Wedge", 
+        "ko" : "쐐기"
+    }, 
+    "icon" : "skill_icon_destroyer_0_10"
+},
+{ 
+    "_id" : "25049", 
+    "name" : {
+        "en" : "Shadowslip", 
+        "ko" : "나뭇잎가르기"
+    }, 
+    "icon" : "skill_icon_assassin_1_16"
+},
+{ 
+    "_id" : "26216", 
+    "name" : {
+        "en" : "Play Time", 
+        "ko" : "파닥파닥"
+    }, 
+    "icon" : "skill_icon_summon_0_30"
+},
+{ 
+    "_id" : "28450-3", 
+    "name" : {
+        "en" : "Dimensional Charge", 
+        "ko" : "나찰"
+    }, 
+    "icon" : "skill_icon_warlock_0_47"
+},
+{ 
+    "_id" : "20111", 
+    "name" : {
+        "en" : "Second Wind", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_blademaster_0_11"
+},
+{ 
+    "_id" : "20150", 
+    "name" : {
+        "en" : "Divine Retribution", 
+        "ko" : "번개찍기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_62"
+},
+{ 
+    "_id" : "26000", 
+    "name" : {
+        "en" : "Alley Cat", 
+        "ko" : "고양이의 폭력성"
+    }, 
+    "icon" : "skill_icon_summon_0_38"
+},
+{ 
+    "_id" : "27100", 
+    "name" : {
+        "en" : "Breeze", 
+        "ko" : "질풍"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_1"
+},
+{ 
+    "_id" : "21285", 
+    "name" : {
+        "en" : "Swooping Crane", 
+        "ko" : "날아차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_48"
+},
+{ 
+    "_id" : "24038", 
+    "name" : {
+        "en" : "Mighty Cleave", 
+        "ko" : "대파괴"
+    }, 
+    "icon" : "skill_icon_destroyer_1_41"
+},
+{ 
+    "_id" : "21111-2", 
+    "name" : {
+        "en" : "Tiger Strike", 
+        "ko" : "맹호장"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_63"
+},
+{ 
+    "_id" : "22204", 
+    "name" : {
+        "en" : "Dragonfrost", 
+        "ko" : "빙룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_3"
+},
+{ 
+    "_id" : "27133", 
+    "name" : {
+        "en" : "Thrash", 
+        "ko" : "걷어차기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_8"
+},
+{ 
+    "_id" : "30150", 
+    "name" : {
+        "en" : "Stance Shift", 
+        "ko" : "태세전환"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_23"
+},
+{ 
+    "_id" : "20151", 
+    "name" : {
+        "en" : "Thrash", 
+        "ko" : "걷어차기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_8"
+},
+{ 
+    "_id" : "26106-2", 
+    "name" : {
+        "en" : "Vine Whip", 
+        "ko" : "덩굴채찍"
+    }, 
+    "icon" : "skill_icon_summon_0_58"
+},
+{ 
+    "_id" : "24250", 
+    "name" : {
+        "en" : "Rescue", 
+        "ko" : "구조"
+    }, 
+    "icon" : "skill_icon_destroyer_1_6"
+},
+{ 
+    "_id" : "25199", 
+    "name" : {
+        "en" : "Bolt Strike", 
+        "ko" : "무영보"
+    }, 
+    "icon" : "skill_icon_assassin_1_8"
+},
+{ 
+    "_id" : "20135", 
+    "name" : {
+        "en" : "Counterstrike", 
+        "ko" : "받아치기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_51"
+},
+{ 
+    "_id" : "28001-2", 
+    "name" : {
+        "en" : "Burst", 
+        "ko" : "폭"
+    }, 
+    "icon" : "skill_icon_warlock_0_2"
+},
+{ 
+    "_id" : "20003", 
+    "name" : {
+        "en" : "Flock of Blades", 
+        "ko" : "어검발산"
+    }, 
+    "icon" : "skill_icon_blademaster_0_53"
+},
+{ 
+    "_id" : "22004", 
+    "name" : {
+        "en" : "Force Blast", 
+        "ko" : "기공포"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_11"
+},
+{ 
+    "_id" : "25111-2", 
+    "name" : {
+        "en" : "Shadow Rush", 
+        "ko" : "그림자 잠입"
+    }, 
+    "icon" : "skill_icon_assassin_1_27"
+},
+{ 
+    "_id" : "30080", 
+    "name" : {
+        "en" : "Lightning Fist", 
+        "ko" : "섬격권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_15"
+},
+{ 
+    "_id" : "24201", 
+    "name" : {
+        "en" : "Chop", 
+        "ko" : "둥치가르기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_38"
+},
+{ 
+    "_id" : "28510", 
+    "name" : {
+        "en" : "Attack Thrall", 
+        "ko" : "공격 마령"
+    }, 
+    "icon" : "skill_icon_warlock_0_23"
+},
+{ 
+    "_id" : "28500", 
+    "name" : {
+        "en" : "Summon", 
+        "ko" : "소환"
+    }, 
+    "icon" : "skill_icon_warlock_0_19"
+},
+{ 
+    "_id" : "28300", 
+    "name" : {
+        "en" : "Eclipse", 
+        "ko" : "월식"
+    }, 
+    "icon" : "skill_icon_warlock_0_18"
+},
+{ 
+    "_id" : "20115", 
+    "name" : {
+        "en" : "Stomp", 
+        "ko" : "밟기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_15"
+},
+{ 
+    "_id" : "22110", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Snowball", 
+        "ko" : "빙하장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_10"
+},
+{ 
+    "_id" : "22307", 
+    "name" : {
+        "en" : "Awakened Dragonchar", 
+        "ko" : "각성 폭열신장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_16"
+},
+{ 
+    "_id" : "30320", 
+    "name" : {
+        "en" : "Rising Dragon Strike", 
+        "ko" : "승룡격"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_44"
+},
+{ 
+    "_id" : "25120", 
+    "name" : {
+        "en" : "Spinal Tap", 
+        "ko" : "척추찌르기"
+    }, 
+    "icon" : "skill_icon_assassin_0_21"
+},
+{ 
+    "_id" : "27450", 
+    "name" : {
+        "en" : "Black Hole", 
+        "ko" : "광흡장"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_42"
+},
+{ 
+    "_id" : "28001", 
+    "name" : {
+        "en" : "Incantation", 
+        "ko" : "염"
+    }, 
+    "icon" : "skill_icon_warlock_0_1"
+},
+{ 
+    "_id" : "25470", 
+    "name" : {
+        "en" : "Doubletime", 
+        "ko" : "그림자 질주"
+    }, 
+    "icon" : "skill_icon_assassin_1_26"
+},
+{ 
+    "_id" : "21136", 
+    "name" : {
+        "en" : "Chokehold", 
+        "ko" : "조르기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_53"
+},
+{ 
+    "_id" : "25034-3", 
+    "name" : {
+        "en" : "Lightning Pierce", 
+        "ko" : "뇌격살"
+    }, 
+    "icon" : "skill_icon_assassin_1_19"
+},
+{ 
+    "_id" : "24020", 
+    "name" : {
+        "en" : "Wrath", 
+        "ko" : "격노"
+    }, 
+    "icon" : "skill_icon_destroyer_1_39"
+},
+{ 
+    "_id" : "27311", 
+    "name" : {
+        "en" : "Lightning Rod", 
+        "ko" : "뇌령"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_5"
+},
+{ 
+    "_id" : "22203", 
+    "name" : {
+        "en" : "Dragonblaze", 
+        "ko" : "염룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_2"
+},
+{ 
+    "_id" : "27633-2", 
+    "name" : {
+        "en" : "Awakened Sunder", 
+        "ko" : "각성 가르기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_40"
+},
 { 
     "_id" : "30390", 
     "legacy" : true, 
@@ -4887,23 +3250,1085 @@
         "ko" : "각성 철산고"
     }, 
     "icon" : "skill_icon_soulfighter_0_50"
-}
+},
 { 
-    "_id" : "35150", 
+    "_id" : "20604-2", 
+    "legacy" : true, 
     "name" : {
-        "en" : "Awakened Dragon Fist", 
-        "ko" : "각성 천룡열권"
+        "en" : "Blitzblade Scourge", 
+        "ko" : "폭검령"
     }, 
-    "icon" : "skill_icon_soulfighter_0_62"
-}
+    "icon" : "skill_icon_blademaster_1_18"
+},
 { 
-    "_id" : "35200", 
+    "_id" : "25481", 
     "name" : {
-        "en" : "Shadowless Fists", 
-        "ko" : "무영수"
+        "en" : "Blink Step", 
+        "ko" : "금영보"
     }, 
-    "icon" : "skill_icon_soulfighter_0_60"
-}
+    "icon" : "skill_icon_assassin_1_30"
+},
+{ 
+    "_id" : "22136", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_56"
+},
+{ 
+    "_id" : "22420", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Awakened Dragonchar", 
+        "ko" : "각성 폭열신장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_16"
+},
+{ 
+    "_id" : "24110-2", 
+    "name" : {
+        "en" : "Assault", 
+        "ko" : "전격"
+    }, 
+    "icon" : "skill_icon_destroyer_1_54"
+},
+{ 
+    "_id" : "22116", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Chi Bomb", 
+        "ko" : "원기옥"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_7"
+},
+{ 
+    "_id" : "22301", 
+    "name" : {
+        "en" : "Antigravity", 
+        "ko" : "반탄공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_50"
+},
+{ 
+    "_id" : "27150", 
+    "name" : {
+        "en" : "Maelstrom", 
+        "ko" : "회오리"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_13"
+},
+{ 
+    "_id" : "21009-2", 
+    "name" : {
+        "en" : "Ice Guard", 
+        "ko" : "한기파동"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_31"
+},
+{ 
+    "_id" : "30070", 
+    "name" : {
+        "en" : "Dragon Fist", 
+        "ko" : "천룡열권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_14"
+},
+{ 
+    "_id" : "24030-2", 
+    "name" : {
+        "en" : "Eradicate", 
+        "ko" : "섬멸"
+    }, 
+    "icon" : "skill_icon_destroyer_1_50"
+},
+{ 
+    "_id" : "22380", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Second Wind", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_64"
+},
+{ 
+    "_id" : "20104", 
+    "name" : {
+        "en" : "Soaring Falcon", 
+        "ko" : "비연검"
+    }, 
+    "icon" : "skill_icon_blademaster_0_5"
+},
+{ 
+    "_id" : "27118", 
+    "name" : {
+        "en" : "Evade", 
+        "ko" : "회피"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_47"
+},
+{ 
+    "_id" : "30060-2", 
+    "name" : {
+        "en" : "Freezing Twin Cobra", 
+        "ko" : "빙결쌍박수"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_11"
+},
+{ 
+    "_id" : "20550", 
+    "name" : {
+        "en" : "Crackling Blade", 
+        "ko" : "홍문일검"
+    }, 
+    "icon" : "skill_icon_blademaster_1_2"
+},
+{ 
+    "_id" : "26104", 
+    "name" : {
+        "en" : "Huzzah!", 
+        "ko" : "응원"
+    }, 
+    "icon" : "skill_icon_summon_0_7"
+},
+{ 
+    "_id" : "35140", 
+    "name" : {
+        "en" : "Awakened Cobalt Punch", 
+        "ko" : "각성 창천권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_59"
+},
+{ 
+    "_id" : "21181", 
+    "name" : {
+        "en" : "Rising Kick", 
+        "ko" : "공중차기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_18"
+},
+{ 
+    "_id" : "22237", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Prison", 
+        "ko" : "얼음감옥"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_17"
+},
+{ 
+    "_id" : "30340", 
+    "name" : {
+        "en" : "Windstorm", 
+        "ko" : "신룡열파"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_46"
+},
+{ 
+    "_id" : "20230", 
+    "name" : {
+        "en" : "Raid", 
+        "ko" : "습격"
+    }, 
+    "icon" : "skill_icon_blademaster_0_23"
+},
+{ 
+    "_id" : "21255", 
+    "name" : {
+        "en" : "Avenging Fist", 
+        "ko" : "진격권"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_43"
+},
+{ 
+    "_id" : "25268", 
+    "name" : {
+        "en" : "Awakened Heart Stab", 
+        "ko" : "각성 심장찌르기"
+    }, 
+    "icon" : "skill_icon_assassin_1_31"
+},
+{ 
+    "_id" : "30160", 
+    "name" : {
+        "en" : "Frost Palm", 
+        "ko" : "한빙장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_24"
+},
+{ 
+    "_id" : "22250", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Armor", 
+        "ko" : "결빙공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_30"
+},
+{ 
+    "_id" : "25008-2", 
+    "name" : {
+        "en" : "Sidewinder", 
+        "ko" : "급습"
+    }, 
+    "icon" : "skill_icon_assassin_0_1"
+},
+{ 
+    "_id" : "25012-2", 
+    "name" : {
+        "en" : "Venom Swarm", 
+        "ko" : "독나방"
+    }, 
+    "icon" : "skill_icon_assassin_0_59"
+},
+{ 
+    "_id" : "25214-7", 
+    "name" : {
+        "en" : "Rescue Call", 
+        "ko" : "환주의술"
+    }, 
+    "icon" : "skill_icon_assassin_1_10"
+},
+{ 
+    "_id" : "28511", 
+    "name" : {
+        "en" : "Guard Thrall", 
+        "ko" : "방어 마령"
+    }, 
+    "icon" : "skill_icon_warlock_0_24"
+},
+{ 
+    "_id" : "30130", 
+    "name" : {
+        "en" : "Self Defense Chi", 
+        "ko" : "호신강기"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_21"
+},
+{ 
+    "_id" : "30400", 
+    "name" : {
+        "en" : "Barrage", 
+        "ko" : "연환장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_51"
+},
+{ 
+    "_id" : "24040", 
+    "name" : {
+        "en" : "Body Kick", 
+        "ko" : "발차기"
+    }, 
+    "icon" : "skill_icon_destroyer_0_47"
+},
+{ 
+    "_id" : "22303", 
+    "name" : {
+        "en" : "Blaze Step", 
+        "ko" : "화신보"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_54"
+},
+{ 
+    "_id" : "20105-2", 
+    "icon" : "skill_icon_blademaster_1_19", 
+    "name" : {
+        "ko" : "칼날치기", 
+        "en" : "Blade Strike"
+    }
+},
+{ 
+    "_id" : "21116", 
+    "name" : {
+        "en" : "Headbutt", 
+        "ko" : "박치기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_12"
+},
+{ 
+    "_id" : "24090", 
+    "name" : {
+        "en" : "Fury", 
+        "ko" : "분노"
+    }, 
+    "icon" : "skill_icon_destroyer_1_45"
+},
+{ 
+    "_id" : "24026", 
+    "name" : {
+        "en" : "Upward Block", 
+        "ko" : "쳐올리기"
+    }, 
+    "icon" : "skill_icon_destroyer_0_23"
+},
+{ 
+    "_id" : "26100", 
+    "name" : {
+        "en" : "Wish", 
+        "ko" : "흐규흐규"
+    }, 
+    "icon" : "skill_icon_summon_0_1"
+},
+{ 
+    "_id" : "26105", 
+    "name" : {
+        "en" : "Grasping Roots", 
+        "ko" : "덩굴손"
+    }, 
+    "icon" : "skill_icon_summon_0_8"
+},
+{ 
+    "_id" : "26567", 
+    "name" : {
+        "en" : "Besties", 
+        "ko" : "격려"
+    }, 
+    "icon" : "skill_icon_summon_0_64"
+},
+{ 
+    "_id" : "20132", 
+    "name" : {
+        "en" : "Evade", 
+        "ko" : "회피"
+    }, 
+    "icon" : "skill_icon_blademaster_0_47"
+},
+{ 
+    "_id" : "27124", 
+    "name" : {
+        "en" : "Wind Sunder", 
+        "ko" : "바람가르기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_29"
+},
+{ 
+    "_id" : "27407-2", 
+    "name" : {
+        "en" : "Skyward Slash", 
+        "ko" : "하늘베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_33"
+},
+{ 
+    "_id" : "21166", 
+    "name" : {
+        "en" : "Slip Kick", 
+        "ko" : "비상격"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_21"
+},
+{ 
+    "_id" : "21009-4", 
+    "name" : {
+        "en" : "Focused Fighting Spirit", 
+        "ko" : "투지집중"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_32"
+},
+{ 
+    "_id" : "24050", 
+    "name" : {
+        "en" : "Ram", 
+        "ko" : "격돌"
+    }, 
+    "icon" : "skill_icon_destroyer_0_13"
+},
+{ 
+    "_id" : "24610", 
+    "name" : {
+        "en" : "Eye of the Storm", 
+        "ko" : "천풍"
+    }, 
+    "icon" : "skill_icon_destroyer_1_56"
+},
+{ 
+    "_id" : "22235-2", 
+    "name" : {
+        "en" : "Frost Nova", 
+        "ko" : "광한지"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_43"
+},
+{ 
+    "_id" : "22266-3", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Cold Snap", 
+        "ko" : "설빙장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_13"
+},
+{ 
+    "_id" : "27144", 
+    "name" : {
+        "en" : "Dual Strike", 
+        "ko" : "풍월도"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_64"
+},
+{ 
+    "_id" : "21055", 
+    "name" : {
+        "en" : "Rising Dragon", 
+        "ko" : "승룡각"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_38"
+},
+{ 
+    "_id" : "22125", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Windstorm", 
+        "ko" : "신룡열파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_11"
+},
+{ 
+    "_id" : "28630", 
+    "name" : {
+        "en" : "Nether Pulse", 
+        "ko" : "명계파동"
+    }, 
+    "icon" : "skill_icon_warlock_0_31"
+},
+{ 
+    "_id" : "30000", 
+    "name" : {
+        "en" : "Straight Jab", 
+        "ko" : "정권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_1"
+},
+{ 
+    "_id" : "27200-2", 
+    "name" : {
+        "en" : "Exalted Boost", 
+        "ko" : "경배"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_35"
+},
+{ 
+    "_id" : "27404", 
+    "name" : {
+        "en" : "Flash Step", 
+        "ko" : "일섬"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_34"
+},
+{ 
+    "_id" : "20602", 
+    "name" : {
+        "en" : "Whirling Scourge", 
+        "ko" : "회천령"
+    }, 
+    "icon" : "skill_icon_blademaster_0_55"
+},
+{ 
+    "_id" : "22742", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Awakened Dual Dragons", 
+        "ko" : "각성 쌍룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_12"
+},
+{ 
+    "_id" : "26565", 
+    "name" : {
+        "en" : "Rumble Queen", 
+        "ko" : "황금벌"
+    }, 
+    "icon" : "skill_icon_summon_0_62"
+},
+{ 
+    "_id" : "27127", 
+    "name" : {
+        "en" : "Heavenly Dance", 
+        "ko" : "천무"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_49"
+},
+{ 
+    "_id" : "22009", 
+    "name" : {
+        "en" : "Phantom Push", 
+        "ko" : "밀기"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_2"
+},
+{ 
+    "_id" : "25022", 
+    "name" : {
+        "en" : "Backstep", 
+        "ko" : "후방이동"
+    }, 
+    "icon" : "skill_icon_assassin_0_10"
+},
+{ 
+    "_id" : "22245", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Step", 
+        "ko" : "한신보"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_55"
+},
+{ 
+    "_id" : "27110-2", 
+    "name" : {
+        "en" : "Divebomb", 
+        "ko" : "벼락"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_16"
+},
+{ 
+    "_id" : "21112", 
+    "name" : {
+        "en" : "Triple Kick", 
+        "ko" : "삼연각"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_16"
+},
+{ 
+    "_id" : "25017", 
+    "name" : {
+        "en" : "Throwing Dagger", 
+        "ko" : "그림자비수"
+    }, 
+    "icon" : "skill_icon_assassin_1_11"
+},
+{ 
+    "_id" : "22105", 
+    "name" : {
+        "en" : "Heatwave", 
+        "ko" : "폭염"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_46"
+},
+{ 
+    "_id" : "25214-6", 
+    "name" : {
+        "en" : "Poison Call", 
+        "ko" : "역주의술"
+    }, 
+    "icon" : "skill_icon_assassin_0_56"
+},
+{ 
+    "_id" : "28800-3", 
+    "name" : {
+        "en" : "Time Distortion", 
+        "ko" : "시간왜곡"
+    }, 
+    "icon" : "skill_icon_warlock_0_26"
+},
+{ 
+    "_id" : "22265", 
+    "name" : {
+        "en" : "Frost Fury", 
+        "ko" : "한파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_38"
+},
+{ 
+    "_id" : "35140-2", 
+    "name" : {
+        "en" : "Awakened Right Punch", 
+        "ko" : "각성 우벽장"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_57"
+},
+{ 
+    "_id" : "22200", 
+    "name" : {
+        "en" : "Divine Veil", 
+        "ko" : "호신장막"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_41"
+},
+{ 
+    "_id" : "25034-2", 
+    "name" : {
+        "en" : "Close Shave", 
+        "ko" : "목베기"
+    }, 
+    "icon" : "skill_icon_assassin_0_30"
+},
+{ 
+    "_id" : "25043", 
+    "name" : {
+        "en" : "Thrash", 
+        "ko" : "걷어차기"
+    }, 
+    "icon" : "skill_icon_assassin_1_4"
+},
+{ 
+    "_id" : "27181", 
+    "name" : {
+        "en" : "Rolling Typhoon", 
+        "ko" : "태풍참"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_24"
+},
+{ 
+    "_id" : "27404-4", 
+    "name" : {
+        "en" : "Flash Step", 
+        "ko" : "일섬"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_37"
+},
+{ 
+    "_id" : "22304", 
+    "name" : {
+        "en" : "Frost Step", 
+        "ko" : "한신보"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_55"
+},
+{ 
+    "_id" : "25039", 
+    "name" : {
+        "en" : "Pull Highwire Cord", 
+        "ko" : "은사당기기"
+    }, 
+    "icon" : "skill_icon_assassin_0_61"
+},
+{ 
+    "_id" : "26210", 
+    "name" : {
+        "en" : "Hammer Spin", 
+        "ko" : "망치 돌리기"
+    }, 
+    "icon" : "skill_icon_summon_0_22"
+},
+{ 
+    "_id" : "24180", 
+    "name" : {
+        "en" : "Blitz", 
+        "ko" : "지진"
+    }, 
+    "icon" : "skill_icon_destroyer_0_5"
+},
+{ 
+    "_id" : "21205", 
+    "name" : {
+        "en" : "Second Wind", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_18"
+},
+{ 
+    "_id" : "22235", 
+    "name" : {
+        "en" : "Dragonwhorl", 
+        "ko" : "빙백신장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_15"
+},
+{ 
+    "_id" : "22392", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Dragonfrost", 
+        "ko" : "빙룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_3"
+},
+{ 
+    "_id" : "20131", 
+    "name" : {
+        "en" : "Blindside", 
+        "ko" : "역습"
+    }, 
+    "icon" : "skill_icon_blademaster_0_13"
+},
+{ 
+    "_id" : "25045", 
+    "name" : {
+        "en" : "Lightning Stride", 
+        "ko" : "뇌격보"
+    }, 
+    "icon" : "skill_icon_assassin_1_7"
+},
+{ 
+    "_id" : "20103", 
+    "name" : {
+        "en" : "Pierce", 
+        "ko" : "찌르기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_4"
+},
+{ 
+    "_id" : "20138", 
+    "name" : {
+        "en" : "Lunar Slash", 
+        "ko" : "만월베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_26"
+},
+{ 
+    "_id" : "27300", 
+    "name" : {
+        "en" : "Soaring Falcon", 
+        "ko" : "비연검"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_5"
+},
+{ 
+    "_id" : "24160", 
+    "name" : {
+        "en" : "Gust", 
+        "ko" : "탈출광풍"
+    }, 
+    "icon" : "skill_icon_destroyer_0_48"
+},
+{ 
+    "_id" : "25265", 
+    "name" : {
+        "en" : "Awakened Dark Strike", 
+        "ko" : "각성 암흑살"
+    }, 
+    "icon" : "skill_icon_assassin_1_21"
+},
+{ 
+    "_id" : "28090-2", 
+    "name" : {
+        "en" : "Dragon Helix", 
+        "ko" : "흑염룡"
+    }, 
+    "icon" : "skill_icon_warlock_0_50"
+},
+{ 
+    "_id" : "28620", 
+    "name" : {
+        "en" : "Claw", 
+        "ko" : "멸"
+    }, 
+    "icon" : "skill_icon_warlock_0_30"
+},
+{ 
+    "_id" : "20306", 
+    "name" : {
+        "en" : "Cyclone", 
+        "ko" : "회전베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_45"
+},
+{ 
+    "_id" : "22006", 
+    "name" : {
+        "en" : "Multiple Blaze", 
+        "ko" : "폭열연파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_13"
+},
+{ 
+    "_id" : "28340", 
+    "name" : {
+        "en" : "Reversal", 
+        "ko" : "벗어나기"
+    }, 
+    "icon" : "skill_icon_warlock_0_15"
+},
+{ 
+    "_id" : "22260-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Ice Sprawl", 
+        "ko" : "쇄빙공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_51"
+},
+{ 
+    "_id" : "25006-2", 
+    "name" : {
+        "en" : "Mine Toss", 
+        "ko" : "투척지뢰"
+    }, 
+    "icon" : "skill_icon_assassin_0_64"
+},
+{ 
+    "_id" : "21111", 
+    "name" : {
+        "en" : "Swift Strike", 
+        "ko" : "폭권"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_41"
+},
+{ 
+    "_id" : "22239", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Blazing Wall", 
+        "ko" : "화염지옥"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_21"
+},
+{ 
+    "_id" : "25005", 
+    "name" : {
+        "en" : "Decoy", 
+        "ko" : "나무토막"
+    }, 
+    "icon" : "skill_icon_assassin_0_17"
+},
+{ 
+    "_id" : "25029", 
+    "name" : {
+        "en" : "Straw Doll", 
+        "ko" : "볏짚인형"
+    }, 
+    "icon" : "skill_icon_assassin_0_36"
+},
+{ 
+    "_id" : "24070-2", 
+    "name" : {
+        "en" : "Emberstomp", 
+        "ko" : "발구르기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_44"
+},
+{ 
+    "_id" : "26412", 
+    "name" : {
+        "en" : "Swoosh", 
+        "ko" : "샤샥"
+    }, 
+    "icon" : "skill_icon_summon_0_46"
+},
+{ 
+    "_id" : "27632", 
+    "name" : {
+        "en" : "Awakened Blade Echo", 
+        "ko" : "각성 쾌검"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_23"
+},
+{ 
+    "_id" : "30050", 
+    "name" : {
+        "en" : "Howling Blast", 
+        "ko" : "호포"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_9"
+},
+{ 
+    "_id" : "25021", 
+    "name" : {
+        "en" : "Stomp", 
+        "ko" : "낙엽밟기"
+    }, 
+    "icon" : "skill_icon_assassin_1_3"
+},
+{ 
+    "_id" : "26311", 
+    "name" : {
+        "en" : "Enhanced Seed Shroud", 
+        "ko" : "보호 민들레씨"
+    }, 
+    "icon" : "skill_icon_summon_0_53"
+},
+{ 
+    "_id" : "20212", 
+    "name" : {
+        "en" : "Flash Step", 
+        "ko" : "일섬"
+    }, 
+    "icon" : "skill_icon_blademaster_0_34"
+},
+{ 
+    "_id" : "21609", 
+    "name" : {
+        "en" : "Searing Palm", 
+        "ko" : "점혈"
+    }, 
+    "icon" : "buff_debuff_icon_01_38"
+},
+{ 
+    "_id" : "26137", 
+    "name" : {
+        "en" : "Backstep", 
+        "ko" : "후방 회피"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_2"
+},
+{ 
+    "_id" : "22251-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Blazing Beam", 
+        "ko" : "폭열염포"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_34"
+},
+{ 
+    "_id" : "20603-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Lightning Retribution", 
+        "ko" : "뇌징"
+    }, 
+    "icon" : "skill_icon_blademaster_1_15"
+},
+{ 
+    "_id" : "22394", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Dual Dragons", 
+        "ko" : "쌍룡파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_4"
+},
+{ 
+    "_id" : "26206", 
+    "name" : {
+        "en" : "Power Pounce", 
+        "ko" : "누르기"
+    }, 
+    "icon" : "skill_icon_summon_0_18"
+},
+{ 
+    "_id" : "27304", 
+    "name" : {
+        "en" : "Guardian Tempest", 
+        "ko" : "호위령"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_58"
+},
+{ 
+    "_id" : "20233", 
+    "name" : {
+        "en" : "Honed Slash", 
+        "ko" : "급소베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_63"
+},
+{ 
+    "_id" : "22381", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Fire Fury", 
+        "ko" : "열파"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_7"
+},
+{ 
+    "_id" : "22420-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Awakened Blazing Beam", 
+        "ko" : "각성 폭열염포"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_17"
+},
+{ 
+    "_id" : "27511", 
+    "name" : {
+        "en" : "Lightning Strike", 
+        "ko" : "뇌격"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_26"
+},
+{ 
+    "_id" : "30060", 
+    "name" : {
+        "en" : "Elbow Smash", 
+        "ko" : "이문정주"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_10"
+},
+{ 
+    "_id" : "22420-3", 
+    "name" : {
+        "en" : "Awakened Ice Rain", 
+        "ko" : "각성 빙하신장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_18"
+},
+{ 
+    "_id" : "20211", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Flash Step", 
+        "ko" : "일섬"
+    }, 
+    "icon" : "skill_icon_blademaster_0_34"
+},
+{ 
+    "_id" : "22118", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Multiple Blaze", 
+        "ko" : "폭열연파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_13"
+},
+{ 
+    "_id" : "30220", 
+    "name" : {
+        "en" : "Breeze Kick", 
+        "ko" : "질풍각"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_54"
+},
+{ 
+    "_id" : "22141", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Antigravity", 
+        "ko" : "반탄공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_50"
+},
+{ 
+    "_id" : "26104-2", 
+    "name" : {
+        "en" : "Huzzah!", 
+        "ko" : "응원"
+    }, 
+    "icon" : "skill_icon_summon_0_56"
+},
+{ 
+    "_id" : "25031", 
+    "name" : {
+        "en" : "Sweeping Gale", 
+        "ko" : "나뭇잎열풍"
+    }, 
+    "icon" : "skill_icon_assassin_0_23"
+},
+{ 
+    "_id" : "26203", 
+    "name" : {
+        "en" : "Farewell", 
+        "ko" : "고양이의 보은"
+    }, 
+    "icon" : "skill_icon_summon_0_13"
+},
+{ 
+    "_id" : "26208", 
+    "name" : {
+        "en" : "Headbutt", 
+        "ko" : "박치기"
+    }, 
+    "icon" : "skill_icon_summon_0_20"
+},
+{ 
+    "_id" : "27120", 
+    "name" : {
+        "en" : "Rising Eagle", 
+        "ko" : "비상"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_17"
+},
+{ 
+    "_id" : "27121", 
+    "name" : {
+        "en" : "Ascend", 
+        "ko" : "승천"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_18"
+},
 { 
     "_id" : "21111-3", 
     "name" : {
@@ -4911,4 +4336,649 @@
         "ko" : "권풍"
     }, 
     "icon" : "skill_icon_kungfufighter_1_54"
+},
+{ 
+    "_id" : "27302", 
+    "name" : {
+        "en" : "Blade Flight", 
+        "ko" : "어검베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_54"
+},
+{ 
+    "_id" : "28650", 
+    "name" : {
+        "en" : "Void Slash", 
+        "ko" : "진공참"
+    }, 
+    "icon" : "skill_icon_warlock_0_32"
+},
+{ 
+    "_id" : "26105-2", 
+    "name" : {
+        "en" : "Strangling Roots", 
+        "ko" : "덩굴지옥"
+    }, 
+    "icon" : "skill_icon_summon_0_8"
+},
+{ 
+    "_id" : "26200-2", 
+    "name" : {
+        "en" : "Lunge", 
+        "ko" : "달려들기"
+    }, 
+    "icon" : "skill_icon_summon_0_42"
+},
+{ 
+    "_id" : "25034", 
+    "name" : {
+        "en" : "Dark Strike", 
+        "ko" : "암흑살"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_15"
+},
+{ 
+    "_id" : "26202", 
+    "name" : {
+        "en" : "Anklebiter", 
+        "ko" : "하단베기"
+    }, 
+    "icon" : "skill_icon_summon_0_34"
+},
+{ 
+    "_id" : "24001", 
+    "name" : {
+        "en" : "Judgment", 
+        "ko" : "심판"
+    }, 
+    "icon" : "skill_icon_destroyer_0_31"
+},
+{ 
+    "_id" : "20201", 
+    "name" : {
+        "en" : "Flicker", 
+        "ko" : "발도"
+    }, 
+    "icon" : "skill_icon_blademaster_0_19"
+},
+{ 
+    "_id" : "25006", 
+    "name" : {
+        "en" : "Landmine", 
+        "ko" : "지뢰"
+    }, 
+    "icon" : "skill_icon_assassin_0_28"
+},
+{ 
+    "_id" : "28020", 
+    "name" : {
+        "en" : "Quell", 
+        "ko" : "방탄부"
+    }, 
+    "icon" : "skill_icon_warlock_0_6"
+},
+{ 
+    "_id" : "24080", 
+    "name" : {
+        "en" : "Axe Sweep", 
+        "ko" : "절단"
+    }, 
+    "icon" : "skill_icon_destroyer_1_5"
+},
+{ 
+    "_id" : "26001-2", 
+    "name" : {
+        "en" : "Tough Kitty", 
+        "ko" : "굳세다냥"
+    }, 
+    "icon" : "skill_icon_summon_0_37"
+},
+{ 
+    "_id" : "22003-2", 
+    "name" : {
+        "en" : "Blazing Beam", 
+        "ko" : "폭열염포"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_34"
+},
+{ 
+    "_id" : "25012-4", 
+    "name" : {
+        "en" : "Plaguemist", 
+        "ko" : "독연무"
+    }, 
+    "icon" : "skill_icon_assassin_0_59"
+},
+{ 
+    "_id" : "26103", 
+    "name" : {
+        "en" : "Entangle", 
+        "ko" : "휘감기"
+    }, 
+    "icon" : "skill_icon_summon_0_4"
+},
+{ 
+    "_id" : "27158", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Lightning Focus", 
+        "ko" : "뇌혼"
+    }, 
+    "icon" : "buff_debuff_icon_05_27"
+},
+{ 
+    "_id" : "28457-2", 
+    "name" : {
+        "en" : "Awakened Dimensional Salvo", 
+        "ko" : "각성 수라"
+    }, 
+    "icon" : "skill_icon_warlock_0_55"
+},
+{ 
+    "_id" : "30060-3", 
+    "name" : {
+        "en" : "Blazing Twin Cobra", 
+        "ko" : "폭열쌍박수"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_12"
+},
+{ 
+    "_id" : "20515", 
+    "name" : {
+        "en" : "Sundering Sword", 
+        "ko" : "대지가르기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_12"
+},
+{ 
+    "_id" : "27280", 
+    "name" : {
+        "en" : "Storming Sword", 
+        "ko" : "풍운비검"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_31"
+},
+{ 
+    "_id" : "27111-2", 
+    "name" : {
+        "en" : "Multislash", 
+        "ko" : "연속베기"
+    }, 
+    "icon" : "skill_icon_blademaster_1_11"
+},
+{ 
+    "_id" : "27200", 
+    "name" : {
+        "en" : "Phantom Grip", 
+        "ko" : "흡공"
+    }, 
+    "icon" : "skill_icon_swordmaster_0_4"
+},
+{ 
+    "_id" : "22103", 
+    "name" : {
+        "en" : "Blazing Wall", 
+        "ko" : "화염지옥"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_21"
+},
+{ 
+    "_id" : "28035", 
+    "name" : {
+        "en" : "Mantra", 
+        "ko" : "진언"
+    }, 
+    "icon" : "skill_icon_warlock_0_37"
+},
+{ 
+    "_id" : "20108", 
+    "name" : {
+        "en" : "Anklebiter", 
+        "ko" : "하단베기"
+    }, 
+    "icon" : "skill_icon_blademaster_0_9"
+},
+{ 
+    "_id" : "20981", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Awakened Flicker", 
+        "ko" : "각성 발도"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_23"
+},
+{ 
+    "_id" : "22108-2", 
+    "name" : {
+        "en" : "Frost Tornado", 
+        "ko" : "한빙면장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_36"
+},
+{ 
+    "_id" : "22239-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Meteor Shower", 
+        "ko" : "유성지"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_5"
+},
+{ 
+    "_id" : "28350", 
+    "name" : {
+        "en" : "Void Walk", 
+        "ko" : "치환"
+    }, 
+    "icon" : "skill_icon_warlock_0_51"
+},
+{ 
+    "_id" : "22005-2", 
+    "name" : {
+        "en" : "Shadow Grasp", 
+        "ko" : "중력장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_1"
+},
+{ 
+    "_id" : "22237-2", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Frost Sheath", 
+        "ko" : "얼음꽃"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_29"
+},
+{ 
+    "_id" : "24207", 
+    "name" : {
+        "en" : "Shove", 
+        "ko" : "밀쳐내기"
+    }, 
+    "icon" : "skill_icon_destroyer_1_37"
+},
+{ 
+    "_id" : "25003", 
+    "name" : {
+        "en" : "Heart Stab", 
+        "ko" : "심장찌르기"
+    }, 
+    "icon" : "skill_icon_assassin_0_8"
+},
+{ 
+    "_id" : "25030", 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_assassin_0_35"
+},
+{ 
+    "_id" : "22238", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Fire Storm", 
+        "ko" : "화염폭발"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_20"
+},
+{ 
+    "_id" : "25214", 
+    "name" : {
+        "en" : "Lotus of Escape", 
+        "ko" : "둔주의 진"
+    }, 
+    "icon" : "skill_icon_assassin_0_42"
+},
+{ 
+    "_id" : "35150", 
+    "name" : {
+        "en" : "Awakened Dragon Fist", 
+        "ko" : "각성 천룡열권"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_62"
+},
+{ 
+    "_id" : "25330", 
+    "name" : {
+        "en" : "Shuriken Flurry", 
+        "ko" : "수리검난무"
+    }, 
+    "icon" : "skill_icon_assassin_0_15"
+},
+{ 
+    "_id" : "21114", 
+    "name" : {
+        "en" : "Armbar", 
+        "ko" : "팔꺾기"
+    }, 
+    "icon" : "skill_icon_kungfufighter_0_9"
+},
+{ 
+    "_id" : "22201", 
+    "name" : {
+        "en" : "Meteor Shower", 
+        "ko" : "유성지"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_5"
+},
+{ 
+    "_id" : "24060-2", 
+    "name" : {
+        "en" : "Stone Shield", 
+        "ko" : "철벽"
+    }, 
+    "icon" : "skill_icon_destroyer_1_7"
+},
+{ 
+    "_id" : "25214-4", 
+    "name" : {
+        "en" : "Fighting Spirit", 
+        "ko" : "투지발산"
+    }, 
+    "icon" : "skill_icon_assassin_1_25"
+},
+{ 
+    "_id" : "22117", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Barrage", 
+        "ko" : "연환장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_9"
+},
+{ 
+    "_id" : "25035", 
+    "name" : {
+        "en" : "Blink Step", 
+        "ko" : "순간이동"
+    }, 
+    "icon" : "skill_icon_assassin_0_18"
+},
+{ 
+    "_id" : "27119", 
+    "name" : {
+        "en" : "Take Flight", 
+        "ko" : "올려베기"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_10"
+},
+{ 
+    "_id" : "27404-2", 
+    "name" : {
+        "en" : "Lightning Flash", 
+        "ko" : "뇌연섬"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_25"
+},
+{ 
+    "_id" : "22209", 
+    "name" : {
+        "en" : "Second Wind", 
+        "ko" : "탈출"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_64"
+},
+{ 
+    "_id" : "25040", 
+    "name" : {
+        "en" : "High Voltage", 
+        "ko" : "뇌전"
+    }, 
+    "icon" : "skill_icon_assassin_0_57"
+},
+{ 
+    "_id" : "26107", 
+    "name" : {
+        "en" : "Rumblebees", 
+        "ko" : "말벌"
+    }, 
+    "icon" : "skill_icon_summon_0_10"
+},
+{ 
+    "_id" : "26107-2", 
+    "name" : {
+        "en" : "Sunflower", 
+        "ko" : "해바라기"
+    }, 
+    "icon" : "skill_icon_summon_0_49"
+},
+{ 
+    "_id" : "20229", 
+    "name" : {
+        "en" : "Heavenly Dance", 
+        "ko" : "천무"
+    }, 
+    "icon" : "skill_icon_blademaster_0_49"
+},
+{ 
+    "_id" : "22560", 
+    "name" : {
+        "en" : "Sacred Flames", 
+        "ko" : "천룡포"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_19"
+},
+{ 
+    "_id" : "28030", 
+    "name" : {
+        "en" : "Repulse", 
+        "ko" : "진압"
+    }, 
+    "icon" : "skill_icon_warlock_0_7"
+},
+{ 
+    "_id" : "30190-2", 
+    "name" : {
+        "en" : "Ice Coil", 
+        "ko" : "파음지"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_40"
+},
+{ 
+    "_id" : "30040", 
+    "name" : {
+        "en" : "Breaking Claw", 
+        "ko" : "발경"
+    }, 
+    "icon" : "skill_icon_soulfighter_0_8"
+},
+{ 
+    "_id" : "22100", 
+    "name" : {
+        "en" : "Drain", 
+        "ko" : "흡수"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_5"
+},
+{ 
+    "_id" : "22105-2", 
+    "name" : {
+        "en" : "Scorching Heat", 
+        "ko" : "폭염발산"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_62"
+},
+{ 
+    "_id" : "24590", 
+    "name" : {
+        "en" : "Awakened Wrath", 
+        "ko" : "각성 격노"
+    }, 
+    "icon" : "skill_icon_destroyer_1_47"
+},
+{ 
+    "_id" : "27114", 
+    "name" : {
+        "en" : "Blindside", 
+        "ko" : "역습"
+    }, 
+    "icon" : "skill_icon_swordmaster_1_13"
+},
+{ 
+    "_id" : "27157", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Wind Focus", 
+        "ko" : "풍혼"
+    }, 
+    "icon" : "buff_debuff_icon_05_24"
+},
+{ 
+    "_id" : "27511-2", 
+    "name" : {
+        "en" : "Bladeguard ", 
+        "ko" : "탄검"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_27"
+},
+{ 
+    "_id" : "21112-3", 
+    "name" : {
+        "en" : "Chained Mace", 
+        "ko" : "연환퇴"
+    }, 
+    "icon" : "skill_icon_kungfufighter_1_46"
+},
+{ 
+    "_id" : "25021-3", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Webbing", 
+        "ko" : "거미줄"
+    }, 
+    "icon" : "skill_icon_assassin_0_29"
+},
+{ 
+    "_id" : "27304-2", 
+    "name" : {
+        "en" : "Whirling Scourge", 
+        "ko" : "회천령"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_17"
+},
+{ 
+    "_id" : "22107", 
+    "name" : {
+        "en" : "Inferno", 
+        "ko" : "화련장"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_25"
+},
+{ 
+    "_id" : "24010", 
+    "name" : {
+        "en" : "Hurricane", 
+        "ko" : "광풍"
+    }, 
+    "icon" : "skill_icon_destroyer_0_29"
+},
+{ 
+    "_id" : "27151", 
+    "name" : {
+        "en" : "Retreat", 
+        "ko" : "뒤구르기"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_7"
+},
+{ 
+    "_id" : "27282", 
+    "name" : {
+        "en" : "Thundering Sword", 
+        "ko" : "뇌우비검"
+    }, 
+    "icon" : "skill_icon_swordmaster_2_32"
+},
+{ 
+    "_id" : "20201-2", 
+    "name" : {
+        "en" : "Shock Blade", 
+        "ko" : "뇌검"
+    }, 
+    "icon" : "skill_icon_blademaster_1_29"
+},
+{ 
+    "_id" : "28195", 
+    "name" : {
+        "en" : "Awakened Dragoncall", 
+        "ko" : "각성 폭마령"
+    }, 
+    "icon" : "skill_icon_warlock_0_58"
+},
+{ 
+    "_id" : "28195-2", 
+    "name" : {
+        "en" : "Awakened Dragon Helix", 
+        "ko" : "각성 흑염룡"
+    }, 
+    "icon" : "skill_icon_warlock_0_59"
+},
+{ 
+    "_id" : "22106", 
+    "name" : {
+        "en" : "Ice Coil", 
+        "ko" : "파음지"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_40"
+},
+{ 
+    "_id" : "22106o", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Impact", 
+        "ko" : "충격파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_6"
+},
+{ 
+    "_id" : "22106-2o", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Force Blast", 
+        "ko" : "기공포"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_11"
+},
+{ 
+    "_id" : "22106-2", 
+    "name" : {
+        "en" : "Frost Burst", 
+        "ko" : "동파"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_44"
+},
+{ 
+    "_id" : "22106-3", 
+    "name" : {
+        "en" : "Cold Snap", 
+        "ko" : "설빙장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_13"
+},
+{ 
+    "_id" : "22300o", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Phantom Grip", 
+        "ko" : "흡공"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_1"
+},
+{ 
+    "_id" : "22300-2o", 
+    "legacy" : true, 
+    "name" : {
+        "en" : "Shadow Grasp", 
+        "ko" : "중력장"
+    }, 
+    "icon" : "skill_icon_forcemaster_1_1"
+},
+{ 
+    "_id" : "22006-2", 
+    "name" : {
+        "en" : "Chi Bomb", 
+        "ko" : "원기옥"
+    }, 
+    "icon" : "skill_icon_forcemaster_0_7"
 }
+]
