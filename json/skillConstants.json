@@ -96,6 +96,52 @@
         "bleed" : "출혈", 
         "repression" : "억압", 
         "ironPlating" : "철갑"
+    },
+	"ru" : {
+        "disable" : "Disable", 
+        "stun" : "Стан", 
+        "knockdown" : "Опрокидывание", 
+        "daze" : "Слабость", 
+        "knockback" : "Отталкивание", 
+        "unconscious" : "Сон", 
+        "grapple" : "Подавление", 
+        "grab" : "Захват", 
+        "phantomGrip" : "Захват", 
+        "aerialPhantomGrip" : "Захват в воздухе", 
+        "launch" : "Подброс", 
+        "airborne" : "Воздухе", 
+        "deepFreeze" : "Переохлаждение", 
+        "frostPrison" : "Ледяная тюрьма", 
+        "searingPalm" : "Searing Palm", 
+        "searingPalm4" : "Searing Palm Stage 4", 
+        "freeze" : "Приморозка", 
+        "snare" : "Рут", 
+        "chargeDisable" : "Отмена сближения", 
+        "defenseDisable" : "Defense Disable", 
+        "defenseBreakDisable" : "Defense Break Disable", 
+        "offensiveDefenseDisable" : "Offensive-defense Disable", 
+        "deepWound" : "Травма", 
+        "soulStab" : "Soul Stab", 
+        "restrain" : "Рестрейн", 
+        "target" : "Знак", 
+        "brand" : "Клеймо", 
+        "ember" : "Искра", 
+        "burn" : "Ожог", 
+        "chill" : "Chill", 
+        "dead" : "Dead", 
+        "nearDeath" : "Near Death", 
+        "meditating" : "Медитация", 
+        "ivyPoison" : "Ivy Poison", 
+        "beePoison" : "Rumblebee Poison", 
+        "pull" : "Pull", 
+        "slow" : "Slow", 
+        "poison" : "Яд", 
+        "poison5" : "5 стаков яда", 
+        "highwire" : "Highwire", 
+        "blindDeaf" : "Blindness, Deafness", 
+        "bind" : "Bind", 
+        "bleed" : "Кровоток", 
+        "repression" : "Repression"
     }
 },
 { 
@@ -382,6 +428,148 @@
             "text" : "근성", 
             "icon" : "buff_debuff_icon_05_43", 
             "desc" : "근성을 생성, 연장하는 무공을 표시합니다. 근성 중에는 최대내력이 200으로 증가합니다."
+        }
+    },
+	 "ru" : {
+        "ALL" : {
+            "text" : "Показать все", 
+            "icon" : null, 
+            "desc" : null
+        }, 
+        "STUN" : {
+            "text" : "Стан", 
+            "icon" : "t8", 
+            "desc" : "Показать скиллы которые оглушают."
+        }, 
+        "DAZE" : {
+            "text" : "Слабость", 
+            "icon" : "t9", 
+            "desc" : "Показать скиллы, которые ослабляют."
+        }, 
+        "KNOCKDOWN" : {
+            "text" : "Опрокидывание", 
+            "icon" : "t10", 
+            "desc" : "Показать скиллы, которые опрокидывают."
+        }, 
+        "RESIST" : {
+            "text" : "Имун", 
+            "icon" : "t13", 
+            "desc" : "Показать скиллы, которые позволяют имунить урон или негивные эффекты. Некоторые атаки боссов невозможно заимунить."
+        }, 
+        "DEFENSE" : {
+            "text" : "Защита", 
+            "icon" : "t14", 
+            "desc" : "Показать скиллы, которые позволяют блокировать урон, а так же уменьшают урон вражеских атак."
+        }, 
+        "ESCAPE" : {
+            "text" : "Ескейп", 
+            "icon" : "t24", 
+            "desc" : "Показать скиллы, которые позволяют выйти из состояния контроля."
+        }, 
+        "PARTY" : {
+            "text" : "Пати", 
+            "icon" : "t19", 
+            "desc" : "Показать скиллы, которые применяются к пати."
+        }, 
+        "CORE" : {
+            "text" : "Основная ротация", 
+            "icon" : "t21", 
+            "desc" : "Показать скиллы, которые применяются в ДПС ротации."
+        }, 
+        "LIGHTNING_FOCUS" : {
+            "text" : "Электрический заряд", 
+            "icon" : "buff_debuff_icon_05_27", 
+            "desc" : "Показать скиллы, которые позволяют накапливать или тратить Электрический заряд"
+        }, 
+        "LIGHTNING_SURGE" : {
+            "text" : "Электрический разряд", 
+            "icon" : "buff_debuff_icon_05_31", 
+            "desc" : "Показать скиллы, которые вешают эффект Электрический разряд. Во время действия эффекта увеличиваются характеристики и позволяет скиллам в боевой стойке накапливать Электрический заряд при крит атаке."
+        }, 
+        "WIND_FOCUS" : {
+            "text" : "Метка ветра", 
+            "icon" : "buff_debuff_icon_05_24", 
+            "desc" : "Показать скиллы, которые позволяют накапливать или тратить Метку ветра"
+        }, 
+        "WIND_SURGE" : {
+            "text" : "Wind Surge", 
+            "icon" : "buff_debuff_icon_05_30", 
+            "desc" : "Показать скиллы, которые вешают эффект Wind Surge. Во время действия эффекта увеличиваются характеристики и позволяет скиллам в боевой стойке накапливать Метки ветра при крит атаке."
+        }, 
+        "TARGET" : {
+            "text" : "Знак", 
+            "icon" : "buff_debuff_Icon_05_10", 
+            "desc" : "Показать скиллы, которые накладывают эффект Знак. По цели с эффектом Знак можно мгновенно использовать скилл Bombardment."
+        }, 
+        "BRAND" : {
+            "text" : "Клеймо", 
+            "icon" : "buff_debuff_icon_04_49", 
+            "desc" : "Показать скиллы, которые накладывают эффект Клеймо. По цели с эффектом Клеймо можно использовать скилл Leech."
+        }, 
+        "SIPHON" : {
+            "text" : "Перегрузка", 
+            "icon" : "skill_icon_warlock_0_5", 
+            "desc" : "Показать скиллы, которые накладывают эффект Перегрузка. Во время действия Перегрузки скиллы Dragoncall и Wingstorm, можно применить мгновенно."
+        }, 
+        "SPECTRAL_ORB" : {
+            "text" : "Метка тьмы", 
+            "icon" : "buff_debuff_icon_05_40", 
+            "desc" : "Показать скиллы, которые позволяют накапливать или тратить Метки тьмы."
+        }, 
+        "CHI_LEVEL" : {
+            "text" : "Chi Level", 
+            "icon" : "buff_debuff_icon_06_25", 
+            "desc" : "Показать скиллы, которые позволяют накапливать или тратить Chi Level."
+        }, 
+        "GOLD_DRAGON" : {
+            "text" : "Gold Dragon", 
+            "icon" : "buff_debuff_icon_06_29", 
+            "desc" : "Показать скиллы, которые позволяют накладывать эффект Gold Dragon или становятся сильнее под этим эффектом. Gold Dragon усиливает эффекты Focus Chi, Chi Burst при 3 стаках."
+        }, 
+        "FULL_BLOOM" : {
+            "text" : "Full Bloom", 
+            "icon" : "buff_debuff_icon_06_28", 
+            "desc" : "Показать скиллы, которые накапливают Енергию. Energy turns into Full Bloom at 10 stacks."
+        }, 
+        "ENHANCE_BEE" : {
+            "text" : "Rumblebee Enhancement", 
+            "icon" : "skill_icon_summon_0_10", 
+            "desc" : "Показать скиллы, которые увеличивают урон и позволяют мгновенно использовать Rumblebees (Ветка 1) и Awakened Rumblebees."
+        }, 
+        "PHOTOSYNTHESIS" : {
+            "text" : "Photosynthesis", 
+            "icon" : "skill_icon_summon_0_50", 
+            "desc" : "Показать скиллы, которые позволяют накапливать Photosynthesis. Photosynthesis turns into Overflow at 5 stacks."
+        }, 
+        "OVERFLOW" : {
+            "text" : "Overflow", 
+            "icon" : "skill_icon_summon_0_51", 
+            "desc" : "Показать скиллы, которые генерируют Overflow. Overflow увеличивает скорость применения Sunflower."
+        }, 
+        "POISON" : {
+            "text" : "Яд", 
+            "icon" : "buff_debuff_icon_00_22", 
+            "desc" : "Показать скиллы, которые накладывают Яд."
+        }, 
+        "STEALTH" : {
+            "text" : "Инвиз", 
+            "icon" : "skill_icon_assassin_0_2", 
+            "desc" : "Показать скиллы, которые позволяют становится невидимым."
+        }, 
+        "FLAME_DRAGON" : {
+            "text" : "Conflagration", 
+            "icon" : "skill_icon_blademaster_1_25", 
+            "desc" : "Показать скиллы, которые позволяют накапливать Conflagration. Dragontongue наносит увеличенный урон и может быть использован без кд пока активен Conflagration."
+        }, 
+        "LIGHTNING_DRAGON" : {
+            "text" : "Fulmination", 
+            "icon" : "skill_icon_blademaster_0_0", 
+            "desc" : "Показать скиллы, которые позволяют накапливать Fulmination. Honed Slash наносит увеличенный урон пока Fulmination активен."
+        }, 
+        "WILLPOWER" : {
+            "text" : "Willpower", 
+            "icon" : "buff_debuff_icon_05_43", 
+            "desc" : "Показать скиллы, которые позволяют накапливать или тратить Willpower. Максимальная Чи увеличивается до 200 пока активен Willpower."
         }
     }
 },
@@ -862,6 +1050,244 @@
             "text" : "소환수", 
             "icon" : null
         }
+    },
+	"ru" : {
+        "BASIC" : {
+            "text" : "Basic", 
+            "icon" : null
+        }, 
+        "DAMAGE" : {
+            "text" : "Урон", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_UP" : {
+            "text" : "Доп. урон", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_ADD" : {
+            "text" : "Доп. урон", 
+            "icon" : "t3"
+        }, 
+        "DAMAGE_TIME" : {
+            "text" : "Dmg Over Time", 
+            "icon" : "t3"
+        }, 
+        "HEAL" : {
+            "text" : "Отхил", 
+            "icon" : "t15"
+        }, 
+        "LIFESTEAL" : {
+            "text" : "Лайфстил", 
+            "icon" : "t15"
+        }, 
+        "FOCUS_REGEN" : {
+            "text" : "Реген чи", 
+            "icon" : "t15"
+        }, 
+        "AREA" : {
+            "text" : "Area", 
+            "icon" : "t5"
+        }, 
+        "AREA_UP" : {
+            "text" : "Area Up", 
+            "icon" : "t5"
+        }, 
+        "CD_REDUCTION" : {
+            "text" : "Уменьшение КД", 
+            "icon" : "t20"
+        }, 
+        "CHARGE" : {
+            "text" : "Сближение", 
+            "icon" : "t6"
+        }, 
+        "SPEED_UP" : {
+            "text" : "Ускорение", 
+            "icon" : "t7"
+        }, 
+        "CRITICAL" : {
+            "text" : "Critical", 
+            "icon" : "t2"
+        }, 
+        "CRITICAL_UP" : {
+            "text" : "Critical Up", 
+            "icon" : "t7"
+        }, 
+        "SELF_BUFF" : {
+            "text" : "Соло баф", 
+            "icon" : "t4"
+        }, 
+        "PARTY_BUFF" : {
+            "text" : "Пати баф", 
+            "icon" : "t18"
+        }, 
+        "DEFENSE" : {
+            "text" : "Защита", 
+            "icon" : "t14"
+        }, 
+        "DEFENSE_UP" : {
+            "text" : "Усиление защиты", 
+            "icon" : "t7"
+        }, 
+        "DAMAGE_REDUCTION" : {
+            "text" : "Dmg Reduction", 
+            "icon" : "t14"
+        }, 
+        "BLOCK" : {
+            "text" : "Блок", 
+            "icon" : "t14"
+        }, 
+        "COUNTER" : {
+            "text" : "Counter", 
+            "icon" : "t14"
+        }, 
+        "DEFLECT" : {
+            "text" : "Deflect", 
+            "icon" : "t14"
+        }, 
+        "OFFENSIVE_DEFENSE" : {
+            "text" : "Offensive Defense", 
+            "icon" : "t14"
+        }, 
+        "RESIST" : {
+            "text" : "Имун", 
+            "icon" : "t13"
+        }, 
+        "STATUS_RESIST" : {
+            "text" : "Имун к контролям", 
+            "icon" : "t13"
+        }, 
+        "PROJECTILE_RESIST" : {
+            "text" : "Projectile Resist", 
+            "icon" : "t19"
+        }, 
+        "PARTY_PROTECTION" : {
+            "text" : "Защита пати", 
+            "icon" : "t19"
+        }, 
+        "STUN" : {
+            "text" : "Стан", 
+            "icon" : "t8"
+        }, 
+        "DAZE" : {
+            "text" : "Слабость", 
+            "icon" : "t9"
+        }, 
+        "KNOCKDOWN" : {
+            "text" : "Опрокидывание", 
+            "icon" : "t10"
+        }, 
+        "KNOCKBACK" : {
+            "text" : "Отталкивание", 
+            "icon" : "t11"
+        }, 
+        "UNCONSCIOUS" : {
+            "text" : "Сон", 
+            "icon" : "t30"
+        }, 
+        "PULL" : {
+            "text" : "Стягивание", 
+            "icon" : "t28"
+        }, 
+        "SLOW" : {
+            "text" : "Замедление", 
+            "icon" : "t22"
+        }, 
+        "SNARE" : {
+            "text" : "Рут", 
+            "icon" : "t25"
+        }, 
+        "FREEZE" : {
+            "text" : "Приморозка", 
+            "icon" : "t25"
+        }, 
+        "FROST_PRISON" : {
+            "text" : "Ледяная тюрьма", 
+            "icon" : "t25"
+        }, 
+        "DEFENSE_DOWN" : {
+            "text" : "Уменьшение защиты", 
+            "icon" : "t22"
+        }, 
+        "AERIAL" : {
+            "text" : "Подброс", 
+            "icon" : "t27"
+        }, 
+        "GRAPPLE" : {
+            "text" : "Захват", 
+            "icon" : "t26"
+        }, 
+        "DEFENSE_BREAK" : {
+            "text" : "Отмена блока", 
+            "icon" : "t16"
+        }, 
+        "DEFENSE_PENETRATION" : {
+            "text" : "Def Penetration", 
+            "icon" : "t16"
+        }, 
+        "CHARGE_DISABLE" : {
+            "text" : "Запрет сближения", 
+            "icon" : "t12"
+        }, 
+        "DEFENSE_DISABLE" : {
+            "text" : "Defense Disable", 
+            "icon" : "t12"
+        }, 
+        "TARGET_DISABLE" : {
+            "text" : "Антитаргет", 
+            "icon" : "t12"
+        }, 
+        "ESCAPE" : {
+            "text" : "Ескейп", 
+            "icon" : "t24"
+        }, 
+        "AWAKENED" : {
+            "text" : "Пробуждение", 
+            "icon" : "t23"
+        }, 
+        "RESTRAIN" : {
+            "text" : "Рестрейн", 
+            "icon" : "t23"
+        }, 
+        "MOVEMENT" : {
+            "text" : "Evasive Movement", 
+            "icon" : "t6"
+        }, 
+        "ACCELERATED" : {
+            "text" : "Ускорение", 
+            "icon" : "t32"
+        }, 
+        "COMBO" : {
+            "text" : "Серия приемов", 
+            "icon" : "t21"
+        }, 
+        "STANCE_CHANGE" : {
+            "text" : "Смена стойки", 
+            "icon" : null
+        }, 
+        "TAUNT" : {
+            "text" : "Таунт", 
+            "icon" : "t17"
+        }, 
+        "THREAT" : {
+            "text" : "Повышение агро", 
+            "icon" : "t17"
+        }, 
+        "WINDWALK" : {
+            "text" : "В полете", 
+            "icon" : "t29"
+        }, 
+        "REVIVE" : {
+            "text" : "Revive", 
+            "icon" : "t19"
+        }, 
+        "PROJECTILE" : {
+            "text" : "Projectile", 
+            "icon" : null
+        }, 
+        "FAMILIAR" : {
+            "text" : "Помощник", 
+            "icon" : null
+        }
     }
 },
 { 
@@ -891,6 +1317,19 @@
         "forceStance" : "기격 자세", 
         "decoyStance" : "교란 자세", 
         "stealthStance" : "은신 자세"
+    },
+	"ru" : {
+        "basicStance" : "Базовая стойка", 
+        "drawStance" : "Атакующая стойка", 
+        "soulbladeSummon" : "Призыв Soulblades", 
+        "soulbladeConduct" : "Призыв Soulblades", 
+        "soulbladeDismiss" : "Отмена Soulblades", 
+        "flameMode" : "Огненная стойка", 
+        "frostMode" : "Ледяная стойка", 
+        "martialStance" : "Ближняя стойка", 
+        "forceStance" : "Дальняя стойка", 
+        "decoyStance" : "Decoy Stance", 
+        "stealthStance" : "Инвиз"
     }
 },
 { 
@@ -910,6 +1349,14 @@
         "flameOrb" : "염옥", 
         "frostOrb" : "빙옥", 
         "chiLevel" : "내공"
+    },
+	"ru" : {
+        "windFocus" : "Wind Focus", 
+        "lightningFocus" : "Lightning Focus", 
+        "spectralOrb" : "Spectral Orb", 
+        "flameOrb" : "Огненный Шар", 
+        "frostOrb" : "Ледяной Шар", 
+        "chiLevel" : "Chi Level"
     }
 },
 { 
@@ -943,6 +1390,21 @@
         "hmSecretHong1su" : "역왕비급 1편", 
         "hmSecretHong2su" : "역왕비급 2편", 
         "hmSecretTechnique" : "{$skillName} 홍문비전"
+    },
+	"ru" : {
+        "hmSecretJiwan1" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretJiwan2" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretIksanun1" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretIksanun2" : "Fateful Tome - {$skillName}", 
+        "hmSecretMushin1" : "{$skillName} - Volume 1", 
+        "hmSecretMushin2" : "{$skillName} Mastery", 
+        "hmSecretHong1" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretHong2" : "{$skillName} - Part 2", 
+        "hmSecretMushin1su" : "Hongmoon Secret Technique - {$skillName}", 
+        "hmSecretMushin2su" : "{$skillName} - Part 2", 
+        "hmSecretHong1su" : "{$skillName} Mastery", 
+        "hmSecretHong2su" : "{$skillName} - Volume 1", 
+        "hmSecretTechnique" : "Hongmoon Secret Technique - {$skillName}"
     }
 },
 { 
@@ -1024,6 +1486,44 @@
         "stealthProtection" : "은신 보호", 
         "chaoticResonance" : "파진공명", 
         "soulblade" : "어검 운용"
+    },
+	"ru" : {
+        "flameDragon" : "Conflagration", 
+        "lightningDragon" : "Fulmination", 
+        "unleashed" : "Unleashed Flow", 
+        "unleashed4" : "Unleashed Flow Стадия 4", 
+        "awakenedUnleashed4" : "Awakened Unleashed Flow Стадия 4", 
+        "iceFlower" : "Frost Sheath", 
+        "amplification" : "Amplification", 
+        "unrestrained" : "Unrestrained", 
+        "concentration" : "Concentration", 
+        "driven" : "Driven", 
+        "agility" : "Agility", 
+        "maxAgility" : "Max Agility", 
+        "windSurge" : "Wind Surge", 
+        "lightningSurge" : "Lightning Surge", 
+        "strongblade" : "Strongblade", 
+        "mantra" : "Mantra", 
+        "siphon" : "Пробуждение", 
+        "soulburn" : "Спиритизм", 
+        "enhanceFlame" : "Enhanced Flame", 
+        "enhanceFrost" : "Enhanced Frost", 
+        "energy" : "Energy", 
+        "fullBloom" : "Full Bloom", 
+        "goldDragon" : "Gold Dragon", 
+        "inspiration" : "Inspiration", 
+        "photosynthesis" : "Photosynthesis", 
+        "overflow" : "Overflow", 
+        "willpower" : "Willpower", 
+        "fury" : "Fury", 
+        "persistence" : "Persistence", 
+        "maelstrom" : "Maelstrom", 
+        "enhancedMovement" : "Enhanced Movement", 
+        "chiLevel" : "Chi Level", 
+        "focusChi" : "Focus Chi", 
+        "stealthProtection" : "Stealth Protection", 
+        "chaoticResonance" : "Chaotic Resonance", 
+        "soulblade" : "Soulblade"
     }
 },
 { 
@@ -1043,6 +1543,14 @@
         "lightning" : "번개", 
         "wind" : "바람", 
         "earth" : "대지"
+    },
+	"ru" : {
+        "flame" : "огненного", 
+        "frost" : "ледяного", 
+        "shadow" : "shadow", 
+        "lightning" : "молниеносного", 
+        "wind" : "ветряного", 
+        "earth" : "земляного"
     }
 },
 { 
@@ -1088,6 +1596,26 @@
         "recoveryStat" : "회복", 
         "maxHealth" : "최대 생명력", 
         "maxFocus" : "최대 내력"
+    },
+	"ru" : {
+        "attackPower" : "Сила атаки", 
+        "evolvedAttackPower" : "Ant-Charm Attack Power", 
+        "criticalStat" : "Крит", 
+        "criticalChance" : "Крит шанс", 
+        "criticalDamage" : "Крит урон", 
+        "accuracyStat" : "Точность", 
+        "defenseStat" : "Защита", 
+        "evasionStat" : "Уклонение", 
+        "evasionChance" : "Evasion Chance", 
+        "movementSpeed" : "Скорость передвижения", 
+        "threatStat" : "Агро", 
+        "windDamage" : "Урон (ветер)", 
+        "lightningDamage" : "Урон (молния)", 
+        "flameDamage" : "Урон (огонь)", 
+        "frostDamage" : "Урон (лед)", 
+        "recoveryStat" : "Восстановление", 
+        "maxHealth" : "Maximum Health", 
+        "maxFocus" : "Maximum Focus"
     }
 },
 { 
@@ -1101,6 +1629,11 @@
         "defense" : "방어", 
         "offensiveDefense" : "공방일체", 
         "charge" : "접근"
+    },
+	"ru" : {
+        "defense" : "Защита", 
+        "offensiveDefense" : "Offensive-defense", 
+        "charge" : "Сближение"
     }
 },
 { 
@@ -1210,6 +1743,59 @@
         "cancel" : "해제", 
         "movement" : "이동", 
         "familiarDead" : "소환수 사망"
+    },
+	"ru" : {
+        "attack" : "Attack", 
+        "hit" : "Hit", 
+        "hit1234" : "1/2/3/4 Hit", 
+        "lastHit" : "Попадании последней атакой", 
+        "firstHit" : "Попадании первой атакой", 
+        "rearHit" : "Hitting the enemy's back", 
+        "hit6" : "Hiting 6 enemies", 
+        "hit5" : "Hiting 5 times", 
+        "hit24" : "Hit with the 2nd, 4th attack", 
+        "hit135" : "Hit with the 1st, 3rd, 5th attack", 
+        "consecutiveHit" : "Каждый попавший удар", 
+        "consecutiveUse" : "Consecutive use", 
+        "consecutiveUse4" : "4 consecutive use", 
+        "ember5Hit" : "Hitting an enemy with 5 stacks of ember", 
+        "pull3" : "Pulling 3 enemies", 
+        "addCast" : "Additional cast", 
+        "criticalHit" : "Крит. атаке", 
+        "block" : "Блок", 
+        "evade" : "Уклонение", 
+        "counter" : "Counter", 
+        "deflect" : "Deflect", 
+        "resist" : "Resist", 
+        "kill" : "Kill", 
+        "defenseBreak" : "Breaking defense", 
+        "takingDamage" : "Taking damage", 
+        "escape" : "Эскейп",
+        "instantCast" : "Мгновенное использование", 
+        "freezeBreak" : "Breaking freeze", 
+        "detonation" : "Взрыве", 
+        "detonation5ember" : "Взрыве 5 стаков искры", 
+        "triggerIceFlower" : "Triggering Frost Sheath", 
+        "defendHit" : "Hitting an enemy using a defense skill", 
+        "allHit" : "Hitting all attacks", 
+        "counterFail" : "Failing to counter an attack", 
+        "miss" : "Miss", 
+        "stealth" : "stealthed", 
+        "stealthEnter" : "Entering stealth", 
+        "stealthFail" : "Failing to enter stealth", 
+        "knockdown" : "Опрокидывания", 
+        "removeSnare" : "Снятии рутов", 
+        "maxSpeed" : "Максимальная скорость", 
+        "use" : "Use", 
+        "use2" : "Using 2 times", 
+        "activation" : "activation", 
+        "forceStance" : "переходе в force stance", 
+        "castIncreased" : "cast speed is increased", 
+        "heal" : "heal", 
+        "lastHeal" : "applying the last tick of heal", 
+        "cancel" : "cancelling skill", 
+        "movement" : "движении", 
+        "familiarDead" : "familiar is dead"
     }
 }
 ]
