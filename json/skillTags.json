@@ -1,35 +1,17 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @dakaringer
- Sign out
- Watch 1
-  Star 0
- Fork 0 Ask1n/bnstree-ru
- Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights 
-Branch: master Find file Copy pathbnstree-ru/json/skillTags.json
-a4fa306  2 hours ago
-@Ask1n Ask1n Неболшой перевод
-1 contributor
-RawBlameHistory     
-755 lines (754 sloc)  24.8 KB
+[
 { 
     "_id" : "DEFLECT", 
     "name" : {
         "en" : "Deflect", 
         "ko" : "튕기기",
-		"ru" : "Дефлект",
+		"ru" : "Дефлект"
     }, 
     "desc" : {
         "en" : "Deflects enemy attacks, negating damage and inflicting a 2 sec stun to the attacker.", 
         "ko" : "적의 공격을 튕겨내면서 받는 피해량을 무효화 시키고 적을 2초간 기절 시킨다.",
 		"ru" : "Deflects enemy attacks, negating damage and inflicting a 2 sec stun to the attacker."
     }
-}
+},
 { 
     "_id" : "ICE_PROTECTION", 
     "name" : {
@@ -42,7 +24,7 @@ RawBlameHistory
         "ko" : "얼음을 사용하여 시전자 및 파티원을 피해 및 상태이상으로 부터 보호 한다. 얼음보호로 보호 받은 시전자 및 파티원은 30초간 다시 효과를 받을수 없다.",
 		"ru" : "Protects the user and party members from damage and status effects using ice. Protected user and party members cannot benefit from Ice Protection again for 30 sec."
     }
-}
+}, 
 { 
     "_id" : "REVIVAL", 
     "name" : {
@@ -55,7 +37,7 @@ RawBlameHistory
         "ko" : "탈진, 사망한 시전자 및 파티원을 부활 시킨다. 환생한 시전자 및 파티원은 10분간 다시 효과를 받을수 없다.",
 		"ru" : "Revives near death, dead user and party members. Revived user and party members cannot benefit from Revival again for 10 min."
     }
-}
+},
 { 
     "_id" : "AMPLIFICATION", 
     "name" : {
@@ -139,7 +121,7 @@ RawBlameHistory
     "name" : {
         "en" : "Joint Attack", 
         "ko" : "합격",
-		"ru" : "Груповой контроль",
+		"ru" : "Груповой контроль"
     }, 
     "desc" : {
         "en" : "Can be used to disable boss type enemies in conjunction with other joint attack skills.", 
@@ -399,7 +381,7 @@ RawBlameHistory
     "name" : {
         "en" : "Passive", 
         "ko" : "지속효과",
-		"ru" : "Пассивный",
+		"ru" : "Пассивный"
     }, 
     "desc" : {
         "en" : "Passive skill.", 
@@ -529,7 +511,7 @@ RawBlameHistory
     "name" : {
         "en" : "Root", 
         "ko" : "이동불가",
-		"en" : "Рут"
+		"ru" : "Рут"
     }, 
     "desc" : {
         "en" : "Roots enemies in place, preventing turning and movement.", 
@@ -633,7 +615,7 @@ RawBlameHistory
     "name" : {
         "en" : "Party Buff", 
         "ko" : "파티강화",
-		"ru" : "Пати баф",
+		"ru" : "Пати баф"
     }, 
     "desc" : {
         "en" : "Enhances party member's offensive capabilities.", 
