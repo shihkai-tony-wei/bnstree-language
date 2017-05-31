@@ -4,7 +4,7 @@
     "template" : {
         "en" : "Attacks have a chance to increase critical by {$value} for {$time} sec", 
         "ko" : "일정 확률로 {$time}초 동안 치명 {$value} 증가",
-        "ru" : "При попадании увеличивает "
+        "ru" : "При попадании с некоторым шансом увеличивает крит на {$value} в течении {$time} секунд"
     }
 },
 { 
@@ -44,7 +44,7 @@
     "template" : {
         "en" : "{$skill} costs {$value} less focus", 
         "ko" : "{$skill} 내력 소모 {$value} 감소",
-        "ru" : "{$skill} costs {$value} less focus"
+        "ru" : "{$skill} стоимость чи уменьшена на {$value}"
     }
 }
 ]

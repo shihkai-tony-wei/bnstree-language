@@ -141,7 +141,8 @@
         "blindDeaf" : "Blindness, Deafness", 
         "bind" : "Bind", 
         "bleed" : "Кровоток", 
-        "repression" : "Repression"
+        "repression" : "Repression", 
+        "ironPlating" : "Iron Plating"
     }
 },
 { 
@@ -462,7 +463,7 @@
             "desc" : "Показать скиллы, которые позволяют блокировать урон, а так же уменьшают урон вражеских атак."
         }, 
         "ESCAPE" : {
-            "text" : "Ескейп", 
+            "text" : "Эскейп", 
             "icon" : "t24", 
             "desc" : "Показать скиллы, которые позволяют выйти из состояния контроля."
         }, 
@@ -1053,7 +1054,7 @@
     },
 	"ru" : {
         "BASIC" : {
-            "text" : "Basic", 
+            "text" : "Базовая", 
             "icon" : null
         }, 
         "DAMAGE" : {
@@ -1061,7 +1062,7 @@
             "icon" : "t3"
         }, 
         "DAMAGE_UP" : {
-            "text" : "Доп. урон", 
+            "text" : "Увеличение урона", 
             "icon" : "t3"
         }, 
         "DAMAGE_ADD" : {
@@ -1085,11 +1086,11 @@
             "icon" : "t15"
         }, 
         "AREA" : {
-            "text" : "Area", 
+            "text" : "АоЕ", 
             "icon" : "t5"
         }, 
         "AREA_UP" : {
-            "text" : "Area Up", 
+            "text" : "АоЕ Up", 
             "icon" : "t5"
         }, 
         "CD_REDUCTION" : {
@@ -1105,7 +1106,7 @@
             "icon" : "t7"
         }, 
         "CRITICAL" : {
-            "text" : "Critical", 
+            "text" : "Крит атака", 
             "icon" : "t2"
         }, 
         "CRITICAL_UP" : {
@@ -1129,7 +1130,7 @@
             "icon" : "t7"
         }, 
         "DAMAGE_REDUCTION" : {
-            "text" : "Dmg Reduction", 
+            "text" : "Уменьшение урона", 
             "icon" : "t14"
         }, 
         "BLOCK" : {
@@ -1137,11 +1138,11 @@
             "icon" : "t14"
         }, 
         "COUNTER" : {
-            "text" : "Counter", 
+            "text" : "Контратака", 
             "icon" : "t14"
         }, 
         "DEFLECT" : {
-            "text" : "Deflect", 
+            "text" : "Дефлект", 
             "icon" : "t14"
         }, 
         "OFFENSIVE_DEFENSE" : {
@@ -1157,7 +1158,7 @@
             "icon" : "t13"
         }, 
         "PROJECTILE_RESIST" : {
-            "text" : "Projectile Resist", 
+            "text" : "Защита от снарядов", 
             "icon" : "t19"
         }, 
         "PARTY_PROTECTION" : {
@@ -1221,7 +1222,7 @@
             "icon" : "t16"
         }, 
         "DEFENSE_PENETRATION" : {
-            "text" : "Def Penetration", 
+            "text" : "Пробивание блока", 
             "icon" : "t16"
         }, 
         "CHARGE_DISABLE" : {
@@ -1229,7 +1230,7 @@
             "icon" : "t12"
         }, 
         "DEFENSE_DISABLE" : {
-            "text" : "Defense Disable", 
+            "text" : "Отмена защиты", 
             "icon" : "t12"
         }, 
         "TARGET_DISABLE" : {
@@ -1237,7 +1238,7 @@
             "icon" : "t12"
         }, 
         "ESCAPE" : {
-            "text" : "Ескейп", 
+            "text" : "Эскейп", 
             "icon" : "t24"
         }, 
         "AWAKENED" : {
@@ -1277,11 +1278,11 @@
             "icon" : "t29"
         }, 
         "REVIVE" : {
-            "text" : "Revive", 
+            "text" : "Воскрешениие", 
             "icon" : "t19"
         }, 
         "PROJECTILE" : {
-            "text" : "Projectile", 
+            "text" : "Снаряд", 
             "icon" : null
         }, 
         "FAMILIAR" : {
@@ -1545,12 +1546,12 @@
         "earth" : "대지"
     },
 	"ru" : {
-        "flame" : "огненного", 
-        "frost" : "ледяного", 
-        "shadow" : "shadow", 
-        "lightning" : "молниеносного", 
-        "wind" : "ветряного", 
-        "earth" : "земляного"
+        "flame" : "огонь", 
+        "frost" : "ледяной", 
+        "shadow" : "тьма", 
+        "lightning" : "молния", 
+        "wind" : "ветер", 
+        "earth" : "земля"
     }
 },
 { 

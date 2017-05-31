@@ -238,7 +238,7 @@
     "name" : {
         "en" : "Projectile", 
         "ko" : "발사체",
-		"ru" : "защита"
+		"ru" : "снаряд"
     }, 
     "desc" : {
         "en" : "Projectile skill.", 
