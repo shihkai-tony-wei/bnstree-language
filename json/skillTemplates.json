@@ -1036,7 +1036,7 @@
     "template" : {
         "en" : "to enemies inflicted by {$status} {$skill}", 
         "ko" : "{$status} {$skill} 상태인 적에게",
-        "en" : "по цели в {$status} {$skill}"
+        "ru" : "по цели в {$status} {$skill}"
     }
 },
 { 
@@ -1238,7 +1238,7 @@
     "template" : {
         "en" : "Escape from {$status}", 
         "ko" : "{$status} 상태 탈출",
-        "en" : "Отменяет {$status}"
+        "ru" : "Отменяет {$status}"
     }
 },
 { 
