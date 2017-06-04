@@ -301,7 +301,7 @@
     "template" : {
         "en" : "{#buff=CLAUSE_BUFF} generates {$focus}{&percent=%} {&additional=additional} focus {#time=CLAUSE_TIME_OVER} {&perEnemy=per enemy hit} {#condition=CLAUSE_CONDITION_ON} {&duringUse=during use}", 
         "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&duringUse=사용 중} {#condition=CLAUSE_CONDITION_ON} {&perEnemy=피격된 적 만큼} {#time=CLAUSE_TIME_OVER} 내력 {$focus}{&percent=%} {&additional=추가} 회복",
-		"ru" : "{#buff=CLAUSE_BUFF} восстанавливает {$focus}{&percent=%} {&additional=additional} чи {#time=CLAUSE_TIME_OVER} {&perEnemy=за каждое попадание} {#condition=CLAUSE_CONDITION_ON} {&duringUse=при использовании}", 
+		"ru" : "{#buff=CLAUSE_BUFF} восстанавливает {$focus}{&percent=%} {&additional=additional} чи {#time=CLAUSE_TIME_OVER} {&perEnemy=за каждое попадание} {#condition=CLAUSE_CONDITION_ON} {&duringUse=при использовании}"
     }
 },
 { 
@@ -352,7 +352,7 @@
     "template" : {
         "en" : "{&limit=up to} {$times} time{?times; value > 1; s}", 
         "ko" : "{&limit=최대} {$times}회",
-        "ru" : "{&limit=up to} {$times} раз{?times; value > 1 < 5; а}",
+        "ru" : "{&limit=up to} {$times} раз{?times; value > 1 < 5; а}"
     }
 },
 { 
@@ -409,7 +409,7 @@
     "template" : {
         "en" : "User and party members {&withinArea=within the area} recover {$focus}% focus {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
         "ko" : "{&withinArea=영역 내} 시전자 및 파티원 {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_OVER} 내력 {$focus}% 회복",
-        "ru" : "При использовании {&withinArea=within the area} восстанавливает {$focus}% чи {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
+        "ru" : "При использовании {&withinArea=within the area} восстанавливает {$focus}% чи {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}"
     }
 },
 { 
