@@ -97,8 +97,8 @@
         "repression" : "억압", 
         "ironPlating" : "철갑"
     },
-	"ru" : {
-        "disable" : "Disable", 
+    "ru" : {
+        "disable" : "Обезвреживает", 
         "stun" : "Стан", 
         "knockdown" : "Опрокидывание", 
         "daze" : "Слабость", 
@@ -117,7 +117,7 @@
         "freeze" : "Приморозка", 
         "snare" : "Рут", 
         "chargeDisable" : "Отмена сближения", 
-        "defenseDisable" : "Defense Disable", 
+        "defenseDisable" : "Запрет защиты", 
         "defenseBreakDisable" : "Defense Break Disable", 
         "offensiveDefenseDisable" : "Offensive-defense Disable", 
         "deepWound" : "Травма", 
@@ -134,7 +134,7 @@
         "ivyPoison" : "Ivy Poison", 
         "beePoison" : "Rumblebee Poison", 
         "pull" : "Pull", 
-        "slow" : "Slow", 
+        "slow" : "Замедление", 
         "poison" : "Яд", 
         "poison5" : "5 стаков яда", 
         "highwire" : "Highwire", 
@@ -1078,7 +1078,7 @@
             "icon" : "t15"
         }, 
         "LIFESTEAL" : {
-            "text" : "Лайфстил", 
+            "text" : "Поглощение хп", 
             "icon" : "t15"
         }, 
         "FOCUS_REGEN" : {
@@ -1150,11 +1150,11 @@
             "icon" : "t14"
         }, 
         "RESIST" : {
-            "text" : "Имун", 
+            "text" : "Сопротивление", 
             "icon" : "t13"
         }, 
         "STATUS_RESIST" : {
-            "text" : "Имун к контролям", 
+            "text" : "Сопротивление к контролям", 
             "icon" : "t13"
         }, 
         "PROJECTILE_RESIST" : {
@@ -1547,7 +1547,7 @@
     },
 	"ru" : {
         "flame" : "огонь", 
-        "frost" : "ледяной", 
+        "frost" : "лед", 
         "shadow" : "тьма", 
         "lightning" : "молния", 
         "wind" : "ветер", 
@@ -1607,7 +1607,7 @@
         "accuracyStat" : "Точность", 
         "defenseStat" : "Защита", 
         "evasionStat" : "Уклонение", 
-        "evasionChance" : "Evasion Chance", 
+        "evasionChance" : "Шанс уклонения", 
         "movementSpeed" : "Скорость передвижения", 
         "threatStat" : "Агро", 
         "windDamage" : "Урон (ветер)", 
@@ -1769,7 +1769,7 @@
         "deflect" : "Deflect", 
         "resist" : "Resist", 
         "kill" : "Kill", 
-        "defenseBreak" : "Breaking defense", 
+        "defenseBreak" : "Отмене защиты", 
         "takingDamage" : "Taking damage", 
         "escape" : "Эскейп",
         "instantCast" : "Мгновенное использование", 

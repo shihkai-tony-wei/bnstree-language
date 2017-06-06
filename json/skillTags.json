@@ -95,7 +95,7 @@
     "name" : {
         "en" : "Movement Speed Increase", 
         "ko" : "이동속도 증가",
-		"ru" : "Скорость увеличена"
+		"ru" : "Увеличение скорости"
     }, 
     "desc" : {
         "en" : "Increases movement speed.", 
@@ -394,7 +394,7 @@
     "name" : {
         "en" : "Status Resist", 
         "ko" : "상태이상 저항",
-		"ru" : "Имун к контролям"
+		"ru" : "Сопротивление к контролям"
     }, 
     "desc" : {
         "en" : "Grants immunity to status effects.", 
@@ -680,7 +680,7 @@
     "name" : {
         "en" : "Damage Resist", 
         "ko" : "피해 저항",
-		"ru" : "Имун"
+		"ru" : "Сопротивление урону"
     }, 
     "desc" : {
         "en" : "Grants immunity to damage. Some attacks cannot be resisted.", 
